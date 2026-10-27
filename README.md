@@ -1,56 +1,36 @@
-# Welcome to your Expo app 👋
+# Raahi (راہی)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A bus route finder for Pakistani commuters. Give it where you are (or a pin on the map) and where you want to go, and it tells you **which bus to board, where to board it, and where to get off**, including trips that need one change of bus.
 
-## Get started
+## Repository layout
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+Raahi/
+├── app/     Expo / React Native mobile app (Android first)
+├── api/     Node.js + Express + PostgreSQL/PostGIS backend (not started)
+└── docs/    Product, architecture and implementation plans for both
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+`app/` and `api/` each have their own `package.json` and are installed, run, and deployed separately. They share only the API contract, which is defined in [docs/03-api-contract.md](docs/03-api-contract.md).
 
-### Other setup steps
+## Docs
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+| Doc | What's in it |
+| --- | --- |
+| [01-product.md](docs/01-product.md) | Refined idea: users, problem, scope, what's in and out of the MVP |
+| [02-architecture.md](docs/02-architecture.md) | System design, data model, how trip planning works |
+| [03-api-contract.md](docs/03-api-contract.md) | Endpoints and types the app and API agree on |
+| [04-app-phase-1-plan.md](docs/04-app-phase-1-plan.md) | **Phase 1 implementation plan for the app**, with milestones and tasks |
+| [05-data-strategy.md](docs/05-data-strategy.md) | Where the route and stop data comes from, which is the hardest part |
+| [06-decisions.md](docs/06-decisions.md) | Decision log (stack choices and why) |
+| [07-risks-and-open-questions.md](docs/07-risks-and-open-questions.md) | Things that could sink the project, and questions that still need answers |
 
-## Learn more
+## Running the app
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+cd app
+npm install
+npx expo start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+See [app/AGENTS.md](app/AGENTS.md) for Expo-specific rules (SDK 57).
