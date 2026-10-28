@@ -18,19 +18,19 @@ Every feature should serve that question. Anything that doesn't is out of the MV
 
 | Trait | Design implication |
 | --- | --- |
-| Working-class commuters, many daily-wage or salaried at low incomes | The app must be free, with no sign-up and no paywall. |
+| Working-class commuters, many daily-wage or salaried at low incomes | The app must be free, with no paywall. Every feature works **without signing up**. An optional account only adds backup and sync. |
 | Low-to-mid-range Android phones (2–4 GB RAM, often older Android versions) | Keep the APK small, the map light and animations minimal. Test on a cheap phone, not only the emulator. |
-| Prepaid mobile data that runs out, and patchy signal | Keep payloads tiny. Cache aggressively. Saved trips must work with no connection. |
+| Prepaid mobile data that runs out, and patchy signal | Keep payloads tiny. Cache aggressively. Saved trips and routes must work with no connection. |
 | Urdu-first for many users; mixed literacy | Urdu is a first-class language, not a translation pass. Use icons and the route names people already know (D7, W18) alongside text. Keep wording short. |
 | People navigate by **landmarks** ("Nagan Chowrangi", "near the hospital"), not addresses | Search over stop names and landmarks in Urdu and English (romanised), not a street-address geocoder. |
 | Buses are known by their **route name or code** (D7, W18, G7, Masood, Sheraz). Many vehicles run under one name, with no consistent colour, number plate or destination board. | Identify buses **by route name only**. Show direction as "towards ‹last stop›", which the user can confirm with the conductor. Never rely on colours or painted signs. |
+| Shared phones; privacy-conscious | No account is needed. Location stays on the device except when it's sent to plan a trip. A saved home address is **encrypted on the device** and leaves it only if the user signs in to sync. |
 
 ## Launch market: Karachi
 
 - **Primary:** the informal minibus and coach routes most commuters actually use, such as D7, W18, G7, G17, G3, Masood and Sheraz.
 - **Add-on:** government services (People's Bus Service, and later the BRT lines), once the informal network is in.
 - **Starting data:** existing text descriptions of Karachi bus routes (see [05-data-strategy.md](05-data-strategy.md)).
-| Shared phones; privacy-conscious | No account is needed. Location stays on the device except when it's sent to plan a trip. |
 
 ## The core flow
 
@@ -58,13 +58,16 @@ Every feature should serve that question. Anything that doesn't is out of the MV
 
 ### Phase 1 (app MVP, against mock data). See [04-app-phase-1-plan.md](04-app-phase-1-plan.md)
 
-1. **Start point** from live GPS, or a pin dropped anywhere on the map.
+1. **Start point** from live GPS, a pin dropped anywhere on the map, or search.
 2. **Destination** by searching stops and landmarks, or picking a point on the map.
-3. **Trip options**: direct buses, plus options with **one** transfer.
-4. **Trip detail**: the route drawn on the map, plus an ordered stop list with the board and get-off stops highlighted.
-5. **Nearest stop**: the closest boarding stop and its walking distance.
-6. **Urdu / English** with proper right-to-left (RTL) layout.
-7. *(Stretch)* **Saved trips** that open offline.
+3. **Nearest stop**: the closest boarding stop and its walking distance.
+4. **Trip options**: direct buses, plus options with **one** transfer. Boarding is at the nearest stop *on a route that goes your way*, not simply the nearest stop.
+5. **Trip detail**: walk → bus → walk drawn on the map, plus an ordered stop list with the board and get-off stops highlighted. Walking legs are straight lines, with a button to open walking directions in Google Maps (D19).
+6. **Route lookup**: search a bus by name ("D7") and see its full route, terminus to terminus, in both directions.
+7. **Stop lookup**: pick any stop and see every bus that passes through it, and which way each one is heading.
+8. **Urdu / English** with proper right-to-left (RTL) layout.
+9. **Saved**: bookmark routes and trips so they open **offline**, and save **Home** (and Work) for a one-tap "Take me home". No account needed.
+10. **Optional account**: sign in to back up and sync saved items across phones. Auth tokens and the home/work locations are kept in encrypted secure storage (D20–D22).
 
 ### Phase 2 (API and real data for one city)
 
@@ -89,7 +92,7 @@ Every feature should serve that question. Anything that doesn't is out of the MV
 - Women-specific features (e.g. ladies' compartments).
 - Bus colour, number plate or destination-board details.
 - Turn-by-turn walking navigation. A straight-line distance plus a map is enough; users can open Google Maps for walking if they want to.
-- Accounts, login or social features.
+- Social features. Accounts exist only for backup and sync, and are never required (D20).
 - Rickshaw and ride-hailing integration.
 - iOS polish. It should work on iOS, but Android is the target.
 

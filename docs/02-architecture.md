@@ -11,11 +11,13 @@
 │  RaahiApi interface ──┬── HttpRaahiApi  ──────────────► api/ (Phase 2)          │
 │                       └── MockRaahiApi  (Phase 1: fixture network + JS planner) │
 │                                                                                 │
-│  Device: expo-location · react-native-maps · AsyncStorage (saved trips, prefs)  │
+│  Device: expo-location · react-native-maps                                      │
+│          AsyncStorage (bookmarks, prefs) · expo-secure-store (tokens, home/work) │
 └─────────────────────────────────────────────────────────────────────────────────┘
 
 ┌──────────────────────── api/ (Node + Express, Phase 2) ────────────────────────┐
-│  /v1/places/search  /v1/stops/nearest  /v1/plan  /v1/routes/:id                 │
+│  /v1/places/search  /v1/stops/nearest  /v1/stops/:id  /v1/plan  /v1/routes/:id  │
+│  /v1/auth/*  /v1/me  /v1/me/data   (optional accounts)                          │
 │     │                                                                           │
 │  Planner service (in-memory network graph, rebuilt on data import)              │
 │     │                                                                           │
@@ -51,6 +53,9 @@ route_variants (id, route_id, towards_en, towards_ur, shape geography(LineString
 variant_stops  (variant_id, seq, stop_id, dist_along_m)                            -- PK (variant_id, seq)
 landmarks      (id, name_en, name_ur, aliases text[], geom geography(Point,4326))
 data_meta      (entity, entity_id, source, verified_at, confidence)
+users          (id, email unique, password_hash, name, created_at)                 -- argon2id/bcrypt hash
+refresh_tokens (id, user_id, token_hash, expires_at, revoked_at)                   -- stored hashed, rotated on use
+user_data      (user_id PK, doc jsonb, updated_at)                                 -- the UserData document
 ```
 
 Nearest-stop lookups use `ST_DWithin(geom, :point, :radius)` ordered by `geom <-> :point`.
@@ -77,17 +82,32 @@ In Phase 1 the **same algorithm runs in JavaScript inside `MockRaahiApi`** over 
 - **Rendering:** `react-native-maps` with `PROVIDER_GOOGLE` on Android. See [06-decisions.md](06-decisions.md).
 - **Our data:** stops and route shapes come from our own dataset, drawn as `Marker`s and `Polyline`s.
 - **Shapes over the wire:** [encoded polylines](https://developers.google.com/maps/documentation/utilities/polylinealgorithm). These are roughly 5–10× smaller than GeoJSON coordinate arrays, which matters on prepaid data.
+- **No other Google Maps Platform APIs** (Directions/Routes, Places, Geocoding…). They're billed per request (D19). Walking legs are drawn as straight dashed lines, and the trip screen offers "Open walking directions", which opens `https://www.google.com/maps/dir/?api=1&destination=<lat>,<lng>&travelmode=walking` in the Google Maps app. That URL is free and needs no key.
 
 ## Offline and caching
 
 | Data | Where | Phase |
 | --- | --- | --- |
 | Language, last map region, recent searches | AsyncStorage | 1 |
-| Saved trips (the full `TripOption` JSON including polylines) | AsyncStorage | 1 (stretch) |
+| Bookmarked trips (the full `TripOption` JSON including polylines) | AsyncStorage | 1 |
+| Bookmarked routes (the full `RouteDetail`, both directions) | AsyncStorage | 1 |
+| Home / work (`SavedPlace`) | expo-secure-store | 1 |
+| Auth tokens | expo-secure-store | 1 |
 | API responses | TanStack Query in-memory cache | 1 |
 | Entire city network, for on-device planning | expo-sqlite, or a JSON file plus versioning | 3 |
 
-Saved trips store the complete trip, not just an ID, so they render with no network at all.
+Bookmarks store the complete trip or route, not just an ID, so they render with no network at all.
+
+## Accounts and secure storage
+
+Accounts are **optional and local-first** (D20). The device is always the source of truth for a guest; signing in adds backup and sync.
+
+- **Guest:** bookmarks and home/work live only on the device. Nothing personal leaves it, except the from/to points sent to plan a trip.
+- **Signed in:** on sign-in, the local `UserData` is pushed with `PUT /me/data` and the newer copy wins (D24). After that, every local change is saved locally first and then pushed in the background. A failed push is retried later; it never blocks the UI.
+- **Sign-out** keeps the local data and deletes only the tokens.
+- **What goes where (D22):** `expo-secure-store` (Android Keystore-backed encryption) holds the access and refresh tokens and the home/work locations. Use it through one small wrapper (`lib/secure-storage.ts`) that JSON-encodes values and keeps them small. Bookmarks and preferences are neither secret nor small, so they stay in AsyncStorage.
+- **Tokens:** a short-lived access token and a rotating refresh token. On a `401`, refresh once and retry. If the refresh fails, sign out quietly.
+- **Phase 1:** `MockRaahiApi` implements `/auth/*` and `/me/*` with in-memory users and fake tokens (D21). The secure-storage and session code is real and carries over to Phase 2 unchanged.
 
 ## Localisation
 
