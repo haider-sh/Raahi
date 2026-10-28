@@ -1,56 +1,56 @@
-# Welcome to your Expo app 👋
+# Raahi app
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Expo (SDK 57) + Expo Router, Android-first. Read [AGENTS.md](AGENTS.md) before changing anything, and [docs/04-app-phase-1-plan.md](../docs/04-app-phase-1-plan.md) for what's built and why.
 
-## Get started
+In Phase 1 the app runs entirely against `MockRaahiApi`, an in-app implementation of [docs/03-api-contract.md](../docs/03-api-contract.md) over a **sample** Karachi network. The sample data isn't real route data (D25).
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Setup
 
 ```bash
-npm run reset-project
+npm install
+cp .env.example .env   # then fill in GOOGLE_MAPS_API_KEY for native builds
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+| Variable | Used for |
+| --- | --- |
+| `GOOGLE_MAPS_API_KEY` | Maps SDK for Android, read by `app.config.ts` at build time. Never commit it (D13). For EAS builds, set it as an EAS environment variable. |
+| `EXPO_PUBLIC_USE_MOCK_API` | `true` (default) uses the mock. `false` uses `HttpRaahiApi` (Phase 2). |
+| `EXPO_PUBLIC_API_URL` | Base URL for `HttpRaahiApi`. |
 
-### Other setup steps
+## Scripts
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+```bash
+npm start          # dev server (press a for Android)
+npm run check      # typecheck + lint + tests; must pass before every PR
+npm test           # Jest only
+```
 
-## Learn more
+## Development build
 
-To learn more about developing your project with Expo, look at the following resources:
+RTL and the Maps key only work in a development build, not in Expo Go (D12).
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx eas-cli@latest login
+npx eas-cli@latest init                      # links the project; adds extra.eas.projectId
+npx eas-cli@latest env:create --name GOOGLE_MAPS_API_KEY --value <key> --environment development --visibility secret
+npx eas-cli@latest build --profile development --platform android
+```
 
-## Join the community
+Install the APK from the link EAS prints, then run `npm start` and open the project in the dev client.
 
-Join our community of developers creating universal apps.
+## Layout
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```
+src/app/            routes only (Expo Router)
+src/features/       planner, map, places, trips, routes, saved, account
+src/services/api/   RaahiApi interface, HTTP client, mock API + planner + search + fixture
+src/lib/            geo, storage (AsyncStorage), secure-storage (tokens + home/work only)
+src/i18n/           i18next setup, en/ur strings, RTL switching
+src/components/     generic UI primitives
+```
+
+`services/` and `lib/` never import React, and `services/api/mock/planner.ts` must stay portable to `api/`.
+
+## Developer toggles
+
+In a dev build, **Settings → Developer** can force each mock API error (`NO_STOPS_NEARBY`, `NO_ROUTE`, `INVALID_CREDENTIALS`, `UNAUTHENTICATED`, network failure), so every error state can be checked by hand. Mock accounts reset when the app restarts (D28).

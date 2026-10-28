@@ -1,0 +1,206 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "ok": "OK",
+    "retry": "Try again",
+    "delete": "Delete",
+    "close": "Close",
+    "clear": "Clear",
+    "edit": "Change",
+    "loading": "Loading…",
+    "notSet": "Not set"
+  },
+  "units": {
+    "m": "{{value}} m",
+    "km": "{{value}} km",
+    "minApprox": "~{{count}} min",
+    "stops_one": "{{count}} stop",
+    "stops_other": "{{count}} stops"
+  },
+  "tabs": {
+    "plan": "Plan",
+    "saved": "Saved",
+    "settings": "Settings"
+  },
+  "plan": {
+    "myLocation": "My location",
+    "from": "From",
+    "whereTo": "Where to?",
+    "near": "Near {{name}}",
+    "droppedPin": "Dropped pin",
+    "useMyLocation": "Use my location instead",
+    "swap": "Swap start and destination",
+    "findBuses": "Find buses",
+    "home": "Home",
+    "work": "Work",
+    "takeMeHome": "Take me home",
+    "nearestStop": "Nearest stop",
+    "walkAway": "{{distance}} · ~{{minutes}} min walk",
+    "busesHere": "Buses here",
+    "noStopNearby": "No bus stop within 1.5 km of here.",
+    "longPressHint": "Long-press the map to start from somewhere else.",
+    "recenter": "Show my location",
+    "locating": "Finding you…",
+    "permission": {
+      "title": "Find the stop nearest you",
+      "body": "Raahi uses your location only to find your nearest bus stop and plan trips from it.",
+      "allow": "Allow location",
+      "notNow": "Not now"
+    },
+    "denied": {
+      "title": "Pick your start point on the map",
+      "body": "Long-press anywhere on the map to start from there, or search for a place.",
+      "settings": "Open settings"
+    },
+    "gpsOff": {
+      "title": "Location is turned off",
+      "body": "Turn on location and try again, or long-press the map to choose a start point."
+    },
+    "pick": {
+      "from": "Start here",
+      "to": "Go here",
+      "home": "Set as home",
+      "work": "Set as work",
+      "hint": "Move the map to put the pin on the place."
+    }
+  },
+  "search": {
+    "placeholder": {
+      "from": "Start from: stop or landmark",
+      "to": "Where to? Stop, landmark or bus",
+      "home": "Search for your home area",
+      "work": "Search for your work area"
+    },
+    "chooseOnMap": "Choose on map",
+    "useMyLocation": "Use my location",
+    "recent": "Recent",
+    "buses": "Buses",
+    "places": "Places",
+    "empty": "No match. Try a nearby landmark or choose on map.",
+    "stop": "Bus stop",
+    "landmark": "Landmark",
+    "clear": "Clear search"
+  },
+  "options": {
+    "title": "Bus options",
+    "direct": "Direct",
+    "change": "1 change at {{stop}}",
+    "walk": "{{distance}} walk",
+    "missingStart": "Choose where you're starting from first.",
+    "chooseStart": "Choose start",
+    "errors": {
+      "noStopsFrom": "No bus stop within walking distance of your start.",
+      "noStopsTo": "No bus stop within walking distance of your destination.",
+      "movePin": "Move the pin",
+      "noRoute": "We don't know a bus for this trip yet.",
+      "nearStart": "Nearest stops to your start",
+      "nearDestination": "Nearest stops to your destination",
+      "offline": "No connection. Your saved trips and buses still work.",
+      "generic": "Something went wrong."
+    }
+  },
+  "trip": {
+    "title": "Your trip",
+    "walkTo": "Walk {{distance}} to {{stop}}",
+    "walkToDestination": "Walk {{distance}} to your destination",
+    "openWalking": "Open walking directions",
+    "board": "Board",
+    "towards": "towards {{place}}",
+    "askConductor": "Ask the conductor: “{{place}} jayegi?”",
+    "sameName": "Buses going the other way have the same name. Check the direction.",
+    "ride": "Ride {{stops}}",
+    "showStops": "Show all stops",
+    "hideStops": "Hide stops",
+    "getOff": "Get off at {{stop}}",
+    "getReady": "Get ready after {{stop}}",
+    "boardHere": "Board here",
+    "getOffHere": "Get off here",
+    "saveTrip": "Save trip",
+    "savedTrip": "Saved",
+    "wrongInfo": "Wrong info?",
+    "notFound": "This trip isn't available any more. Plan it again.",
+    "savedOn": "Saved on {{date}}. Routes may have changed."
+  },
+  "route": {
+    "title": "Bus {{code}}",
+    "stops": "Stops",
+    "bookmark": "Save bus",
+    "bookmarked": "Saved",
+    "notFound": "We couldn't find this bus.",
+    "offlineCopy": "Showing your saved copy. It may be out of date."
+  },
+  "stop": {
+    "busesHere": "Buses through this stop",
+    "planFrom": "Plan from here",
+    "planTo": "Plan to here",
+    "none": "No buses board here.",
+    "notFound": "We couldn't find this stop."
+  },
+  "saved": {
+    "homeWork": "Home & work",
+    "home": "Home",
+    "work": "Work",
+    "setHome": "Set home",
+    "setWork": "Set work",
+    "buses": "Buses",
+    "trips": "Trips",
+    "emptyBuses": "Save a bus from its page to open it without internet.",
+    "emptyTrips": "Save a trip to open it without internet.",
+    "deleteConfirm": "Remove this from saved?",
+    "signInHint": "Optional: sign in to back up your saved places.",
+    "signIn": "Sign in",
+    "dismiss": "Dismiss",
+    "savedOn": "Saved {{date}}",
+    "deleteHint": "Long-press to delete"
+  },
+  "settings": {
+    "language": "Language",
+    "languageTitle": "Change language?",
+    "languageReload": "The app will restart to switch language.",
+    "languageExpoGo": "Right-to-left layout needs a development build. Text will switch, but the layout won't flip in Expo Go.",
+    "account": "Account",
+    "signInToBackUp": "Sign in to back up your saved places",
+    "signOut": "Sign out",
+    "signOutTitle": "Sign out?",
+    "signOutBody": "Your saved places and trips stay on this phone. Sign in again to sync them.",
+    "homeWork": "Home & work",
+    "about": "About & data sources",
+    "developer": "Developer",
+    "forceError": "Force a mock API error",
+    "none": "None"
+  },
+  "signIn": {
+    "titleSignIn": "Sign in",
+    "titleRegister": "Create account",
+    "why": "An account only backs up your saved places and trips. Everything works without one.",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name (optional)",
+    "toggleToRegister": "New here? Create an account",
+    "toggleToSignIn": "Have an account? Sign in",
+    "skip": "Skip, use without an account",
+    "errors": {
+      "email": "Enter a valid email address.",
+      "password": "Password must be at least 8 characters.",
+      "INVALID_CREDENTIALS": "Wrong email or password.",
+      "EMAIL_TAKEN": "An account with this email already exists. Sign in instead.",
+      "NETWORK": "No connection. Try again.",
+      "generic": "Couldn't sign in. Try again."
+    }
+  },
+  "about": {
+    "title": "About",
+    "body": "Raahi tells you which bus to board, where to board it, and where to get off.",
+    "sampleTitle": "Sample data",
+    "sampleData": "This version uses sample data. Stop locations are approximate and the routes are illustrative, not real bus routes. Don't rely on them for travel yet.",
+    "dataVersion": "Network data: {{version}}",
+    "verified": "Last verified: {{date}}",
+    "notVerified": "Not yet verified",
+    "credits": "Map © Google. Route data © Raahi contributors.",
+    "feedback": "Send feedback"
+  },
+  "feedback": {
+    "subject": "Raahi: wrong info",
+    "body": "About: {{summary}}\n\nWhat's wrong?\n"
+  }
+}
