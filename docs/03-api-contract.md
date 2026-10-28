@@ -128,7 +128,7 @@ A stop and every bus that passes through it, for the stop detail screen.
 
 → `200 { "stop": Stop, "routes": { "route": RouteSummary, "variantId": string, "towards": LocalizedText }[] }`
 
-There's one entry per **direction**, so a route serving the stop both ways appears twice. Error: `404 NOT_FOUND`.
+There's one entry per **direction**, so a route serving the stop both ways appears twice. A direction whose **last** stop is this stop is left out, because nobody can board it here (so a terminus lists only the outbound direction). Error: `404 NOT_FOUND`.
 
 ### `POST /plan`
 
