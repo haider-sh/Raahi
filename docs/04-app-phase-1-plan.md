@@ -4,6 +4,20 @@
 
 **Stack (as of Expo SDK 57):** Expo Router, TypeScript, `react-native-maps`, `expo-location`, `expo-localization` + `i18next`, TanStack Query, Zustand, AsyncStorage, `expo-secure-store`, Jest (`jest-expo`) + React Native Testing Library. The reasons for each choice, and where they differ from the original plan, are in [06-decisions.md](06-decisions.md).
 
+## Status (2026-10-28)
+
+The code for M0–M7 is in (branch `phase-1-app`). `npm run check` is green: 72 tests covering the planner, search, mock API, fixture validation, secure storage, refresh-and-retry, sync, and the trip/route/stop components. What's left can't be done in code alone:
+
+| Still to do | Milestone |
+| --- | --- |
+| First **development build** on a real phone, then check maps, location, RTL and the Urdu font there | M0, M2, M6 |
+| Google Cloud project and a restricted Maps key (P3). Until then, map tiles in the dev build may be blank. | P3 |
+| Replace the **sample fixture** with real routes from the Karachi text data (D25) | P1b, M1 |
+| Native-speaker review of the Urdu copy | M6 |
+| Low-end phone profiling, outdoor contrast check | M6 |
+| User testing with 3–5 commuters (P4) | M5 |
+| A real feedback inbox (`FEEDBACK_EMAIL` in `features/trips/links.ts` is a placeholder) | M5 |
+
 > Estimates are rough and assume one developer working about 20 h/week. Total: **about 11 weeks**. M1b (secure storage, home, optional account) is scheduled early so it can be demoed before the map screens are done.
 
 ---
