@@ -12,7 +12,8 @@
 
 | # | Task | Why |
 | --- | --- | --- |
-| P1 | **Pick the launch city**, and decide whether informal wagons and minibuses are in scope or only formal services (metro/BRT/feeder). | Everything about the fixture data depends on this. See [05-data-strategy.md](05-data-strategy.md). |
+| P1 | ✅ **Launch city: Karachi.** The primary target is informal minibus/coach routes (D7, W18, G7, Masood…); government services are an add-on. | Decided. See [01-product.md](01-product.md#launch-market-karachi). |
+| P1b | Put the existing **Karachi route text data** in `data/karachi/raw/`, and pick the 4–6 routes the fixture will use. | The fixture is built from it. See [05-data-strategy.md](05-data-strategy.md#karachi-from-route-text-to-network). |
 | P2 | Low-fidelity wireframes in Figma for 5 screens: Plan (map), Search, Options, Trip, Saved. Do both an LTR and an RTL version of the Trip screen. | The RTL layout of the step list is the trickiest UI. Settle it on paper first. |
 | P3 | Create a Google Cloud project, enable **Maps SDK for Android**, and create an API key restricted to the app's package name and SHA-1 fingerprint. | You need it for development builds and releases. Expo Go works without it. |
 | P4 | Line up **3–5 real commuters** who'll try the app at the end of M5. | Build for them, not for us. |
@@ -73,7 +74,7 @@ The rules: route files stay thin (they compose feature components); `services/` 
 5. Add app env vars: `EXPO_PUBLIC_USE_MOCK_API=true` and `EXPO_PUBLIC_API_URL`.
 6. Add `package.json` scripts: `typecheck` (`tsc --noEmit`), `lint`, `test`, and `check`, which runs all three. Every PR must pass `check`.
 7. Set up i18n: `en.json` and `ur.json`, initial language from `getLocales()`, and the user's choice persisted to storage. Add the language switch in Settings: set `I18nManager.forceRTL`, then call `Updates.reloadAsync()`.
-8. Theme: colour tokens (light and dark), mode colours (metro/feeder/bus/wagon), an 8-pt spacing scale, a minimum 48 dp touch target, and the Urdu font loaded with `expo-font` (already installed).
+8. Theme: colour tokens (light and dark), a **leg palette** of about 6 distinguishable colours that the app assigns to ride legs on the map (buses have no colour data), an 8-pt spacing scale, a minimum 48 dp touch target, and the Urdu font loaded with `expo-font` (already installed).
 9. Run `npx eas-cli@latest build --profile development --platform android` to get a **development build** onto a real Android phone. You need it for RTL and for the Maps key. Use Expo Go for quick iteration until then.
 
 **Done when:** `npm run check` passes, the app boots to an empty Plan tab in the dev build, and switching to Urdu flips the layout to RTL.
@@ -87,7 +88,7 @@ Build this **before** the screens, so every screen is built against realisticall
 **Tasks**
 1. `types.ts`: copy the types from [03-api-contract.md](03-api-contract.md) verbatim.
 2. Define the `RaahiApi` interface: `searchPlaces`, `nearestStops`, `plan`, `getRoute`. `getApi()` returns the mock or HTTP implementation based on `EXPO_PUBLIC_USE_MOCK_API`.
-3. **Fixture network** (`network.json`): a real subset of the launch city. Aim for **4–6 routes, both directions each (8–12 variants), 40–60 stops and 15–20 landmarks**, chosen so that at least one realistic trip *needs* a transfer. Use the format from [05-data-strategy.md](05-data-strategy.md), which is also the format the backend will import.
+3. **Fixture network** (`network.json`): a real subset of Karachi, built from the route text data (P1b). Choose routes that overlap, e.g. a few of D7, W18, G7, G17, G3, Masood and Sheraz. Aim for **4–6 routes, both directions each (8–12 variants), 40–60 stops and 15–20 landmarks**, chosen so that at least one realistic trip *needs* a transfer. Use the format from [05-data-strategy.md](05-data-strategy.md), which is also the format the backend will import.
 4. `lib/geo.ts`: haversine distance, encoded polyline encode/decode, and `sliceShape(shape, fromStop, toStop)` (snap each stop to the nearest point on the line and cut between them).
 5. `mock/planner.ts`: implement the algorithm from [02-architecture.md § Trip planning](02-architecture.md#trip-planning-algorithm), covering access/egress stops, direct options, one-transfer options, scoring, dominance pruning and the top 5.
 6. `mock/search.ts`: normalise text (lower-case; strip Urdu diacritics/aerab; unify ی/ي and ک/ك; strip spaces and punctuation), then match on prefix and substring across `name.en`, `name.ur` and `aliases`. Rank by match quality and then by distance to `near`.
@@ -151,7 +152,7 @@ Covers feature **1** (bus suggestions, including transfers).
 **Tasks**
 1. `options.tsx` reads from/to from `usePlannerStore` and calls `useTripPlan`.
 2. **TripOptionCard** shows:
-   - The route chip(s) in the route's colour with its **code in large text** (that's what people read off the bus), joined by → when there's a transfer.
+   - The route chip(s) showing the **route name in large text** (D7, W18, Masood), since that's the only way people identify the bus, joined by → when there's a transfer.
    - Total time, total walking, and the number of stops.
    - A "Direct" badge, or "1 change at ‹stop›".
 3. States:
@@ -175,14 +176,14 @@ Covers feature **3**. This is the screen that actually stops people getting lost
 1. **Layout:** the map takes the top ~45% and the step list scrolls below it. Use a plain split layout rather than a bottom-sheet library: it's simpler and smoother on low-end phones. Revisit this after user testing.
 2. **The map:**
    - Walk legs: a dashed grey polyline.
-   - Ride legs: a solid polyline in the route's colour.
+   - Ride legs: a solid polyline in the leg's palette colour, matching that leg's chip in the step list.
    - Board stop: a filled marker. Get-off stop: a flag marker. Transfer: a distinct marker.
    - Fit the camera to all legs with padding.
 3. **The step list** (each step tappable to focus the map on it):
-   - 🚶 *Walk 350 m to **Kalma Chowk*** (~5 min)
-   - 🚌 *Board* **[12]** *towards **Shahdara***. Show the headsign big, in Urdu too, labelled "Look for this on the bus".
-   - *Ride 7 stops*. Collapsed by default; expanding it shows every stop in order.
-   - 🛑 ***Get off at Liberty***. Highlighted, and also showing the stop *before* it ("after Main Market").
+   - 🚶 *Walk 350 m to **Nagan Chowrangi*** (~5 min)
+   - 🚌 *Board* **[W18]** *towards **Saddar***. Show the route name big, with a tip: "Ask the conductor: *Saddar jayegi?*". Buses going the other way carry the same name, so the direction is what matters.
+   - *Ride 12 stops*. Collapsed by default; expanding it shows every stop in order.
+   - 🛑 ***Get off at Saddar***. Highlighted, and also showing the stop *before* it, so the user knows when to get ready and can tell the conductor in advance.
    - (on a transfer) *Walk 120 m to …* / *Board …*
    - 🚶 *Walk 200 m to destination*
 4. A **Save trip** button (it does nothing until M7).

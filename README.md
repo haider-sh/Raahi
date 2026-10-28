@@ -8,6 +8,7 @@ A bus route finder for Pakistani commuters. Give it where you are (or a pin on t
 Raahi/
 ├── app/     Expo / React Native mobile app (Android first)
 ├── api/     Node.js + Express + PostgreSQL/PostGIS backend (not started)
+├── data/    Route network data (starting with data/karachi/), shared by app fixtures and API seeds
 └── docs/    Product, architecture and implementation plans for both
 ```
 

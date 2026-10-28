@@ -4,15 +4,41 @@ The app is only as good as its route data. **Wrong data is worse than no data**,
 
 ## Principles
 
-1. **One city first.** Get one city's network complete and correct before touching another.
-2. **Formal services first, informal later.** Metro, BRT and official feeder routes have fixed stops and published maps, so they're tractable. Informal wagons and minibuses change routes and stop anywhere. Add them only once there's a way to verify and update them.
-3. **Every record has a source and a verified date** (`data_meta` table). The app can then say "verified Oct 2026", and we know what's going stale.
-4. **Bilingual at the source.** Every stop and route gets an `en` and a `ur` name, entered by a human. We never machine-translate place names.
+1. **One city first: Karachi.** Get its network complete and correct before touching another city.
+2. **Informal routes are the product.** Karachi commuters mostly ride informal minibuses and coaches (D7, W18, G7, G17, G3, Masood, Sheraz…), so those come first, even though they're harder to keep accurate. Government services (People's Bus Service, BRT) are an add-on. Because informal routes shift, verification and the "Wrong info?" feedback loop matter from day one.
+3. **Identify routes by name only.** We don't record bus colour, plate or destination boards; there's no reliable source for them. A variant's direction is just its last stop.
+4. **Every record has a source and a verified date** (`data_meta` table). The app can then say "verified Oct 2026", and we know what's going stale.
+5. **Bilingual at the source.** Every stop and route gets an `en` and a `ur` name, entered by a human. We never machine-translate place names.
+
+## Karachi: from route text to network
+
+We already have **text descriptions of Karachi bus routes**, i.e. a route name plus the areas it passes through. Text alone can't go on a map, so it has to be converted in four steps:
+
+```
+data/karachi/raw/*.txt          route name + list of places, in order
+        │  1. parse
+        ▼
+routes + ordered place names    "W18: Nagan Chowrangi → … → Saddar"
+        │  2. normalise names, using one shared gazetteer
+        ▼
+gazetteer.json                  each unique place → { id, en, ur, aliases, lat/lng }
+        │  3. build shapes      route along roads between consecutive stops
+        ▼
+network.json                    stops + routes + variants (both directions) + shapes
+        │  4. validate          automated checks + a manual look on the map
+```
+
+1. **Parse.** Write a script that splits each route into an ordered list of place names. The exact parsing rules depend on how the text is written.
+2. **Gazetteer.** This is most of the work. The same place shows up spelled differently across routes ("Gurumandir", "Guru Mandir", "Gru Mandir"), and **a place shared by two routes is what makes transfers possible**. So keep one gazetteer where every place gets one ID, its spelling variants as aliases, an Urdu name, and coordinates. Set the coordinates by hand: look the place up on OpenStreetMap and click its location in geojson.io. Don't use a geocoding API.
+3. **Shapes.** Text doesn't say which roads a bus takes between two places. To start, route between consecutive stops with an OSM-based router (OSRM or GraphHopper, run locally), then fix the obvious detours by hand. Mark these shapes as `source: "routed"` until someone rides the route.
+4. **Directions.** Unless the text says otherwise, assume each route runs the same stops in both directions: one variant forward and one reversed. Write down any one-way sections you know about.
+5. **Validate.** Run the checks under "Tooling" below, then plot all variants on a map and eyeball them. Ask Karachi commuters to spot-check the routes they ride.
 
 ## Sources, in order of preference
 
 | Source | What it gives | Caveats |
 | --- | --- | --- |
+| **Karachi route text data** (we have it) | Route names and the order of places along them | No coordinates and no road geometry, so it needs the pipeline above. It may be outdated, so check its age and source. |
 | **Existing GTFS feed** for the city (search the [Mobility Database](https://mobilitydatabase.org/), operator and transit-authority websites, and research or NGO projects) | Complete stops, routes and shapes in a standard format | It may not exist, or may be outdated. Check the licence. |
 | **Operator / transit authority published route maps and stop lists** | Authoritative stop lists and order | Usually PDFs or images, so they need manual transcription. Check terms of use. |
 | **OpenStreetMap route relations** (`type=route` + `route=bus`) via Overpass | Stops, order and geometry, often for BRT and metro lines | Quality and completeness vary a lot. Licensed **ODbL**: requires attribution, and share-alike applies to a derived database. |
@@ -25,14 +51,14 @@ The app is only as good as its route data. **Wrong data is worse than no data**,
 
 ```
 [out:json][timeout:90];
-area["name"="Lahore"]["boundary"="administrative"]->.city;
+area["name:en"="Karachi"]["boundary"="administrative"]->.city;
 relation["type"="route"]["route"="bus"](area.city);
 out body;
 >;
 out skel qt;
 ```
 
-Swap in your launch city. Look at what comes back to judge OSM's coverage before relying on it.
+Expect this to return mostly BRT and government routes, if anything. Even so, OSM is very useful for **place coordinates** for the gazetteer and as the road network for building shapes.
 
 ## Network file format
 
@@ -41,28 +67,28 @@ This is one format for everything: the Phase 1 fixture (`app/src/services/api/mo
 ```jsonc
 {
   "version": "2026-10-27",
-  "city": "lahore",
+  "city": "karachi",
   "stops": [
-    { "id": "s_kalma", "name": { "en": "Kalma Chowk", "ur": "کلمہ چوک" },
-      "location": { "lat": 31.0, "lng": 74.0 },          // placeholder coords
-      "aliases": ["kalma", "kalma chok"] }
+    { "id": "s_gurumandir", "name": { "en": "Gurumandir", "ur": "گرو مندر" },
+      "location": { "lat": 24.0, "lng": 67.0 },          // placeholder coords
+      "aliases": ["guru mandir", "gru mandir"] }
   ],
   "landmarks": [
     { "id": "l_example", "name": { "en": "Example Hospital", "ur": "..." },
-      "location": { "lat": 31.0, "lng": 74.0 }, "aliases": [] }
+      "location": { "lat": 24.0, "lng": 67.0 }, "aliases": [] }
   ],
   "routes": [
-    { "id": "r_12", "code": "12", "name": { "en": "Route 12", "ur": "روٹ 12" },
-      "mode": "feeder", "color": "#1E88E5", "farePkr": null }
+    { "id": "r_w18", "code": "W18", "name": { "en": "W-18", "ur": "ڈبلیو 18" },
+      "mode": "minibus" }
   ],
   "variants": [
-    { "id": "r_12_a", "routeId": "r_12",
-      "headsign": { "en": "towards X", "ur": "..." },
-      "stopIds": ["s_kalma", "..."],                         // in travel order
+    { "id": "r_w18_a", "routeId": "r_w18",
+      "towards": { "en": "Saddar", "ur": "صدر" },          // = last stop's name
+      "stopIds": ["...", "s_gurumandir", "..."],           // in travel order
       "shape": "<encoded polyline>" }
   ],
   "meta": [
-    { "entity": "variant", "id": "r_12_a", "source": "field-survey", "verifiedAt": "2026-10-20" }
+    { "entity": "variant", "id": "r_w18_a", "source": "text-data+routed", "verifiedAt": null }
   ]
 }
 ```
@@ -75,6 +101,6 @@ This is one format for everything: the Phase 1 fixture (`app/src/services/api/mo
 
 ## Phase 2: getting to a full city
 
-- Rough sizing: a city's formal network is a few dozen routes and hundreds to low thousands of stops. That's weeks of careful data work, not days. Plan for it.
+- Rough sizing: Karachi's informal network is likely well over a hundred named routes, sharing hundreds of places. That's weeks of careful gazetteer and shape work, not days. Prioritise the busiest routes and corridors first.
 - Treat data like code: keep it in git (`data/<city>/`, as plain JSON or CSV), review changes in PRs, and import it into PostGIS in CI.
 - Once real data exists, re-verify a sample by riding the routes before launch.

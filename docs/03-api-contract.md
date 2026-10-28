@@ -25,16 +25,15 @@ type Stop = {
   location: LatLng;
 };
 
-type RouteMode = 'metro' | 'feeder' | 'bus' | 'wagon';
+type RouteMode = 'minibus' | 'coach' | 'bus' | 'brt'; // bus/brt = government services (add-on)
 
 type RouteSummary = {
   id: string;
-  code: string;             // number/letters painted on the bus, e.g. "12", "FR-4"
+  code: string;             // the name commuters use: "D7", "W18", "Masood"
   name: LocalizedText;
   mode: RouteMode;
-  color: string;            // hex; used for the chip and polyline
-  farePkr?: number;
 };
+// No colour, plate or fare. Leg colours on the map are assigned by the app.
 
 type WalkLeg = {
   type: 'walk';
@@ -49,7 +48,7 @@ type RideLeg = {
   type: 'ride';
   route: RouteSummary;
   variantId: string;
-  headsign: LocalizedText;  // "towards Shahdara"; what's written on the bus
+  towards: LocalizedText;   // last stop of this direction, e.g. "Saddar"
   boardStop: Stop;
   alightStop: Stop;
   stops: Stop[];            // ordered, board → alight inclusive
@@ -102,7 +101,7 @@ Errors: `422 NO_STOPS_NEARBY` (no stop within walking range of `from` or `to`), 
 
 The full route, for a "view whole route" screen.
 
-→ `200 { "route": RouteSummary, "variants": { "id": string, "headsign": LocalizedText, "stops": Stop[], "polyline": string }[] }`
+→ `200 { "route": RouteSummary, "variants": { "id": string, "towards": LocalizedText, "stops": Stop[], "polyline": string }[] }`
 
 ### Later (not in Phase 1)
 

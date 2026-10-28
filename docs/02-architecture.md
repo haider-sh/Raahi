@@ -32,18 +32,22 @@ The model is shaped after [GTFS](https://gtfs.org/schedule/reference/) (the stan
 | Entity | Meaning | Key fields |
 | --- | --- | --- |
 | **Stop** | A place a bus stops | `id`, `name {en, ur}`, `location (lat,lng)`, `aliases[]` (romanised spellings, nearby landmarks) |
-| **Route** | A bus service as people know it, e.g. "Speedo 12" | `id`, `code` ("12"), `name {en, ur}`, `mode` (metro / feeder / bus / wagon), `color`, `operator`, `fare?` |
-| **RouteVariant** | **One direction** (or branch) of a route | `id`, `routeId`, `headsign {en, ur}` (what's painted on the bus front), `stopIds[]` in order, `shape` (polyline) |
+| **Route** | A bus service as people know it, e.g. "W18", "Masood" | `id`, `code` ("W18"; the name people use), `name {en, ur}`, `mode` (minibus / coach / bus / brt) |
+| **RouteVariant** | **One direction** (or branch) of a route | `id`, `routeId`, `towards {en, ur}` (the last stop's name, which we derive; it is *not* a painted sign), `stopIds[]` in order, `shape` (polyline) |
 | **Landmark** | A searchable place that isn't a stop ("Jinnah Hospital") | `id`, `name {en, ur}`, `location`, `aliases[]` |
 
-**Why variants matter:** a route runs in two directions, and the most common way to get stranded is **boarding the right bus going the wrong way**. Trip planning always works on variants, never on routes, and the UI always shows the headsign ("towards Shahdara").
+**Why variants matter:** a route runs in two directions, and the most common way to get stranded is **boarding the right bus going the wrong way**. Trip planning always works on variants, never on routes, and the UI always shows the direction ("towards Saddar").
+
+**Identifying buses:** in Karachi, many vehicles run under one route name (every "D7" serves the D7 route), and they have no consistent colour, plate or destination board. So **the route code is the only identifier we show**, and direction is given as "towards ‹last stop›". We do still give each leg a colour on the map, but the app assigns it from a fixed palette just to tell legs apart; it isn't data about the bus.
+
+**Hail-and-ride:** informal minibuses pick people up and drop them off almost anywhere along the road. In Phase 1, "stops" are the **well-known points** along each route (chowrangis, mors, markets), which is also how route descriptions list them. A later improvement is to let the planner board or alight at the nearest point *on the route's shape*, rather than only at a listed stop.
 
 ### PostGIS tables (Phase 2, for reference)
 
 ```sql
 stops          (id, name_en, name_ur, aliases text[], geom geography(Point,4326))   -- GIST index on geom
-routes         (id, code, name_en, name_ur, mode, color, operator, fare_pkr)
-route_variants (id, route_id, headsign_en, headsign_ur, shape geography(LineString,4326))
+routes         (id, code, name_en, name_ur, mode)
+route_variants (id, route_id, towards_en, towards_ur, shape geography(LineString,4326))
 variant_stops  (variant_id, seq, stop_id, dist_along_m)                            -- PK (variant_id, seq)
 landmarks      (id, name_en, name_ur, aliases text[], geom geography(Point,4326))
 data_meta      (entity, entity_id, source, verified_at, confidence)

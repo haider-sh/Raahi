@@ -21,30 +21,36 @@ Every feature should serve that question. Anything that doesn't is out of the MV
 | Working-class commuters, many daily-wage or salaried at low incomes | The app must be free, with no sign-up and no paywall. |
 | Low-to-mid-range Android phones (2–4 GB RAM, often older Android versions) | Keep the APK small, the map light and animations minimal. Test on a cheap phone, not only the emulator. |
 | Prepaid mobile data that runs out, and patchy signal | Keep payloads tiny. Cache aggressively. Saved trips must work with no connection. |
-| Urdu-first for many users; mixed literacy | Urdu is a first-class language, not a translation pass. Use icons, colours and bus numbers alongside text. Keep wording short. |
-| People navigate by **landmarks** ("Kalma Chowk", "near the hospital"), not addresses | Search over stop names and landmarks in Urdu and English (romanised), not a street-address geocoder. |
-| Buses are recognised by **route number, colour and the destination painted on them** | Each trip result shows what the bus looks like: number, colour chip and the headsign text in Urdu. |
+| Urdu-first for many users; mixed literacy | Urdu is a first-class language, not a translation pass. Use icons and the route names people already know (D7, W18) alongside text. Keep wording short. |
+| People navigate by **landmarks** ("Nagan Chowrangi", "near the hospital"), not addresses | Search over stop names and landmarks in Urdu and English (romanised), not a street-address geocoder. |
+| Buses are known by their **route name or code** (D7, W18, G7, Masood, Sheraz). Many vehicles run under one name, with no consistent colour, number plate or destination board. | Identify buses **by route name only**. Show direction as "towards ‹last stop›", which the user can confirm with the conductor. Never rely on colours or painted signs. |
+
+## Launch market: Karachi
+
+- **Primary:** the informal minibus and coach routes most commuters actually use, such as D7, W18, G7, G17, G3, Masood and Sheraz.
+- **Add-on:** government services (People's Bus Service, and later the BRT lines), once the informal network is in.
+- **Starting data:** existing text descriptions of Karachi bus routes (see [05-data-strategy.md](05-data-strategy.md)).
 | Shared phones; privacy-conscious | No account is needed. Location stays on the device except when it's sent to plan a trip. |
 
 ## The core flow
 
-*(The place and route names below are only illustrations, not real route data.)*
+*(The places and routes below are real Karachi names, but the trips themselves are made up, not real route data.)*
 
 ```
-[Open app] → map centred on me, "Nearest stop: Kalma Chowk · 350 m"
+[Open app] → map centred on me, "Nearest stop: Nagan Chowrangi · 350 m"
      │
      ├─ (optional) long-press map → "Start from here" (planning ahead)
      │
-[Where to?] → type "Liberty" / "لبرٹی" or pick on map
+[Where to?] → type "Saddar" / "صدر" or pick on map
      │
-[Options]  ① Metro Bus (red) · direct · 7 stops · ~25 min
-           ② Speedo 12 → change at Ichra → Speedo 4 · ~40 min
+[Options]  ① W18 · direct · 12 stops · ~45 min
+           ② G7 → change at Gurumandir → D7 · ~55 min
      │
 [Trip]     map with walk + bus legs drawn
-           Walk 350 m to Kalma Chowk
-           Board RED · towards Shahdara        ← "look for this on the bus"
-           Ride 7 stops: Model Town, ..., Liberty
-           Get off at Liberty  ← highlighted
+           Walk 350 m to Nagan Chowrangi
+           Board W18 · towards Saddar          ← "ask the conductor: Saddar jayegi?"
+           Ride 12 stops: ..., Saddar
+           Get off at Saddar  ← highlighted
            Walk 200 m to destination
 ```
 
@@ -69,9 +75,9 @@ Every feature should serve that question. Anything that doesn't is out of the MV
 ### Phase 3 and beyond (ideas, ranked by impact on the "stranded" problem)
 
 1. **"Get off soon" alert.** While riding, the phone buzzes about two stops before yours. This directly fixes "I missed my stop". Foreground location is enough for a first version.
-2. **"Is this my bus?" check.** The user types or picks the number painted on the bus in front of them, and the app says yes or no, and which direction.
+2. **"Is this my bus?" check.** The user picks the route name of the bus in front of them (e.g. "G17"), and the app says whether it goes their way.
 3. **Report a problem** on any route or stop ("this bus doesn't stop here any more"). This is the cheapest path to data quality.
-4. **Fares** where they're known.
+4. **Government services** (People's Bus Service, BRT) added alongside the informal routes.
 5. **Whole-network offline mode.** One city's network is small enough (likely well under 1 MB compressed) to ship and plan trips on the device.
 6. More cities.
 7. Voice prompts in Urdu for low-literacy users.
@@ -79,6 +85,9 @@ Every feature should serve that question. Anything that doesn't is out of the MV
 ### Explicitly out of scope for now
 
 - Real-time bus positions or ETAs. The data doesn't exist for most routes.
+- Fares.
+- Women-specific features (e.g. ladies' compartments).
+- Bus colour, number plate or destination-board details.
 - Turn-by-turn walking navigation. A straight-line distance plus a map is enough; users can open Google Maps for walking if they want to.
 - Accounts, login or social features.
 - Rickshaw and ride-hailing integration.
