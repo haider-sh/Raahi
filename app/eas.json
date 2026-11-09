@@ -7,15 +7,18 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal",
+      "environment": "development",
       "android": { "buildType": "apk" },
       "env": { "EXPO_PUBLIC_USE_MOCK_API": "true" }
     },
     "preview": {
       "distribution": "internal",
+      "environment": "preview",
       "android": { "buildType": "apk" },
       "env": { "EXPO_PUBLIC_USE_MOCK_API": "true" }
     },
     "production": {
+      "environment": "production",
       "autoIncrement": true
     }
   },

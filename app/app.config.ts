@@ -5,6 +5,15 @@ import type { ConfigContext, ExpoConfig } from 'expo/config';
 // Expo Go doesn't need it.
 const googleMapsApiKey = process.env.GOOGLE_MAPS_API_KEY;
 
+// Without the key the manifest has no com.google.android.geo.API_KEY and every
+// MapView crashes on mount, so fail the cloud build instead of shipping that APK.
+if (!googleMapsApiKey && process.env.EAS_BUILD_PLATFORM === 'android') {
+  throw new Error(
+    'GOOGLE_MAPS_API_KEY is not set for this EAS build. Add it with `eas env:create` ' +
+      "for the build profile's environment.",
+  );
+}
+
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
   name: 'Raahi',
