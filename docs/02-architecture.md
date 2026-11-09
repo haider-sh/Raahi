@@ -11,7 +11,7 @@
 │  RaahiApi interface ──┬── HttpRaahiApi  ──────────────► api/ (Phase 2)          │
 │                       └── MockRaahiApi  (Phase 1: fixture network + JS planner) │
 │                                                                                 │
-│  Device: expo-location · react-native-maps                                      │
+│  Device: expo-location · maplibre-react-native                                  │
 │          AsyncStorage (bookmarks, prefs) · expo-secure-store (tokens, home/work) │
 └─────────────────────────────────────────────────────────────────────────────────┘
 
@@ -79,10 +79,10 @@ In Phase 1 the **same algorithm runs in JavaScript inside `MockRaahiApi`** over 
 
 ## Map stack
 
-- **Rendering:** `react-native-maps` with `PROVIDER_GOOGLE` on Android. See [06-decisions.md](06-decisions.md).
-- **Our data:** stops and route shapes come from our own dataset, drawn as `Marker`s and `Polyline`s.
+- **Rendering:** `@maplibre/maplibre-react-native` with OpenFreeMap vector tiles, no API key (D32). It needs a development build; it doesn't run in Expo Go. All maps go through `features/map/base-map.tsx`.
+- **Our data:** stops and route shapes come from our own dataset, drawn as `Marker`s and GeoJSON line layers (`features/map/map-line.tsx`).
 - **Shapes over the wire:** [encoded polylines](https://developers.google.com/maps/documentation/utilities/polylinealgorithm). These are roughly 5–10× smaller than GeoJSON coordinate arrays, which matters on prepaid data.
-- **No other Google Maps Platform APIs** (Directions/Routes, Places, Geocoding…). They're billed per request (D19). Walking legs are drawn as straight dashed lines, and the trip screen offers "Open walking directions", which opens `https://www.google.com/maps/dir/?api=1&destination=<lat>,<lng>&travelmode=walking` in the Google Maps app. That URL is free and needs no key.
+- **No Google Maps Platform APIs at all** (D32; Directions/Routes, Places and Geocoding were already ruled out by D19 as billed per request). Walking legs are drawn as straight dashed lines, and the trip screen offers "Open walking directions", which opens `https://www.google.com/maps/dir/?api=1&destination=<lat>,<lng>&travelmode=walking` in the Google Maps app. That URL is free and needs no key.
 
 ## Offline and caching
 

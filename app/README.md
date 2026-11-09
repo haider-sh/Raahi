@@ -8,12 +8,11 @@ In Phase 1 the app runs entirely against `MockRaahiApi`, an in-app implementatio
 
 ```bash
 npm install
-cp .env.example .env   # then fill in GOOGLE_MAPS_API_KEY for native builds
+cp .env.example .env
 ```
 
 | Variable | Used for |
 | --- | --- |
-| `GOOGLE_MAPS_API_KEY` | Maps SDK for Android, read by `app.config.ts` at build time. Never commit it (D13). For EAS builds, set it as an EAS environment variable. |
 | `EXPO_PUBLIC_USE_MOCK_API` | `true` (default) uses the mock. `false` uses `HttpRaahiApi` (Phase 2). |
 | `EXPO_PUBLIC_API_URL` | Base URL for `HttpRaahiApi`. |
 
@@ -27,12 +26,11 @@ npm test           # Jest only
 
 ## Development build
 
-RTL and the Maps key only work in a development build, not in Expo Go (D12).
+The map (MapLibre, D32) and RTL only work in a development build, not in Expo Go (D12). Maps need no API key: tiles come from OpenFreeMap.
 
 ```bash
 npx eas-cli@latest login
 npx eas-cli@latest init                      # links the project; adds extra.eas.projectId
-npx eas-cli@latest env:create --name GOOGLE_MAPS_API_KEY --value <key> --environment development --visibility secret
 npx eas-cli@latest build --profile development --platform android
 ```
 

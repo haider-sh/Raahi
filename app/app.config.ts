@@ -1,19 +1,5 @@
 import type { ConfigContext, ExpoConfig } from 'expo/config';
 
-// The Google Maps key is never committed (D13). Set GOOGLE_MAPS_API_KEY in a local
-// .env for `expo run:android`, and as an EAS environment variable for cloud builds.
-// Expo Go doesn't need it.
-const googleMapsApiKey = process.env.GOOGLE_MAPS_API_KEY;
-
-// Without the key the manifest has no com.google.android.geo.API_KEY and every
-// MapView crashes on mount, so fail the cloud build instead of shipping that APK.
-if (!googleMapsApiKey && process.env.EAS_BUILD_PLATFORM === 'android') {
-  throw new Error(
-    'GOOGLE_MAPS_API_KEY is not set for this EAS build. Add it with `eas env:create` ' +
-      "for the build profile's environment.",
-  );
-}
-
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
   name: 'Raahi',
@@ -59,12 +45,8 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
         locationWhenInUsePermission: 'Raahi uses your location to find the bus stop nearest you.',
       },
     ],
-    [
-      'react-native-maps',
-      {
-        androidGoogleMapsApiKey: googleMapsApiKey,
-      },
-    ],
+    // MapLibre with OpenFreeMap tiles: no API key (D32). Needs a development build, not Expo Go.
+    '@maplibre/maplibre-react-native',
     'expo-font',
   ],
   experiments: {

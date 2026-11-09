@@ -1,14 +1,15 @@
+import { Marker } from '@maplibre/maplibre-react-native';
 import { memo } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { Marker } from 'react-native-maps';
 
 import { Icon, type IconName } from '@/components/icon';
 import type { LatLng } from '@/services/api/types';
 
-import { toCoord } from './map-utils';
+import { toLngLat } from './map-utils';
 
 type Props = {
   location: LatLng;
+  /** Read by screen readers. MapLibre markers have no built-in callout. */
   title?: string;
   color: string;
   /** `dot` for ordinary stops; the others mark the board, get-off and transfer stops. */
@@ -22,23 +23,14 @@ const ICONS: Record<Exclude<Props['variant'], 'dot' | undefined>, IconName> = {
   transfer: 'swap-horiz',
 };
 
-/**
- * `tracksViewChanges={false}`: re-rendering custom markers is the most common cause of map jank
- * on Android. Markers never change after mount; give them a new `key` to redraw.
- */
+/** A React view pinned to the map. Memoised: markers never change after mount; give them a new `key` to redraw. */
 export const StopMarker = memo(function StopMarker({ location, title, color, variant = 'dot', onPress }: Props) {
   return (
-    <Marker
-      coordinate={toCoord(location)}
-      title={title}
-      onPress={onPress}
-      onCalloutPress={onPress}
-      tracksViewChanges={false}
-      anchor={{ x: 0.5, y: 0.5 }}>
+    <Marker lngLat={toLngLat(location)} anchor="center" onPress={onPress}>
       {variant === 'dot' ? (
-        <View style={[styles.dot, { borderColor: color }]} />
+        <View accessible accessibilityLabel={title} style={[styles.dot, { borderColor: color }]} />
       ) : (
-        <View style={[styles.badge, { backgroundColor: color }]}>
+        <View accessible accessibilityLabel={title} style={[styles.badge, { backgroundColor: color }]}>
           <Icon name={ICONS[variant]} size={16} rawColor="#FFFFFF" />
         </View>
       )}

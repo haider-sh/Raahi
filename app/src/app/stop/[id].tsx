@@ -1,13 +1,14 @@
+import { Camera } from '@maplibre/maplibre-react-native';
 import { router, Stack, useLocalSearchParams } from 'expo-router';
 import { ActivityIndicator, ScrollView, StyleSheet, View } from 'react-native';
-import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
 
 import { Button } from '@/components/button';
 import { Message } from '@/components/message';
 import { SectionHeader } from '@/components/section-header';
 import { Text } from '@/components/text';
 import { Spacing, useColors } from '@/constants/theme';
-import { toCoord } from '@/features/map/map-utils';
+import { BaseMap } from '@/features/map/base-map';
+import { toLngLat, Zoom } from '@/features/map/map-utils';
 import { StopMarker } from '@/features/map/stop-marker';
 import { setFrom, setTo, type PlanPoint } from '@/features/planner/store';
 import { useStop } from '@/features/routes/queries';
@@ -41,15 +42,10 @@ export default function StopScreen() {
         <Text color="textSecondary">{lang === 'ur' ? stop.name.en : stop.name.ur}</Text>
       </View>
       <View style={styles.map}>
-        <MapView
-          style={StyleSheet.absoluteFill}
-          provider={PROVIDER_GOOGLE}
-          initialRegion={{ ...toCoord(stop.location), latitudeDelta: 0.01, longitudeDelta: 0.01 }}
-          scrollEnabled={false}
-          zoomEnabled={false}
-          toolbarEnabled={false}>
+        <BaseMap dragPan={false} touchZoom={false} doubleTapZoom={false} doubleTapHoldZoom={false}>
+          <Camera initialViewState={{ center: toLngLat(stop.location), zoom: Zoom.stop }} />
           <StopMarker location={stop.location} color={colors.primary} variant="board" />
-        </MapView>
+        </BaseMap>
       </View>
       <View style={styles.actions}>
         <Button

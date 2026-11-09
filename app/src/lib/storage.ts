@@ -5,13 +5,13 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import type { Bookmark, LatLng, Place, RouteDetail } from '@/services/api/types';
 
-export type MapRegion = { latitude: number; longitude: number; latitudeDelta: number; longitudeDelta: number };
 
 type Schema = {
   'prefs.language': 'en' | 'ur';
   /** The language RTL was last switched for, to stop a reload loop if the switch doesn't stick. */
   'prefs.rtlPending': 'en' | 'ur';
-  'map.lastRegion': MapRegion;
+  /** Where the Plan map was looking. Replaced 'map.lastRegion' (Google's region shape) in D32. */
+  'map.lastCamera': { center: LatLng; zoom: number };
   'search.recent': Place[];
   'saved.bookmarks': Bookmark[];
   /** Offline copies of bookmarked routes, by route id. */

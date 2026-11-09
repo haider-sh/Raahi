@@ -8,9 +8,9 @@
 | **Informal routes change without notice**, and they're our primary target | High | Show "last verified" on routes. Treat feedback reports as top priority. Recruit a few regular riders per corridor to re-check their routes. |
 | **The route text data is outdated or ambiguous** (spellings, missing segments) | High | Use one shared gazetteer with aliases. Mark shapes built by the router as unverified until someone rides them. Spot-check with commuters. See [05-data-strategy.md](05-data-strategy.md#karachi-from-route-text-to-network). |
 | **Data work takes far longer than code** | High, for the schedule | Start the gazetteer in parallel with M1. Don't leave it for Phase 2. |
-| **Map performance on low-end phones** | Medium | Viewport-limited markers, `tracksViewChanges={false}`, and early testing on a cheap device (M2, M6). |
+| **Map performance on low-end phones** | Medium | Viewport-limited markers, memoised markers, and early testing on a cheap device (M2, M6). |
 | **Unnatural Urdu** | Medium. Users will feel the app isn't for them. | Use a native-speaker review of conversational Urdu, and test with the real users. |
-| **Google Maps billing** | Low. It needs a billing account; mobile map loads are currently free, but other APIs aren't. | Enable **only** Maps SDK for Android, and restrict the key to that API and to the app's package + SHA-1 (D19). A budget alert only notifies, so the restrictions are the real guard. Fallback: MapLibre + OpenFreeMap/Protomaps. |
+| **Map tile availability** | Low–medium. OpenFreeMap is free and volunteer-run, with no SLA (D32). | All map access goes through `features/map/base-map.tsx`, so moving to self-hosted Protomaps tiles is a one-file style URL change. Lists never depend on tiles loading. |
 | **Personal data on shared phones** (home location, account) | Medium | Home/work and tokens go in `expo-secure-store` only (D22). Accounts are optional. Sign-out explains that saved data stays on the phone. |
 | **Optional login reads as required** | Medium, for adoption by our users | No feature is gated. Sign-in is reached only from Settings and a dismissible hint, always with "Skip" (D20). |
 | **Users trust asking people over an app** | Medium, for adoption | Make the trip screen faster than asking (target: under 30 s). Show the route name and direction ("W18 towards Saddar"), which users can confirm with the conductor. |
@@ -33,7 +33,7 @@
 
 | # | Question | Answer |
 | --- | --- | --- |
-| 9 | Map provider | **Google Maps**, rendering only, with a locked-down key (D19). |
+| 9 | Map provider | **MapLibre + OpenFreeMap**, no key or billing (D32; replaced Google Maps, D19). |
 | 10 | Accounts | **Optional and local-first**: everything works as a guest; signing in adds backup and sync (D20). Mock auth in Phase 1 (D21), with tokens and home/work in `expo-secure-store` (D22). |
 
 ## Still open

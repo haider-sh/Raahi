@@ -1,16 +1,17 @@
+import { Camera, type CameraRef } from '@maplibre/maplibre-react-native';
 import { useEffect, useMemo, useRef } from 'react';
-import { StyleSheet } from 'react-native';
-import MapView, { Polyline, PROVIDER_GOOGLE } from 'react-native-maps';
 
 import { useFormat } from '@/i18n/use-format';
 import { decodePolyline } from '@/lib/geo';
 import type { Stop } from '@/services/api/types';
 
-import { EDGE_PADDING, regionFor, toCoord } from './map-utils';
+import { BaseMap } from './base-map';
+import { MapLine } from './map-line';
+import { boundsFor, EDGE_PADDING } from './map-utils';
 import { StopMarker } from './stop-marker';
 
 type Props = {
-  /** Variant id: markers redraw when it changes. */
+  /** Variant id: the line and markers redraw when it changes. */
   id: string;
   polyline: string;
   stops: Stop[];
@@ -20,25 +21,23 @@ type Props = {
 
 export function RouteMap({ id, polyline, stops, color, onStopPress }: Props) {
   const { name } = useFormat();
-  const map = useRef<MapView>(null);
+  const camera = useRef<CameraRef>(null);
   const points = useMemo(() => decodePolyline(polyline), [polyline]);
 
-  // Re-fit when the direction changes.
+  // Re-fit when the direction changes. The first fit comes from `initialViewState`.
+  const mounted = useRef(false);
   useEffect(() => {
-    map.current?.fitToCoordinates(points.map(toCoord), { edgePadding: EDGE_PADDING, animated: true });
+    if (!mounted.current) {
+      mounted.current = true;
+      return;
+    }
+    camera.current?.fitBounds(boundsFor(points), { padding: EDGE_PADDING, duration: 500 });
   }, [points]);
 
   return (
-    <MapView
-      ref={map}
-      style={StyleSheet.absoluteFill}
-      provider={PROVIDER_GOOGLE}
-      initialRegion={regionFor(points)}
-      onMapReady={() =>
-        map.current?.fitToCoordinates(points.map(toCoord), { edgePadding: EDGE_PADDING, animated: false })
-      }
-      toolbarEnabled={false}>
-      <Polyline coordinates={points.map(toCoord)} strokeColor={color} strokeWidth={6} />
+    <BaseMap>
+      <Camera ref={camera} initialViewState={{ bounds: boundsFor(points), padding: EDGE_PADDING }} />
+      <MapLine key={id} id={`route-${id}`} points={points} color={color} width={5} />
       {stops.map((s, i) => (
         <StopMarker
           key={`${id}-${s.id}`}
@@ -49,6 +48,6 @@ export function RouteMap({ id, polyline, stops, color, onStopPress }: Props) {
           onPress={onStopPress ? () => onStopPress(s) : undefined}
         />
       ))}
-    </MapView>
+    </BaseMap>
   );
 }

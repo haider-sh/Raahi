@@ -1,13 +1,15 @@
+import { Camera, type CameraRef, UserLocation } from '@maplibre/maplibre-react-native';
 import { useEffect, useMemo, useRef } from 'react';
-import { StyleSheet } from 'react-native';
-import MapView, { Polyline, PROVIDER_GOOGLE } from 'react-native-maps';
 
 import { legColor, useColors } from '@/constants/theme';
+import { usePlanner } from '@/features/planner/store';
 import { useFormat } from '@/i18n/use-format';
 import { decodePolyline } from '@/lib/geo';
-import type { LatLng, TripOption } from '@/services/api/types';
+import type { TripOption } from '@/services/api/types';
 
-import { EDGE_PADDING, regionFor, toCoord } from './map-utils';
+import { BaseMap } from './base-map';
+import { MapLine } from './map-line';
+import { boundsFor, EDGE_PADDING } from './map-utils';
 import { StopMarker } from './stop-marker';
 
 type Props = {
@@ -20,7 +22,9 @@ type Props = {
 export function TripMap({ trip, focusLegIndex }: Props) {
   const colors = useColors();
   const { name } = useFormat();
-  const map = useRef<MapView>(null);
+  const camera = useRef<CameraRef>(null);
+  // Only once we have a fix, i.e. location permission was granted.
+  const hasGps = usePlanner((s) => s.gps != null);
 
   const legs = useMemo(() => {
     let rideIndex = 0;
@@ -33,36 +37,28 @@ export function TripMap({ trip, focusLegIndex }: Props) {
 
   const allPoints = useMemo(() => legs.flatMap((l) => l.points), [legs]);
 
-  const fit = (points: LatLng[]) =>
-    map.current?.fitToCoordinates(points.map(toCoord), { edgePadding: EDGE_PADDING, animated: true });
-
   useEffect(() => {
     if (focusLegIndex == null) return;
     const leg = legs[focusLegIndex];
-    if (leg) fit(leg.points);
+    if (leg) camera.current?.fitBounds(boundsFor(leg.points), { padding: EDGE_PADDING, duration: 500 });
   }, [focusLegIndex, legs]);
 
   const rides = legs.filter((l) => l.leg.type === 'ride');
+  // Line ids must be unique per map and change with the trip (see MapLine).
+  const tripKey = trip.legs.map((l) => (l.type === 'ride' ? l.variantId : 'walk')).join('-');
 
   return (
-    <MapView
-      ref={map}
-      style={StyleSheet.absoluteFill}
-      provider={PROVIDER_GOOGLE}
-      initialRegion={regionFor(allPoints)}
-      onMapReady={() => fit(allPoints)}
-      showsUserLocation
-      showsMyLocationButton={false}
-      toolbarEnabled={false}>
-      {legs.map(({ leg, points, color }, i) => (
-        <Polyline
-          key={i}
-          coordinates={points.map(toCoord)}
-          strokeColor={color}
-          strokeWidth={leg.type === 'walk' ? 4 : 6}
-          lineDashPattern={leg.type === 'walk' ? [8, 8] : undefined}
-        />
-      ))}
+    <BaseMap>
+      <Camera ref={camera} initialViewState={{ bounds: boundsFor(allPoints), padding: EDGE_PADDING }} />
+      {hasGps && <UserLocation />}
+      {legs.map(({ leg, points, color }, i) => {
+        const id = `trip-${tripKey}-${i}`;
+        return leg.type === 'walk' ? (
+          <MapLine key={id} id={id} points={points} color={color} width={3} dashed />
+        ) : (
+          <MapLine key={id} id={id} points={points} color={color} width={5} />
+        );
+      })}
       {rides.map(({ leg, color, rideIndex }) =>
         leg.type === 'ride' ? (
           <StopMarker
@@ -85,6 +81,6 @@ export function TripMap({ trip, focusLegIndex }: Props) {
           />
         ) : null,
       )}
-    </MapView>
+    </BaseMap>
   );
 }

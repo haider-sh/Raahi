@@ -39,6 +39,12 @@ export function LocationNotice({ location }: Props) {
           <Button variant="secondary" label={t('common.retry')} onPress={location.retry} />
         </Message>
       );
+    case 'unavailable':
+      return (
+        <Message icon="location-searching" tone="warning" title={t('plan.noFix.title')} body={t('plan.noFix.body')}>
+          <Button variant="secondary" label={t('common.retry')} onPress={location.retry} />
+        </Message>
+      );
     case 'checking':
     case 'locating':
       return <Text color="textSecondary">{t('plan.locating')}</Text>;

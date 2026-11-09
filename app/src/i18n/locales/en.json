@@ -56,6 +56,10 @@
       "title": "Location is turned off",
       "body": "Turn on location and try again, or long-press the map to choose a start point."
     },
+    "noFix": {
+      "title": "Couldn't find your location",
+      "body": "Location is on, but no signal came through. Move near a window and try again, or long-press the map to choose a start point."
+    },
     "pick": {
       "from": "Start here",
       "to": "Go here",
@@ -196,7 +200,7 @@
     "dataVersion": "Network data: {{version}}",
     "verified": "Last verified: {{date}}",
     "notVerified": "Not yet verified",
-    "credits": "Map © Google. Route data © Raahi contributors.",
+    "credits": "Map: OpenFreeMap © OpenMapTiles. Map data © OpenStreetMap contributors. Route data © Raahi contributors.",
     "feedback": "Send feedback"
   },
   "feedback": {

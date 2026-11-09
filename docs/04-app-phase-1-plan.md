@@ -2,7 +2,7 @@
 
 **Goal:** build a working Android app that covers the full flow (start point → destination → bus options → trip detail with stops), in Urdu and English, running entirely against a **mock API backed by a realistic fixture network**. When the backend is ready in Phase 2, we swap one implementation and the app goes live.
 
-**Stack (as of Expo SDK 57):** Expo Router, TypeScript, `react-native-maps`, `expo-location`, `expo-localization` + `i18next`, TanStack Query, Zustand, AsyncStorage, `expo-secure-store`, Jest (`jest-expo`) + React Native Testing Library. The reasons for each choice, and where they differ from the original plan, are in [06-decisions.md](06-decisions.md).
+**Stack (as of Expo SDK 57):** Expo Router, TypeScript, `@maplibre/maplibre-react-native` (D32; originally `react-native-maps`), `expo-location`, `expo-localization` + `i18next`, TanStack Query, Zustand, AsyncStorage, `expo-secure-store`, Jest (`jest-expo`) + React Native Testing Library. The reasons for each choice, and where they differ from the original plan, are in [06-decisions.md](06-decisions.md).
 
 ## Status (2026-10-28)
 
@@ -11,7 +11,6 @@ The code for M0–M7 is in (branch `phase-1-app`). `npm run check` is green: 72 
 | Still to do | Milestone |
 | --- | --- |
 | First **development build** on a real phone, then check maps, location, RTL and the Urdu font there | M0, M2, M6 |
-| Google Cloud project and a restricted Maps key (P3). Until then, map tiles in the dev build may be blank. | P3 |
 | Replace the **sample fixture** with real routes from the Karachi text data (D25) | P1b, M1 |
 | Native-speaker review of the Urdu copy | M6 |
 | Low-end phone profiling, outdoor contrast check | M6 |
@@ -29,7 +28,7 @@ The code for M0–M7 is in (branch `phase-1-app`). `npm run check` is green: 72 
 | P1 | ✅ **Launch city: Karachi.** The primary target is informal minibus/coach routes (D7, W18, G7, Masood…); government services are an add-on. | Decided. See [01-product.md](01-product.md#launch-market-karachi). |
 | P1b | Put the existing **Karachi route text data** in `data/karachi/raw/`, and pick the 4–6 routes the fixture will use. | The fixture is built from it. See [05-data-strategy.md](05-data-strategy.md#karachi-from-route-text-to-network). |
 | P2 | Low-fidelity wireframes in Figma for 8 screens: Plan (map), Search, Options, Trip, Route, Stop, Saved, Sign in. Do both an LTR and an RTL version of the Trip screen. | The RTL layout of the step list is the trickiest UI. Settle it on paper first. |
-| P3 | Create a Google Cloud project and billing account. Enable **only Maps SDK for Android**. Create an API key restricted to that one API *and* to the app's package name and SHA-1 fingerprint. Add a budget alert as a tripwire. Don't enable any other Maps Platform API (D19). | You need it for development builds and releases. Expo Go works without it. With the restrictions in place, the key can only do things that are free. |
+| P3 | **Superseded by D32**: maps use MapLibre + OpenFreeMap, which need no key. Originally: create a Google Cloud project and billing account. Enable **only Maps SDK for Android**. Create an API key restricted to that one API *and* to the app's package name and SHA-1 fingerprint. Add a budget alert as a tripwire. Don't enable any other Maps Platform API (D19). | You need it for development builds and releases. Expo Go works without it. With the restrictions in place, the key can only do things that are free. |
 | P4 | Line up **3–5 real commuters** who'll try the app at the end of M5. | Build for them, not for us. |
 
 ---
@@ -96,7 +95,7 @@ The rules: route files stay thin (they compose feature components); `services/` 
 6. Add `package.json` scripts: `typecheck` (`tsc --noEmit`), `lint`, `test`, and `check`, which runs all three. Every PR must pass `check`.
 7. Set up i18n: `en.json` and `ur.json`, initial language from `getLocales()`, and the user's choice persisted to storage. Add the language switch in Settings: set `I18nManager.forceRTL`, then call `Updates.reloadAsync()`.
 8. Theme: colour tokens (light and dark), a **leg palette** of about 6 distinguishable colours that the app assigns to ride legs on the map (buses have no colour data), an 8-pt spacing scale, a minimum 48 dp touch target, and the Urdu font loaded with `expo-font` (already installed).
-9. Run `npx eas-cli@latest build --profile development --platform android` to get a **development build** onto a real Android phone. You need it for RTL and for the Maps key. Use Expo Go for quick iteration until then.
+9. Run `npx eas-cli@latest build --profile development --platform android` to get a **development build** onto a real Android phone. You need it for RTL and for the map (MapLibre doesn't run in Expo Go, D32).
 
 **Done when:** `npm run check` passes, the app boots to an empty Plan tab in the dev build, and switching to Urdu flips the layout to RTL.
 
@@ -155,7 +154,7 @@ Covers feature **10**, and the home/work part of **9**. It's scheduled here, bef
 Covers features **1 (start point)** and **3 (nearest stop)**.
 
 **Tasks**
-1. A full-screen `MapView` (`PROVIDER_GOOGLE`). Its initial region is the last saved region, falling back to the launch-city centre.
+1. A full-screen map (originally `MapView` with `PROVIDER_GOOGLE`; MapLibre since D32). Its initial camera is the last saved one, falling back to the launch-city centre.
 2. **Location permission flow**:
    - Show a short in-app explanation ("to find the bus stop nearest you") *before* the system prompt.
    - If permission is denied, show "Pick your start point on the map" instead. **There are no dead ends.**
@@ -283,7 +282,7 @@ Covers feature **9 (bookmarks)**. No longer a stretch goal (D24).
 **Tasks**
 1. Wire up the Save buttons from M5 and M5b to `useSavedStore` (M1b). A **trip** bookmark stores the complete `TripOption` plus the from/to names. A **route** bookmark stores the route ID in `UserData` and keeps the full `RouteDetail` (both directions) in a separate AsyncStorage cache, so it opens offline. Use `lib/storage.ts` with a schema version. Cap it at 20 trips and 20 routes.
 2. The Saved tab has three sections: **Home/Work** (tap to plan, edit), **Buses** (bookmarked routes) and **Trips**. You can delete bookmarks by swipe or long-press.
-3. Bookmarks open with no network. Lists must render fully even if map tiles are missing (Google tiles aren't available offline).
+3. Bookmarks open with no network. Lists must render fully even if map tiles are missing (map tiles are streamed and aren't available offline).
 4. Show a "Saved on ‹date›. Routes may have changed" note. When online, refresh cached `RouteDetail`s quietly in the background.
 5. Signed in: changes sync through `putUserData` (M1b). A route bookmark that arrives from the server without a local cache is fetched the next time the app is online.
 
@@ -295,7 +294,7 @@ Covers feature **9 (bookmarks)**. No longer a stretch goal (D24).
 
 - [ ] Features 1–10 from [01-product.md](01-product.md) work end-to-end against the mock API, both as a guest and signed in.
 - [ ] Auth tokens and home/work exist only in `expo-secure-store`, never in AsyncStorage.
-- [ ] The Google Cloud project has only Maps SDK for Android enabled, and the key is restricted (D19).
+- [ ] Maps render in a development build with OpenFreeMap tiles and visible attribution (D32).
 - [ ] `npm run check` (typecheck, lint, tests) is green.
 - [ ] The planner tests cover direction, direct, transfer and no-route cases.
 - [ ] It's tested on at least one low-end Android phone, in both languages.
