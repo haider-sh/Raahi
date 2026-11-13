@@ -8,10 +8,13 @@ import { buildSteps, TripSteps } from '@/features/trips/trip-steps';
 import i18n from '@/i18n';
 import { ApiError } from '@/services/api/errors';
 import { devToggles } from '@/services/api/mock/dev-toggles';
+import sampleNetwork from '@/services/api/mock/__tests__/fixtures/sample-network.json';
 import { MockRaahiApi } from '@/services/api/mock/mock-api';
+import type { NetworkFile } from '@/services/api/mock/network';
 import type { TripOption } from '@/services/api/types';
 
-const api = new MockRaahiApi();
+// The hand-made sample network (D25), so the routes asserted below (W18, Masood…) exist.
+const api = new MockRaahiApi(sampleNetwork as NetworkFile);
 const at = (id: string) => api.network.stops.get(id)!.location;
 
 let direct: TripOption;

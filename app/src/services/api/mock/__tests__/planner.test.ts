@@ -1,5 +1,6 @@
 import type { RideLeg, TripOption } from '../../types';
-import networkFile from '../fixtures/network.json';
+// The hand-made sample network (D25): small and stable, so expected trips can be asserted.
+import networkFile from './fixtures/sample-network.json';
 import { indexNetwork, type NetworkFile } from '../network';
 import { plan } from '../planner';
 

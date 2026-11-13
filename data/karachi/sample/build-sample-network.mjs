@@ -1,10 +1,10 @@
-// Builds the Phase 1 SAMPLE fixture network for the app's mock API.
+// Builds the SAMPLE network used by the app's unit tests (planner, mock API, components). The app
+// itself runs on the pipeline's output (data/karachi/pipeline, D35); this small hand-made network
+// stays because the tests assert exact trips on it.
 //
 // This is NOT real route data. Place names and route codes are real Karachi names, but the
 // coordinates are hand-approximated and the stop sequences are illustrative. Shapes are straight
-// lines between stops. Every variant is marked `source: "sample"` in `meta`, and the app says so
-// on its About screen. Replace this with the output of the real pipeline (docs/05-data-strategy.md)
-// once the route text data is in data/karachi/raw/.
+// lines between stops. Every variant is marked `source: "sample"` in `meta`.
 //
 // Usage (from the repo root): node data/karachi/sample/build-sample-network.mjs
 
@@ -13,7 +13,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const out = resolve(here, '../../../app/src/services/api/mock/fixtures/network.json');
+const out = resolve(here, '../../../app/src/services/api/mock/__tests__/fixtures/sample-network.json');
 
 // id, en, ur, lat, lng, aliases
 const STOPS = [

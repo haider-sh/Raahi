@@ -38,7 +38,7 @@
 
 ## Still open
 
-1. **Where does the Karachi route text data come from, and how old is it?** This decides how much it can be trusted.
+1. ~~Where does the Karachi route text data come from, and how old is it?~~ **Answered 2026-11-12:** a 2009 blog post, transcribed January 2010 ([data/karachi/raw/SOURCE.md](../data/karachi/raw/SOURCE.md)). It's about 17 years old, so every route needs confirming that it still runs. New question: which routes are still running, and what replaced the ones that stopped?
 2. **Which 4–6 routes go into the Phase 1 fixture?** They should overlap, so that at least one test trip needs a transfer.
 3. **Do the routes run the same stops in both directions?** Note any one-way sections, because they affect the variants.
 4. **Does the assignment accept mock auth** (real secure storage and session handling, fake server), or does it need a real auth server in Phase 1? If the latter, pull the Phase 2 auth endpoints forward.

@@ -4,3 +4,6 @@ node_modules/
 .env
 .env*.local
 .DS_Store
+
+# Karachi data: raw Overpass exports are large (build/osm-suggestions.json, derived from them, is committed)
+data/karachi/osm/*.json

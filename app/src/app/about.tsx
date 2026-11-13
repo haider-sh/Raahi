@@ -14,6 +14,8 @@ const networkFile = fixture as NetworkFile;
 const verifiedDates = networkFile.meta.map((m) => m.verifiedAt).filter((d): d is string => !!d);
 const lastVerified = verifiedDates.sort()[verifiedDates.length - 1] ?? null;
 const isSample = networkFile.meta.some((m) => m.source === 'sample');
+// Pipeline output from the 2009 route text + automatic OSM matches (D35).
+const isUnverified = networkFile.meta.some((m) => m.source.endsWith('-unverified'));
 
 export default function AboutScreen() {
   const colors = useColors();
@@ -25,6 +27,9 @@ export default function AboutScreen() {
       </Text>
       <Text>{t('about.body')}</Text>
       {isSample && <Message tone="warning" icon="warning" title={t('about.sampleTitle')} body={t('about.sampleData')} />}
+      {isUnverified && (
+        <Message tone="warning" icon="warning" title={t('about.unverifiedTitle')} body={t('about.unverifiedData')} />
+      )}
       <Text color="textSecondary">{t('about.dataVersion', { version: networkFile.version })}</Text>
       <Text color="textSecondary">
         {lastVerified ? t('about.verified', { date: date(lastVerified) }) : t('about.notVerified')}

@@ -197,10 +197,12 @@
     "body": "Raahi tells you which bus to board, where to board it, and where to get off.",
     "sampleTitle": "Sample data",
     "sampleData": "This version uses sample data. Stop locations are approximate and the routes are illustrative, not real bus routes. Don't rely on them for travel yet.",
+    "unverifiedTitle": "Unverified data",
+    "unverifiedData": "Routes come from a list published in 2009 and may have changed or stopped running. Stop locations were matched automatically from OpenStreetMap, some may be wrong, and many stops are still missing. Check with the conductor before you ride.",
     "dataVersion": "Network data: {{version}}",
     "verified": "Last verified: {{date}}",
     "notVerified": "Not yet verified",
-    "credits": "Map: OpenFreeMap © OpenMapTiles. Map data © OpenStreetMap contributors. Route data © Raahi contributors.",
+    "credits": "Map: OpenFreeMap © OpenMapTiles. Map data and stop locations © OpenStreetMap contributors. Route data © Raahi contributors.",
     "feedback": "Send feedback"
   },
   "feedback": {

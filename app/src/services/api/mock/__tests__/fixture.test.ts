@@ -1,12 +1,16 @@
-// The checks from docs/05-data-strategy.md § Tooling, run over the fixture network.
+// The checks from docs/05-data-strategy.md § Tooling, run over the app's network (built by
+// data/karachi/pipeline) and over the hand-made sample network the unit tests use.
 import { decodePolyline, haversineM, sliceShape } from '../../../../lib/geo';
-import networkFile from '../fixtures/network.json';
+import appNetwork from '../fixtures/network.json';
 import type { NetworkFile } from '../network';
+import sampleNetwork from './fixtures/sample-network.json';
 
-const net = networkFile as NetworkFile;
-const stopById = new Map(net.stops.map((s) => [s.id, s]));
+describe.each([
+  ['app network', appNetwork as NetworkFile],
+  ['sample network', sampleNetwork as NetworkFile],
+])('%s', (_name, net) => {
+  const stopById = new Map(net.stops.map((s) => [s.id, s]));
 
-describe('fixture network', () => {
   it('has unique ids', () => {
     for (const list of [net.stops, net.landmarks, net.routes, net.variants]) {
       const ids = list.map((x) => x.id);
@@ -21,18 +25,21 @@ describe('fixture network', () => {
     }
   });
 
-  it.each(net.variants.map((v) => [v.id, v] as const))('variant %s is valid', (_id, v) => {
-    expect(v.stopIds.length).toBeGreaterThanOrEqual(2);
-    for (const s of v.stopIds) expect(stopById.has(s)).toBe(true);
-    expect(net.routes.some((r) => r.id === v.routeId)).toBe(true);
-    // towards = last stop's name
-    expect(v.towards).toEqual(stopById.get(v.stopIds[v.stopIds.length - 1])!.name);
-    // every stop lies within 50 m of the shape
-    const shape = decodePolyline(v.shape);
-    for (const s of v.stopIds) {
-      const loc = stopById.get(s)!.location;
-      const [snapped] = sliceShape(shape, loc, loc);
-      expect(haversineM(loc, snapped)).toBeLessThan(50);
+  it('has valid variants', () => {
+    const routeIds = new Set(net.routes.map((r) => r.id));
+    for (const v of net.variants) {
+      expect(v.stopIds.length).toBeGreaterThanOrEqual(2);
+      for (const s of v.stopIds) expect(stopById.has(s)).toBe(true);
+      expect(routeIds.has(v.routeId)).toBe(true);
+      // towards = last stop's name
+      expect(v.towards).toEqual(stopById.get(v.stopIds[v.stopIds.length - 1])!.name);
+      // every stop lies within 50 m of the shape
+      const shape = decodePolyline(v.shape);
+      for (const s of v.stopIds) {
+        const loc = stopById.get(s)!.location;
+        const [snapped] = sliceShape(shape, loc, loc);
+        expect(haversineM(loc, snapped)).toBeLessThan(50);
+      }
     }
   });
 
@@ -40,5 +47,10 @@ describe('fixture network', () => {
     for (const r of net.routes) {
       expect(net.variants.filter((v) => v.routeId === r.id).length).toBeGreaterThanOrEqual(2);
     }
+  });
+
+  it('has a meta record for every variant', () => {
+    const variantMeta = new Set(net.meta.filter((m) => m.entity === 'variant').map((m) => m.id));
+    for (const v of net.variants) expect(variantMeta.has(v.id)).toBe(true);
   });
 });

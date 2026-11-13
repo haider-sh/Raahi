@@ -1,7 +1,12 @@
 import { ApiError } from '../../errors';
 import { devToggles } from '../dev-toggles';
 import { MockRaahiApi } from '../mock-api';
+import type { NetworkFile } from '../network';
 import { normalize } from '../search';
+// The hand-made sample network (D25): small and stable, so expected results can be asserted.
+import sampleNetwork from './fixtures/sample-network.json';
+
+const sample = sampleNetwork as NetworkFile;
 
 beforeAll(() => {
   devToggles.latency = false;
@@ -10,7 +15,7 @@ afterEach(() => {
   devToggles.forceError = null;
 });
 
-const api = new MockRaahiApi();
+const api = new MockRaahiApi(sample);
 
 describe('search', () => {
   it('normalises spelling, case, hyphens and Urdu letter forms', () => {
@@ -93,7 +98,7 @@ describe('forced errors', () => {
 
 describe('accounts', () => {
   it('register → getMe → expiry → refresh rotates the token', async () => {
-    const auth = new MockRaahiApi();
+    const auth = new MockRaahiApi(sample);
     const { user, tokens } = await auth.register('a@example.com', 'password1');
     expect((await auth.getMe(tokens.accessToken)).user).toEqual(user);
 
@@ -106,7 +111,7 @@ describe('accounts', () => {
   });
 
   it('validates registration and login', async () => {
-    const auth = new MockRaahiApi();
+    const auth = new MockRaahiApi(sample);
     await expect(auth.register('bad', 'password1')).rejects.toMatchObject({ code: 'VALIDATION' });
     await expect(auth.register('b@example.com', 'short')).rejects.toMatchObject({ code: 'VALIDATION' });
     await auth.register('b@example.com', 'password1');
