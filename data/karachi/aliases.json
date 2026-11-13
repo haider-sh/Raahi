@@ -1,0 +1,86 @@
+{
+  "_readme": "Human-curated merges for the gazetteer. Each key is a canonical English name; its list holds other spellings in the route text that mean the same place. Matching uses the pipeline's normalised keys, so case, dots, 'No.' and generic words like Chowrangi/Chourangi don't need listing. Review build/review.md for candidates, add a line here, re-run the pipeline. Only merge when you are sure: two places merged wrongly create fake transfers. The initial entries were seeded by Claude from obvious spelling variants and still need a human check.",
+  "merges": {
+    "Guru Mandir": [
+      "Goro Mandir",
+      "Gru Mandir",
+      "Gurumandir",
+      "Guru Mandar"
+    ],
+    "Saddar": [
+      "Sadar",
+      "Sadder"
+    ],
+    "Kala Pul": [
+      "Kalapul",
+      "Kala Pull"
+    ],
+    "Numaish": [
+      "Nomaish",
+      "Numaesh",
+      "Numaish Chowrangi"
+    ],
+    "Aisha Manzil": [
+      "Ayesha Manzil",
+      "Aysha Manzil"
+    ],
+    "Bunder Road": [
+      "Bandar Road",
+      "Bander Road"
+    ],
+    "Habib Bank": [
+      "Habbib Bank"
+    ],
+    "Sohrab Goth": [
+      "Shorab Goth",
+      "Sohrab Gooth",
+      "Sohrabgoth"
+    ],
+    "Federal B. Area": [
+      "Fedral B. Area",
+      "F.B. Area",
+      "F.B Area",
+      "Federal B Area"
+    ],
+    "Coast Guard": [
+      "Coast Gard",
+      "Cost Guard",
+      "Coast Guards"
+    ],
+    "Landhi No. 3": [
+      "Landi No. 3"
+    ],
+    "Landhi No. 4": [
+      "Landi No. 4"
+    ],
+    "Landhi No. 5": [
+      "Landi No. 5"
+    ],
+    "Landhi No. 6": [
+      "Landi No. 6"
+    ],
+    "Liaquatabad No. 10": [
+      "Liaquat No. 10",
+      "Liaqatabad No. 10"
+    ],
+    "Jinnah Hospital": [
+      "Jinnah Postgraduate Medical Centre",
+      "J.P.M.C"
+    ],
+    "Tower": [
+      "M.W Tower",
+      "Merewether Tower"
+    ],
+    "Bengali Para": [
+      "Bangali Para"
+    ],
+    "Nazimabad": [
+      "Nazimabd"
+    ],
+    "Ittehad Town": [
+      "Ittehad Towwn"
+    ]
+  },
+  "_routeOverridesReadme": "Per-route renames, for generic names that mean a different place on a particular route. Key = route code (or 'code#n' for duplicate codes, see build/routes.json), value = { 'name as written in the text': 'place name to use' }.",
+  "routeOverrides": {}
+}

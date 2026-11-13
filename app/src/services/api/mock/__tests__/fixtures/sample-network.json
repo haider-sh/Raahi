@@ -1,0 +1,1186 @@
+{
+  "version": "2026-10-28-sample",
+  "city": "karachi",
+  "stops": [
+    {
+      "id": "s_power_house",
+      "name": {
+        "en": "Power House Chowrangi",
+        "ur": "پاور ہاؤس چورنگی"
+      },
+      "location": {
+        "lat": 24.9862,
+        "lng": 67.064
+      },
+      "aliases": [
+        "powerhouse"
+      ]
+    },
+    {
+      "id": "s_up_more",
+      "name": {
+        "en": "U.P. More",
+        "ur": "یو پی موڑ"
+      },
+      "location": {
+        "lat": 24.973,
+        "lng": 67.066
+      },
+      "aliases": [
+        "up mor",
+        "up morr"
+      ]
+    },
+    {
+      "id": "s_nagan",
+      "name": {
+        "en": "Nagan Chowrangi",
+        "ur": "ناگن چورنگی"
+      },
+      "location": {
+        "lat": 24.9653,
+        "lng": 67.0668
+      },
+      "aliases": [
+        "nagin chowrangi",
+        "nagan"
+      ]
+    },
+    {
+      "id": "s_sakhi_hassan",
+      "name": {
+        "en": "Sakhi Hassan",
+        "ur": "سخی حسن"
+      },
+      "location": {
+        "lat": 24.953,
+        "lng": 67.057
+      },
+      "aliases": [
+        "sakhi hasan"
+      ]
+    },
+    {
+      "id": "s_five_star",
+      "name": {
+        "en": "Five Star Chowrangi",
+        "ur": "فائیو اسٹار چورنگی"
+      },
+      "location": {
+        "lat": 24.9395,
+        "lng": 67.0445
+      },
+      "aliases": [
+        "5 star"
+      ]
+    },
+    {
+      "id": "s_hyderi",
+      "name": {
+        "en": "Hyderi",
+        "ur": "حیدری"
+      },
+      "location": {
+        "lat": 24.9355,
+        "lng": 67.0385
+      },
+      "aliases": [
+        "hydri",
+        "haidery"
+      ]
+    },
+    {
+      "id": "s_board_office",
+      "name": {
+        "en": "Board Office",
+        "ur": "بورڈ آفس"
+      },
+      "location": {
+        "lat": 24.9235,
+        "lng": 67.044
+      },
+      "aliases": []
+    },
+    {
+      "id": "s_nazimabad_1",
+      "name": {
+        "en": "Nazimabad No. 1",
+        "ur": "ناظم آباد نمبر 1"
+      },
+      "location": {
+        "lat": 24.9055,
+        "lng": 67.033
+      },
+      "aliases": [
+        "nazimabad"
+      ]
+    },
+    {
+      "id": "s_lasbela",
+      "name": {
+        "en": "Lasbela",
+        "ur": "لسبیلہ"
+      },
+      "location": {
+        "lat": 24.893,
+        "lng": 67.031
+      },
+      "aliases": [
+        "lasbella"
+      ]
+    },
+    {
+      "id": "s_gurumandir",
+      "name": {
+        "en": "Gurumandir",
+        "ur": "گرومندر"
+      },
+      "location": {
+        "lat": 24.881,
+        "lng": 67.038
+      },
+      "aliases": [
+        "guru mandir",
+        "gru mandir"
+      ]
+    },
+    {
+      "id": "s_numaish",
+      "name": {
+        "en": "Numaish",
+        "ur": "نمائش"
+      },
+      "location": {
+        "lat": 24.8737,
+        "lng": 67.0335
+      },
+      "aliases": [
+        "numaish chowrangi",
+        "numaesh"
+      ]
+    },
+    {
+      "id": "s_saddar",
+      "name": {
+        "en": "Saddar",
+        "ur": "صدر"
+      },
+      "location": {
+        "lat": 24.8605,
+        "lng": 67.03
+      },
+      "aliases": [
+        "sadar",
+        "empress market"
+      ]
+    },
+    {
+      "id": "s_regal",
+      "name": {
+        "en": "Regal Chowk",
+        "ur": "ریگل چوک"
+      },
+      "location": {
+        "lat": 24.8578,
+        "lng": 67.0255
+      },
+      "aliases": [
+        "regal"
+      ]
+    },
+    {
+      "id": "s_tower",
+      "name": {
+        "en": "Tower",
+        "ur": "ٹاور"
+      },
+      "location": {
+        "lat": 24.8505,
+        "lng": 66.9965
+      },
+      "aliases": [
+        "merewether tower",
+        "towar"
+      ]
+    },
+    {
+      "id": "s_orangi_5",
+      "name": {
+        "en": "Orangi Town No. 5",
+        "ur": "اورنگی ٹاؤن نمبر 5"
+      },
+      "location": {
+        "lat": 24.9475,
+        "lng": 67.0005
+      },
+      "aliases": [
+        "orangi",
+        "orangi 5"
+      ]
+    },
+    {
+      "id": "s_qasba",
+      "name": {
+        "en": "Qasba Mor",
+        "ur": "قصبہ موڑ"
+      },
+      "location": {
+        "lat": 24.939,
+        "lng": 67.012
+      },
+      "aliases": [
+        "qasba more",
+        "kasba"
+      ]
+    },
+    {
+      "id": "s_banaras",
+      "name": {
+        "en": "Banaras Chowk",
+        "ur": "بنارس چوک"
+      },
+      "location": {
+        "lat": 24.9265,
+        "lng": 67.0095
+      },
+      "aliases": [
+        "banaras"
+      ]
+    },
+    {
+      "id": "s_site",
+      "name": {
+        "en": "SITE",
+        "ur": "سائٹ"
+      },
+      "location": {
+        "lat": 24.912,
+        "lng": 67.0085
+      },
+      "aliases": [
+        "site area"
+      ]
+    },
+    {
+      "id": "s_golimar",
+      "name": {
+        "en": "Golimar",
+        "ur": "گولیمار"
+      },
+      "location": {
+        "lat": 24.906,
+        "lng": 67.0215
+      },
+      "aliases": [
+        "gulbahar"
+      ]
+    },
+    {
+      "id": "s_jail_chowrangi",
+      "name": {
+        "en": "Jail Chowrangi",
+        "ur": "جیل چورنگی"
+      },
+      "location": {
+        "lat": 24.884,
+        "lng": 67.049
+      },
+      "aliases": [
+        "jail"
+      ]
+    },
+    {
+      "id": "s_bahadurabad",
+      "name": {
+        "en": "Bahadurabad",
+        "ur": "بہادرآباد"
+      },
+      "location": {
+        "lat": 24.8805,
+        "lng": 67.069
+      },
+      "aliases": [
+        "bahadur abad"
+      ]
+    },
+    {
+      "id": "s_tariq_road",
+      "name": {
+        "en": "Tariq Road",
+        "ur": "طارق روڈ"
+      },
+      "location": {
+        "lat": 24.8722,
+        "lng": 67.064
+      },
+      "aliases": [
+        "tariq rd"
+      ]
+    },
+    {
+      "id": "s_nursery",
+      "name": {
+        "en": "Nursery",
+        "ur": "نرسری"
+      },
+      "location": {
+        "lat": 24.8628,
+        "lng": 67.0702
+      },
+      "aliases": []
+    },
+    {
+      "id": "s_ftc",
+      "name": {
+        "en": "FTC",
+        "ur": "ایف ٹی سی"
+      },
+      "location": {
+        "lat": 24.854,
+        "lng": 67.06
+      },
+      "aliases": [
+        "f.t.c"
+      ]
+    },
+    {
+      "id": "s_kala_pul",
+      "name": {
+        "en": "Kala Pul",
+        "ur": "کالا پل"
+      },
+      "location": {
+        "lat": 24.8455,
+        "lng": 67.0545
+      },
+      "aliases": [
+        "kala pull"
+      ]
+    },
+    {
+      "id": "s_malir_15",
+      "name": {
+        "en": "Malir 15",
+        "ur": "ملیر 15"
+      },
+      "location": {
+        "lat": 24.888,
+        "lng": 67.2025
+      },
+      "aliases": [
+        "malir"
+      ]
+    },
+    {
+      "id": "s_malir_halt",
+      "name": {
+        "en": "Malir Halt",
+        "ur": "ملیر ہالٹ"
+      },
+      "location": {
+        "lat": 24.8885,
+        "lng": 67.188
+      },
+      "aliases": []
+    },
+    {
+      "id": "s_star_gate",
+      "name": {
+        "en": "Star Gate",
+        "ur": "اسٹار گیٹ"
+      },
+      "location": {
+        "lat": 24.887,
+        "lng": 67.154
+      },
+      "aliases": [
+        "airport"
+      ]
+    },
+    {
+      "id": "s_drigh_road",
+      "name": {
+        "en": "Drigh Road",
+        "ur": "ڈرگ روڈ"
+      },
+      "location": {
+        "lat": 24.8885,
+        "lng": 67.1215
+      },
+      "aliases": [
+        "shah faisal"
+      ]
+    },
+    {
+      "id": "s_karsaz",
+      "name": {
+        "en": "Karsaz",
+        "ur": "کارساز"
+      },
+      "location": {
+        "lat": 24.879,
+        "lng": 67.094
+      },
+      "aliases": []
+    },
+    {
+      "id": "s_baloch_colony",
+      "name": {
+        "en": "Baloch Colony",
+        "ur": "بلوچ کالونی"
+      },
+      "location": {
+        "lat": 24.87,
+        "lng": 67.079
+      },
+      "aliases": [
+        "baloch pul"
+      ]
+    },
+    {
+      "id": "s_cantt",
+      "name": {
+        "en": "Cantt Station",
+        "ur": "کینٹ اسٹیشن"
+      },
+      "location": {
+        "lat": 24.8435,
+        "lng": 67.0418
+      },
+      "aliases": [
+        "cant station",
+        "city station"
+      ]
+    },
+    {
+      "id": "s_safoora",
+      "name": {
+        "en": "Safoora Chowrangi",
+        "ur": "صفورا چورنگی"
+      },
+      "location": {
+        "lat": 24.942,
+        "lng": 67.152
+      },
+      "aliases": [
+        "safora"
+      ]
+    },
+    {
+      "id": "s_maskan",
+      "name": {
+        "en": "Maskan Chowrangi",
+        "ur": "مسکن چورنگی"
+      },
+      "location": {
+        "lat": 24.9345,
+        "lng": 67.11
+      },
+      "aliases": [
+        "maskan"
+      ]
+    },
+    {
+      "id": "s_nipa",
+      "name": {
+        "en": "NIPA",
+        "ur": "نیپا"
+      },
+      "location": {
+        "lat": 24.9175,
+        "lng": 67.097
+      },
+      "aliases": [
+        "nipa chowrangi"
+      ]
+    },
+    {
+      "id": "s_hassan_square",
+      "name": {
+        "en": "Hassan Square",
+        "ur": "حسن اسکوائر"
+      },
+      "location": {
+        "lat": 24.903,
+        "lng": 67.0785
+      },
+      "aliases": [
+        "hasan square"
+      ]
+    },
+    {
+      "id": "s_civic_centre",
+      "name": {
+        "en": "Civic Centre",
+        "ur": "سوک سینٹر"
+      },
+      "location": {
+        "lat": 24.8998,
+        "lng": 67.0712
+      },
+      "aliases": [
+        "civic center"
+      ]
+    },
+    {
+      "id": "s_teen_talwar",
+      "name": {
+        "en": "Teen Talwar",
+        "ur": "تین تلوار"
+      },
+      "location": {
+        "lat": 24.8337,
+        "lng": 67.0336
+      },
+      "aliases": [
+        "3 talwar",
+        "clifton"
+      ]
+    },
+    {
+      "id": "s_boat_basin",
+      "name": {
+        "en": "Boat Basin",
+        "ur": "بوٹ بیسن"
+      },
+      "location": {
+        "lat": 24.8268,
+        "lng": 67.036
+      },
+      "aliases": []
+    },
+    {
+      "id": "s_sohrab_goth",
+      "name": {
+        "en": "Sohrab Goth",
+        "ur": "سہراب گوٹھ"
+      },
+      "location": {
+        "lat": 24.9455,
+        "lng": 67.087
+      },
+      "aliases": [
+        "sohrab goth"
+      ]
+    },
+    {
+      "id": "s_water_pump",
+      "name": {
+        "en": "Water Pump",
+        "ur": "واٹر پمپ"
+      },
+      "location": {
+        "lat": 24.9285,
+        "lng": 67.0632
+      },
+      "aliases": [
+        "waterpump"
+      ]
+    },
+    {
+      "id": "s_ayesha_manzil",
+      "name": {
+        "en": "Ayesha Manzil",
+        "ur": "عائشہ منزل"
+      },
+      "location": {
+        "lat": 24.9228,
+        "lng": 67.0585
+      },
+      "aliases": [
+        "aisha manzil"
+      ]
+    },
+    {
+      "id": "s_karimabad",
+      "name": {
+        "en": "Karimabad",
+        "ur": "کریم آباد"
+      },
+      "location": {
+        "lat": 24.916,
+        "lng": 67.0505
+      },
+      "aliases": [
+        "kareemabad"
+      ]
+    },
+    {
+      "id": "s_liaquatabad_10",
+      "name": {
+        "en": "Liaquatabad No. 10",
+        "ur": "لیاقت آباد نمبر 10"
+      },
+      "location": {
+        "lat": 24.9045,
+        "lng": 67.044
+      },
+      "aliases": [
+        "lalukhet",
+        "liaquatabad"
+      ]
+    },
+    {
+      "id": "s_teen_hatti",
+      "name": {
+        "en": "Teen Hatti",
+        "ur": "تین ہٹی"
+      },
+      "location": {
+        "lat": 24.8925,
+        "lng": 67.044
+      },
+      "aliases": [
+        "3 hatti"
+      ]
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "l_mazar_e_quaid",
+      "name": {
+        "en": "Mazar-e-Quaid",
+        "ur": "مزارِ قائد"
+      },
+      "location": {
+        "lat": 24.8754,
+        "lng": 67.0405
+      },
+      "aliases": [
+        "quaid mazar",
+        "jinnah mausoleum"
+      ]
+    },
+    {
+      "id": "l_empress_market",
+      "name": {
+        "en": "Empress Market",
+        "ur": "ایمپریس مارکیٹ"
+      },
+      "location": {
+        "lat": 24.8606,
+        "lng": 67.0301
+      },
+      "aliases": []
+    },
+    {
+      "id": "l_jpmc",
+      "name": {
+        "en": "Jinnah Hospital",
+        "ur": "جناح ہسپتال"
+      },
+      "location": {
+        "lat": 24.852,
+        "lng": 67.045
+      },
+      "aliases": [
+        "jpmc",
+        "jinnah postgraduate"
+      ]
+    },
+    {
+      "id": "l_civil_hospital",
+      "name": {
+        "en": "Civil Hospital",
+        "ur": "سول ہسپتال"
+      },
+      "location": {
+        "lat": 24.8592,
+        "lng": 67.0105
+      },
+      "aliases": [
+        "civil"
+      ]
+    },
+    {
+      "id": "l_abbasi_shaheed",
+      "name": {
+        "en": "Abbasi Shaheed Hospital",
+        "ur": "عباسی شہید ہسپتال"
+      },
+      "location": {
+        "lat": 24.921,
+        "lng": 67.0337
+      },
+      "aliases": [
+        "abbasi"
+      ]
+    },
+    {
+      "id": "l_aga_khan",
+      "name": {
+        "en": "Aga Khan Hospital",
+        "ur": "آغا خان ہسپتال"
+      },
+      "location": {
+        "lat": 24.8922,
+        "lng": 67.0745
+      },
+      "aliases": [
+        "aku",
+        "aga khan"
+      ]
+    },
+    {
+      "id": "l_karachi_university",
+      "name": {
+        "en": "Karachi University",
+        "ur": "جامعہ کراچی"
+      },
+      "location": {
+        "lat": 24.943,
+        "lng": 67.117
+      },
+      "aliases": [
+        "ku",
+        "university of karachi"
+      ]
+    },
+    {
+      "id": "l_ned",
+      "name": {
+        "en": "NED University",
+        "ur": "این ای ڈی یونیورسٹی"
+      },
+      "location": {
+        "lat": 24.9325,
+        "lng": 67.1118
+      },
+      "aliases": [
+        "ned"
+      ]
+    },
+    {
+      "id": "l_lucky_one",
+      "name": {
+        "en": "Lucky One Mall",
+        "ur": "لکی ون مال"
+      },
+      "location": {
+        "lat": 24.933,
+        "lng": 67.087
+      },
+      "aliases": [
+        "lucky one"
+      ]
+    },
+    {
+      "id": "l_frere_hall",
+      "name": {
+        "en": "Frere Hall",
+        "ur": "فریئر ہال"
+      },
+      "location": {
+        "lat": 24.8476,
+        "lng": 67.033
+      },
+      "aliases": []
+    },
+    {
+      "id": "l_dolmen_tariq",
+      "name": {
+        "en": "Dolmen Mall Tariq Road",
+        "ur": "ڈولمین مال طارق روڈ"
+      },
+      "location": {
+        "lat": 24.8705,
+        "lng": 67.0605
+      },
+      "aliases": [
+        "dolmen"
+      ]
+    },
+    {
+      "id": "l_national_stadium",
+      "name": {
+        "en": "National Stadium",
+        "ur": "نیشنل اسٹیڈیم"
+      },
+      "location": {
+        "lat": 24.896,
+        "lng": 67.081
+      },
+      "aliases": [
+        "stadium"
+      ]
+    },
+    {
+      "id": "l_karachi_zoo",
+      "name": {
+        "en": "Karachi Zoo",
+        "ur": "کراچی چڑیا گھر"
+      },
+      "location": {
+        "lat": 24.876,
+        "lng": 67.023
+      },
+      "aliases": [
+        "zoo",
+        "gandhi garden"
+      ]
+    },
+    {
+      "id": "l_liaquat_national",
+      "name": {
+        "en": "Liaquat National Hospital",
+        "ur": "لیاقت نیشنل ہسپتال"
+      },
+      "location": {
+        "lat": 24.8935,
+        "lng": 67.07
+      },
+      "aliases": [
+        "lnh"
+      ]
+    },
+    {
+      "id": "l_cantt_station_rail",
+      "name": {
+        "en": "Karachi Cantonment Railway Station",
+        "ur": "کراچی کینٹ ریلوے اسٹیشن"
+      },
+      "location": {
+        "lat": 24.8442,
+        "lng": 67.0425
+      },
+      "aliases": [
+        "railway station"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "r_w18",
+      "code": "W18",
+      "name": {
+        "en": "W-18",
+        "ur": "ڈبلیو 18"
+      },
+      "mode": "minibus"
+    },
+    {
+      "id": "r_d7",
+      "code": "D7",
+      "name": {
+        "en": "D-7",
+        "ur": "ڈی 7"
+      },
+      "mode": "minibus"
+    },
+    {
+      "id": "r_g7",
+      "code": "G7",
+      "name": {
+        "en": "G-7",
+        "ur": "جی 7"
+      },
+      "mode": "coach"
+    },
+    {
+      "id": "r_masood",
+      "code": "Masood",
+      "name": {
+        "en": "Masood Coach",
+        "ur": "مسعود کوچ"
+      },
+      "mode": "coach"
+    },
+    {
+      "id": "r_sheraz",
+      "code": "Sheraz",
+      "name": {
+        "en": "Sheraz Coach",
+        "ur": "شیراز کوچ"
+      },
+      "mode": "coach"
+    }
+  ],
+  "variants": [
+    {
+      "id": "r_w18_a",
+      "routeId": "r_w18",
+      "towards": {
+        "en": "Tower",
+        "ur": "ٹاور"
+      },
+      "stopIds": [
+        "s_power_house",
+        "s_up_more",
+        "s_nagan",
+        "s_sakhi_hassan",
+        "s_five_star",
+        "s_hyderi",
+        "s_board_office",
+        "s_nazimabad_1",
+        "s_lasbela",
+        "s_gurumandir",
+        "s_numaish",
+        "s_saddar",
+        "s_regal",
+        "s_tower"
+      ],
+      "shape": "wbowC_mixKnqAoKbo@_DzkAf|@jsAbmA~Wnd@~iAka@noBvcAbmAnK~iAwj@rl@b[nqAzTzOb[rl@ftD"
+    },
+    {
+      "id": "r_w18_b",
+      "routeId": "r_w18",
+      "towards": {
+        "en": "Power House Chowrangi",
+        "ur": "پاور ہاؤس چورنگی"
+      },
+      "stopIds": [
+        "s_tower",
+        "s_regal",
+        "s_saddar",
+        "s_numaish",
+        "s_gurumandir",
+        "s_lasbela",
+        "s_nazimabad_1",
+        "s_board_office",
+        "s_hyderi",
+        "s_five_star",
+        "s_sakhi_hassan",
+        "s_nagan",
+        "s_up_more",
+        "s_power_house"
+      ],
+      "shape": "srtvCcg|wKsl@gtD{Oc[oqA{Tsl@c[_jAvj@cmAoKooBwcA_jAja@_Xod@ksAcmA{kAg|@co@~CoqAnK"
+    },
+    {
+      "id": "r_d7_a",
+      "routeId": "r_d7",
+      "towards": {
+        "en": "Kala Pul",
+        "ur": "کالا پل"
+      },
+      "stopIds": [
+        "s_orangi_5",
+        "s_qasba",
+        "s_banaras",
+        "s_site",
+        "s_golimar",
+        "s_lasbela",
+        "s_gurumandir",
+        "s_jail_chowrangi",
+        "s_bahadurabad",
+        "s_tariq_road",
+        "s_nursery",
+        "s_ftc",
+        "s_kala_pul"
+      ],
+      "shape": "{pgwCc`}wKbt@{fAbmArNryAfEnd@gpAfpAkz@~iAwj@wQwcAzT_|Bzr@f^vy@we@~u@v~@bt@ja@"
+    },
+    {
+      "id": "r_d7_b",
+      "routeId": "r_d7",
+      "towards": {
+        "en": "Orangi Town No. 5",
+        "ur": "اورنگی ٹاؤن نمبر 5"
+      },
+      "stopIds": [
+        "s_kala_pul",
+        "s_ftc",
+        "s_nursery",
+        "s_tariq_road",
+        "s_bahadurabad",
+        "s_jail_chowrangi",
+        "s_gurumandir",
+        "s_lasbela",
+        "s_golimar",
+        "s_site",
+        "s_banaras",
+        "s_qasba",
+        "s_orangi_5"
+      ],
+      "shape": "kssvCsqgxKct@ka@_v@w~@wy@ve@{r@g^{T~{BvQvcA_jAvj@gpAjz@od@fpAsyAgEcmAsNct@zfA"
+    },
+    {
+      "id": "r_g7_a",
+      "routeId": "r_g7",
+      "towards": {
+        "en": "Tower",
+        "ur": "ٹاور"
+      },
+      "stopIds": [
+        "s_malir_15",
+        "s_malir_halt",
+        "s_star_gate",
+        "s_drigh_road",
+        "s_karsaz",
+        "s_baloch_colony",
+        "s_nursery",
+        "s_ftc",
+        "s_cantt",
+        "s_saddar",
+        "s_tower"
+      ],
+      "shape": "_}{vCsndyKcBryAjHnsEkHbjEjz@zjDfw@v|A~k@~u@~u@v~@r`AvpBgiBvhAn}@jpE"
+    },
+    {
+      "id": "r_g7_b",
+      "routeId": "r_g7",
+      "towards": {
+        "en": "Malir 15",
+        "ur": "ملیر 15"
+      },
+      "stopIds": [
+        "s_tower",
+        "s_saddar",
+        "s_cantt",
+        "s_ftc",
+        "s_nursery",
+        "s_baloch_colony",
+        "s_karsaz",
+        "s_drigh_road",
+        "s_star_gate",
+        "s_malir_halt",
+        "s_malir_15"
+      ],
+      "shape": "srtvCcg|wKo}@kpEfiBwhAs`AwpB_v@w~@_l@_v@gw@w|Akz@{jDjHcjEkHosEbBsyA"
+    },
+    {
+      "id": "r_masood_a",
+      "routeId": "r_masood",
+      "towards": {
+        "en": "Boat Basin",
+        "ur": "بوٹ بیسن"
+      },
+      "stopIds": [
+        "s_safoora",
+        "s_maskan",
+        "s_nipa",
+        "s_hassan_square",
+        "s_civic_centre",
+        "s_jail_chowrangi",
+        "s_gurumandir",
+        "s_numaish",
+        "s_saddar",
+        "s_cantt",
+        "s_teen_talwar",
+        "s_boat_basin"
+      ],
+      "shape": "onfwC_szxKzm@neGfiBfpAryArrB~Rrl@vaBviCvQvcArl@b[nqAzTfiBwhAf|@fr@bj@_N"
+    },
+    {
+      "id": "r_masood_b",
+      "routeId": "r_masood",
+      "towards": {
+        "en": "Safoora Chowrangi",
+        "ur": "صفورا چورنگی"
+      },
+      "stopIds": [
+        "s_boat_basin",
+        "s_teen_talwar",
+        "s_cantt",
+        "s_saddar",
+        "s_numaish",
+        "s_gurumandir",
+        "s_jail_chowrangi",
+        "s_civic_centre",
+        "s_hassan_square",
+        "s_nipa",
+        "s_maskan",
+        "s_safoora"
+      ],
+      "shape": "o~ovC_~cxKcj@~Mg|@gr@giBvhAoqA{Tsl@c[wQwcAwaBwiC_Ssl@syAsrBgiBgpA{m@oeG"
+    },
+    {
+      "id": "r_sheraz_a",
+      "routeId": "r_sheraz",
+      "towards": {
+        "en": "Gurumandir",
+        "ur": "گرومندر"
+      },
+      "stopIds": [
+        "s_sohrab_goth",
+        "s_water_pump",
+        "s_ayesha_manzil",
+        "s_karimabad",
+        "s_liaquatabad_10",
+        "s_teen_hatti",
+        "s_gurumandir"
+      ],
+      "shape": "kdgwCw|mxKfiBvsCrb@j\\ni@~p@zfArg@~iA?zfAnd@"
+    },
+    {
+      "id": "r_sheraz_b",
+      "routeId": "r_sheraz",
+      "towards": {
+        "en": "Sohrab Goth",
+        "ur": "سہراب گوٹھ"
+      },
+      "stopIds": [
+        "s_gurumandir",
+        "s_teen_hatti",
+        "s_liaquatabad_10",
+        "s_karimabad",
+        "s_ayesha_manzil",
+        "s_water_pump",
+        "s_sohrab_goth"
+      ],
+      "shape": "gqzvCojdxK{fAod@_jA?{fAsg@oi@_q@sb@k\\giBwsC"
+    }
+  ],
+  "meta": [
+    {
+      "entity": "variant",
+      "id": "r_w18_a",
+      "source": "sample",
+      "verifiedAt": null
+    },
+    {
+      "entity": "variant",
+      "id": "r_w18_b",
+      "source": "sample",
+      "verifiedAt": null
+    },
+    {
+      "entity": "variant",
+      "id": "r_d7_a",
+      "source": "sample",
+      "verifiedAt": null
+    },
+    {
+      "entity": "variant",
+      "id": "r_d7_b",
+      "source": "sample",
+      "verifiedAt": null
+    },
+    {
+      "entity": "variant",
+      "id": "r_g7_a",
+      "source": "sample",
+      "verifiedAt": null
+    },
+    {
+      "entity": "variant",
+      "id": "r_g7_b",
+      "source": "sample",
+      "verifiedAt": null
+    },
+    {
+      "entity": "variant",
+      "id": "r_masood_a",
+      "source": "sample",
+      "verifiedAt": null
+    },
+    {
+      "entity": "variant",
+      "id": "r_masood_b",
+      "source": "sample",
+      "verifiedAt": null
+    },
+    {
+      "entity": "variant",
+      "id": "r_sheraz_a",
+      "source": "sample",
+      "verifiedAt": null
+    },
+    {
+      "entity": "variant",
+      "id": "r_sheraz_b",
+      "source": "sample",
+      "verifiedAt": null
+    }
+  ]
+}

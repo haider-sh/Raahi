@@ -1,0 +1,11 @@
+{
+  "_readme": "Raahi logo geometry in a 1024x1024 box, shared by scripts/build-brand-assets.mjs (icons, splash PNGs) and the animated splash (the moving dot follows this exact curve). The route line is a cubic Bezier from `lineStart` via c1, c2 to the destination dot's centre.",
+  "size": 1024,
+  "start": { "x": 280, "y": 740, "r": 58, "ring": 30 },
+  "end": { "x": 744, "y": 284, "r": 72 },
+  "lineStart": { "x": 419, "y": 740 },
+  "c1": { "x": 700, "y": 740 },
+  "c2": { "x": 330, "y": 284 },
+  "stroke": 72,
+  "colors": { "green": "#0B6E4F", "greenLight": "#13895F", "greenDark": "#085A40", "line": "#FFFFFF", "amber": "#F2B300" }
+}

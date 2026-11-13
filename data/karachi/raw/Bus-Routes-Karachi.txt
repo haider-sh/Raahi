@@ -1,0 +1,1775 @@
+Bus Routes Karachi
+January 2010
+
+Route #: 1-A
+Stops:
+Faqir Colony, Metroville, Bawany Ghali, Valika Mill, Habbib Bank, Petrol Pump, Lasbela, Sabilwali
+Masjid, Old Exhibition, Sadar, Frere Road, Burns Road, Bandar Road, Tower
+Route #: 1-B
+Stops:
+Nazimabd, Bara Maidan, Lasbela, Lawrence Road, Barness Street, Bandar Road, Tower
+Route #: 1-C
+Stops:
+M.P.R Colony, Qasba Colony, Banaras Colony, Pathan Colony, S.I.T.E, Habib Bank, Bismillah
+Hotel, Gandhi Garden, Garden Road, Plaza, Regal, Shahra-e-Liaquat, National Museum, Tower,
+Sultanabad
+Route #: 1-D
+Stops:
+Ittehad Town, Torri Chowk Sector II, Orangi Township, Banaras Colony, Pathan Colony, Petrol
+Pump, Liaquatabad No. 10, Liaquatabad, Post Office, Teen Hatti, Jehangir Road, Empress
+Market, Cantt Station
+Route #: 1-F
+Stops:
+Naval Colony, Mauripur, Gulbai Chowk, Tower, Juna Market, Ramswami, Garden Bara Board,
+Valika, Orangi Township No. 10
+Route #: 1-G
+Stops:
+M.W Tower, Frere Road, Sadar, Numaish, Goro Mandir, Teen Hatti, Liaquat No. 10, Petrol Pump,
+Nazimabad No. 2, Gandhi Chowk, Paposh Nagar, Abdullah College, Metro Cinema, Data Chowk
+Orangi Town
+Route #: 1-H
+Stops:
+Gulshan-e-Bahar, Orangi Sector No. 14, Orangi Sector No. 13, Orangi Sector No. 7, Orangi
+Sector No. 5, Qadafi Chowk, Qasba Mour, Banaras Colony, Valika Hospital, Valika Mill, Habib
+Bank, S.I.T.E, Post Office, Maroon Mill, Laltain Factory, Ghani Chowk, Shershah, Miran Naka,
+Chakiwara, Lee Market, Kharadar, Jamat Khana, Tower
+Route #: 1-K
+Stops:
+Tower, Regal Cinema, Plaza, Garden, Pakistan Quarters, Bara Board, Banaras, Qasba Mour,
+Orangi Sector No. 1, Metro Cinema, Orangi Sector No. 5, Masjid-e-Usman
+Route #: 10
+Stops:
+Nursery, P.E.C.H.S, Society Office, Jamshed Road, New Town Masjid, Municipal Dispensary,
+Guru Mandir, K.M.C Primary School, Old Exhibition, Plaza Cinema, Saeed Manzil, Boulton
+Market, Tower
+Route #: 10-A
+Stops:
+Lal Kothi, Nursery, Shahrah-e-Millat Road, Jamaluddin Afghani Road, Khalid Bin Walid Road,
+P.E.C.H.S, Society Office, Kudadad Colony, M.A Jinnah Road, Frere Street, Preedy Street, Frere
+Road, Burns Road, Bunder Road, Tower
+
+Route #: 11
+Stops:
+End of Sector 4 Baldia Town, Shershah, Gulbai, Kharadar, Tower, City P.O Burns Road, Frere
+Road, Regal, Empress Market, Katrak Road, M.A Jinnah Road, Old Exhibition, Shahrah-eQaideen, Khudadad Colony, Qabrustan, Tariq Road, Bahadurabad, Khatoon-e-Pakistan College,
+Dhoraji Society
+Route #: 11-A
+Stops:
+Gulistan-e-Johar, Sufari Park, N.I.P.A Chowrangi, Civic Centre, Sabzi Mandi, Jail Road,
+Hyderabad Colony, Guru Mandir, Numaish, Saddar, Regal, Saeed Manzil, M.A Jinnah Road
+Route #: 11-B
+Stops:
+Super Market (Near Maymar Flats), Sehrah Goth, Water Pump, Fazal Mills, Rashid Minhas Road,
+Moti Mahal, N.I.P.A Chowrangi, Mouchi Mor No 5, Urdu College, Hasan Square, Sabzi Mandi,
+Bahadurabad, Tariq Road, Nursery, Gora Qabrustan, Fleet Club Shahrah-e-Iraq, Masid-e-Khizra,
+Burns Road, M.A Jinnah Road, Tower, Khoja Jamat Khana, Baghdadi, Agra Taj Colony
+Route #: 11-C
+Stops:
+Azam Basti, Corporation, Kalapul, Jinnah Hospital, Saddar, 7th Day Hospital, Numaish, Guru
+Mandir, Islamia College, Jail Road, New Town Police Station, Sabzi Mandi, Civic Centre, Urdu
+College, N.I.P.A Chowrangi, Safari Park, University Road, Safoora Goth
+Route #: 11-D
+Stops:
+Power House, Nursery, Saddar, Tower, Al-Noor Gulberg, Water Pump, Karimabad, Dockyard
+Route #: 11-E
+Stops:
+Water Pump, Lalukhat, Teen Hatti, Guru Mandir, Saddar, Tower, Dockyard
+Route #: 13
+Stops:
+Drigh Colony Sector No 3, Iqbal Shaheed Road, Fleet Club, Nursery
+Route #: 13-B
+Stops:
+Drigh Colony sector No 3, Drigh Road Station, Karsaz lal kothi, Nursery, Shahrah-e-qaideen,
+Numaish, Tower, Wood street, Frere Road, Burns Road, M.A jinnah Road
+Route #: 16-F
+Stops:
+Nasir Colony, Landhi No. 1, Malir, Drigh Road, Cantt Station, Karsaz, National Stadium, Civic
+Centre, Liaquatabad No. 16, Aisha Manzil, Water Pump, Sohrab Goth, Power House, New
+Karachi, Godhra Camp
+Route #: 16-F
+Stops:
+Nasir Colony, Korangi No 4, Korangi No 6, Landhi No 1, Malir, Drigh Road, Karsaz, National
+stadium, Civic Centre, Liaquatabad No 10, Karimabad, Aisha manzil, Water Pump, Sohrab goth,
+Power house, Godhra camp
+
+Route #: 17-H
+Stops:
+Saddar, Jinnah central hospital, Kalapul, Korangi Road, Korangi No 5-1/2, Dhobi Ghat
+Route #: 17-I
+Stops:
+Ghouspak, Coast guard, Korangi No 2, Nasir Colony, Chamra Chowrangi, Jam saddiq ali bridge,
+Akhtar Colony, Kalapul, Jinnah hospital, Lucky star, Saddar, Dr. Dowood pota Road, M.A jinnah
+Road, Guru Mandir, Islamia college, Jail Road, Agha khan hospital, Dalmia, Driven Cinema,
+Rashid minhas Road, N.I.P.A, Safari Park, Gulistan-e-Jauher, Pehalwan Goth
+Route #: 17-I
+Stops:
+Khadda Quarters, Market No. 6, Tasweer Mahal, 100 Quarters, Dhobi Ghat, Korangi No. 6,
+Qayumabad, Defence Society, Jinnah Hospital, Raja Ghazanfar Ali Road
+Route #: 17-J
+Stops:
+Babar Market, Landhi No. 3 1/2, Landhi No. 5, Korangi No. 6, Korangi No. 5, Korangi No. 3,
+Korangi No. 1, Korangi Crossing, Qayumabad, Akhtak Colony, Defence Society, Kala Pul, Jinnah
+Hospital, Luck Star Hotel, Hijaz Dairy Farm
+Route #: 17-J
+Stops:
+Babar Market, Landhi 3-1/2, Landhi No 5, Korangi No 6 , Korangi No 5, Korangi No 3, Korangi No
+1, Korangi Crossing, Qayumabad, Akhtar Colony, Defence society, Kalapul, Jinnah hospital,
+lucky star
+Route #: 17-K
+Stops:
+Khadda quaters, Market No 6, Tasweer mahal, Dhobi ghat, Korangi No 6, Qayumabad, Defence
+society, Jinnah hospital, Raja Ghazanfar Ali Road
+Route #: 18-K
+Stops:
+Surjani Town, Nagan Chowrangi, Sohrab Goth, N.I.P.A Chowrangi, Malir, Quaidabad, Landhi,
+Korangi
+Route #: 18-K
+Stops:
+Surjani Town, Nagan Chowrangi, Sohrab Goth, N.I.P.A Chowrangi,Gulshan-e-Iqbal ,Malir,
+Quaidabad, Landhi, Korangi
+Route #: 19-B
+Stops:
+P.A.T Colony, Clifton bridge, Bleak house Road, Cantt Station, Frere Road, Burns Road, S.M
+college, Mcleod Road, Tower, Kemari
+Route #: 19-C
+Stops:
+Faqir Colony, Mohajir camp No 7-1/2, Shershah, Estate avenue, Habib bank, Nazimabad No 2,
+Liaquatabad No 10, Essa nagari, Hasan square, Sabzi mandi, Bahadurabad, Tariq Road,
+Shahrah-e-qaideen, Khudadad Colony, Jigar muradavadi Road, Society office
+
+Route #: 19-D
+Stops:
+Faqir Colony, Ruby cinema, Hub river Road, Shershah, Chakiwara, Lee Market, Haji camp,
+Jamila street, Nishter Road, Baba-e-urdu Road, Shahrah-e-liaquat, Fresco Chowk, Mohammad
+bin qasim Road, M.A jinnah Road, Mansfield street, Empress Market, Mir karam Ali Talpur Road,
+Wellington Street, Cantt Station, Clifton, Delhi Colony, Gizri
+Route #: 19-E
+Stops:
+Gizri, Delhi Colony, Clifton bridge, Cantt Station, Frere Road, Burns Road, Tower, Kharadar, Lee
+Market, Chaliwara, Shershah, Mohajir camp, Saeedabad
+Route #: 2-D
+Stops:
+Federal B. Area, Noorani Masjid, Peoples Colony, Imam Bara, Humayun Road, K.D.A Office,
+North Nazimabad, Board Office, Nazimabad No. 7, Petrol Pump, Lasbella, Sabil Wali Masjid,
+Soldier Bazar, Saddar, Frere Road, M.W Tower, Noorani Masjid
+Route #: 2-K
+Stops:
+North Nazimabad Block M, Shahra-e-Jehangir, Water Pump, Hyderi, Paposh Nagar, Bara
+Maidan, Nazimabad No. 2, Petrol Pump, Guru Mandir, Saddar, Burns Road, Mereweather Tower,
+Keamari
+Route #: 20
+Stops:
+Shirin jinnah Colony, Clifton, Mehata palace, Clifton bridge, Bagh-e-jinnah, Metropole hotel,
+Lucky star, Saddar, Garden, Old golimar, Bara Board, Habib bank, Valika stop, Police Station,
+S.I.T.E, Labour square, Rashidabad
+Route #: 21
+Stops:
+Lucky star(Asghar shaheed Road), Shahrah-e-iraq, Mir karam ali talpur Road, Cantt Station,
+Meshang Road, Kutchery Road, New Queens way, Native jetty, Tower, Dockyard
+Route #: 22
+Stops:
+Behar Colony, Hasan Road, Meesa lane, Kharadar, M.W tower, Dockyard
+Route #: 22-A
+Stops:
+Rashidabad, Bihar Colony, Ghani Chowrangi, Shershah, Chakiwara, Lee Market, Herchandrai
+Road, Haji camp Road, Nishter Road, Baba-e-urdu, Frere Road, Court Road, Sarwar shaheed
+Road, Shahrah-e-iraq, Masjid-e-khizra, Burns Road, M.A jinnah Road, Cantt Station
+Route #: 22-B
+Stops:
+Agra taj Colony, Kalri, Baghdadi, Meesa lane, Kharadar, Khajeer Bazar, Lea Market, Purani haji
+camp, Ranchore lines, Sho Market, Garden, Pakistan quaters, Khaja jamat khana, Lasbela, Teen
+hatti, New Town, Liaquat hospital, Dhoraji society, National stadium, National Cement Factory,
+Naval Quaters, Labour Quaters, Drigh Road, Natha khan Goth, Air Port, Malir, Landhi,
+Quaidabad, Qazafi Town
+
+Route #: 23
+Stops:
+Nursery, frere Road, Tower, Wazir mansion, Gulbai
+Route #: 23-A
+Stops:
+Tower, Gulbai, Grazy Colony, Naval Colony, Mauripur
+Route #: 24
+Stops:
+Shahrah-e-iraq, Frere Road, Empress Market, Mansfield street, Bunder Road, Guru Mandir, Teen
+hatti, Lasbela, Golimar, Nazimabad, Habib bank, Valika mills, Bawani textile mills, Habib mills,
+A.B biscuit factory, Polytechnic college, Shershah, Baldia Colony, Saeedabad
+Route #: 24-A
+Stops:
+Court Road, Frere Road, Empress Market, Mansfield street, Bunder Road, Guru mandir,
+Nazimabad, Habib bank, Valikaa mills, Bawani textile mills, Habib mills, A.B biscuit factory,
+Polytechnic college, Shershah, Baldia Colony, Saeedabad
+Route #: 3
+Stops:
+Nusrat Bhutto Colony, Abdullah College, Paposh Nagar, Bara Maidan, Nazimabad No. 2, Petrol
+Pump, Lasbela, Patel Para, Goro Mandir, M.A Jinnah Road, Tower Keamari
+Route #: 3 Star Coach
+Stops:
+Al-Azam Town, Gulshan Chowrangi, N.I.P.A, Civic Centre, Sabzi Mandi, Bahadurabad, Tariq
+Road, F.T.C, Fuwara Chowk, I.I Chundrigar Road, Tower, Dockyard
+Route #: 3-K
+Stops:
+Nusrat Bhutto Colony, Abdullah College, Paposh Nagar, Bara Maidan, Nazimabad No. 2, Petrol
+Pump, Guru Mandir, M.A Jinnah Road, Tower, Keamari
+Route #: 4
+Stops:
+New Karachi, K.D.A Office, Al-Hyderi, State Bank Quarters, Nazimabad Chowrangi 2, Nazimabad
+Chowrangi 1, Lawrence Road, Bandar Road, Tower
+Route #: 4-A
+Stops:
+Nai Abadi, Gulshan-e-Saeed Hassan, North Karachi Sector No. 5-I, Two Minutes Chowrangi,
+Kala School, A.P.W.A School, New Karachi No. 1, New Karachi No. 2, New Karachi No. 3, Sakhi
+Hassan, Water Pump, Hyderi, K.D.A Office, Petrol Pump, Nazimabad, Habib Bank, Shershah,
+Agra Taj Colony, Baghdadi, Kharadar, Tower, Kemari
+Route #: 4-B
+Stops:
+New Karachi, Industrial Area, Karimabad, Liaquatabad, Teen Hatti, Goro Mandir, M.A Jinnah
+Road, Bandar Road, Preedy Street, Police Station, Saddar
+Route #: 4-C
+Stops:
+New Karachi Block 5-F, Industrial Area, Karimabad, Liaquatabad, Teen Hatti, Goro Mandir, M.A
+
+Jinnah Road, Bandar Road, Preedy Street, Police Station, Saddar
+Route #: 4-D
+Stops:
+New Karachi Sector 5-D, K.D.A Office, Al-Hyderi, State Bank Quarters, Nazimabad, Lasbela
+House, Ojha Road, Goro Mandir, Empress Market, Frere Road, Buns Road, Bandar Road, Tower
+Route #: 4-F
+Stops:
+New Karachi Sector 5-E, New Karachi Sector 5-D, Sindhi Hotel, New Karachi Sector 5, New
+Karachi Sector II-C, Karimabad, Liaquatabad, Teen Hatti, Jehangir Road, Old Exhibition, Plaza,
+Regal Cinema
+Route #: 4-G
+Stops:
+Nai Abadi, Karella Mour, Power House, Saleem Centre, U.P Mour, Nagan Chowrangi, Sakhi
+Hassan, Hyderi, Board Office, Petrol Pump, Liaquat No. 10, Post Office, Teen Hatti, Goro Mandir,
+Numaish, Saddar, Empress Market, Frere Road, Buns Road, M.A Jinnah Road, Tower
+Route #: 4-H
+Stops:
+Surjani Town, Yosuf Goth, Lal Market, New Karachi, Water Pump, Karimabad, Liaquatabad No.
+10, Teen Hatti, Goro Mandir, 7th Day Hospital, Empress Market, Lucky Star, Jinnah Hospital,
+Cantt Stations, Clifton Bridge, Gizri, Ack Ack School
+Route #: 4-J
+Stops:
+Nai Abadi, Saleem Centre, Nagan Chowrangi, Sakhi Hassan, Hyderi, Board Office, Petrol Pump,
+Liaquatabad, Goro Mandir, M.A Jinnah Road, Dockyard, Tower
+Route #: 4-K
+Stops:
+Kali Market, New Karachi, K.D.A Office, Al-Hyderi, State Bank Quarters, Nazimabad Chowrangi,
+Napier Road, Bander Road, Tower
+Route #: 4-L
+Stops:
+Maymar Complex, Al-Asif Plaza, Sohrab Goth, Water Pump, Karimabad, Liaquatabad, Teen
+Hatti, Numaish, Saddar, Empress Market, Buns Road, M.A.Jinnah Road, Tower
+Route #: 4-M
+Stops:
+Nai Abadi, Nagan Chowrangi, Sakhi Hassan, Gulberg, Water Pump, Karimabad, Liaquatabad,
+Teen Hatti, Sabilwali Masjid, Purani Numaish, M.A Jinnah Road, Capri Cinema, Mansfield Street,
+Preedy Street, Mir Karim Ali Talpur Road, Fleet Club, Jinnah Hospital, Cantt Station
+Route #: 4-N
+Stops:
+Lal Market 5-F, Al-Hyderi, Nazimabad, Golimar, Lasbela, Goro Mandir, M.A Jinnah Road,
+Empress Market, Regal, Saeed Manzil, Bandar Road, Tower
+Route #: 4-P
+Stops:
+Sweeper Colony, Sindhi Hotel, Godhra Camp, Power House, Sohrab Goth, Water Pump,
+Karimabad, Lalukhet No. 10, Teen Hatti, Lasbela, Garden, Ranchore Lane, Juna Market, Dens
+
+Hall, Tower, Dockyard
+Route #: 4-Q
+Stops:
+Filter Plant, Sohrab Goth, Karimabad, Liaquatabad, Teen Hatti, Goro Mandir, M.A Jinnah Road,
+Tower, Keamari
+Route #: 4-S
+Stops:
+Surjani Town, Two Minutes Chowrangi, Saleem Centre, U.P Mour, Nagan Chowrangi, Shadman
+Town, Sakhi Hassan, Hyderi, Board Office, Nazimabad No. 7, Nazimabad No. 6, Nazimabad
+Chowrangi, Lasbela House, Goro Mandir, Numaish, M.A Jinnah Road, Eidgah, Tower
+Route #: 5
+Stops:
+Al-Noor Society, New Karachi, Aisha Manzil, North Nazimabad, Fedral B. Area Block-H
+Chowrangi, Imam Bara, Hussaini Sajjadia Chowrangi, Moosa Colony, A.P.W.A Girls College,
+Karimabad Chowrangi, Liaquatabad, Teen Hatti, Goro Mandir, M.A Jinnah Road, Bandar Road,
+Keamari
+Route #: 5-A
+Stops:
+Ack Ack School, Gizri, Clifton, Bleak House Road, Cantt Station, Sarwar Shaheed Road, Court
+Road, Bander Road, Tower, Bangali Oil mills, Paracha Mill, Baldia Colony No. 6, Baldia Colony
+No. 7, Qabrustan, Chandni Chowk, Ruby Cinema, Saeedabad
+Route #: 5-A
+Stops:
+Fedral B. Area, Liaquatabad, Teen Hatti, Goro Mandir, M.A Jinnah Road, Bandar Road, Tower,
+Dockyard
+Route #: 5-B
+Stops:
+Ittehad Town, Nai Abadi, Balda Colony, National Motors, Shershah, Chakiwara, Lee Market, Old
+Haji Camp Road, Nishter Road, Teen Hatti, Liaquatabad No. 10, Gharibabad, Hassan Square,
+Sabzi Mandi
+Route #: 5-C
+Stops:
+Gulberg Colony, Rahimabad, K.D.A Pump House, Wahadat Colony, Saghirabad, Nasirabad,
+Dastagir Colony, Azizabad, Liaquatabad, Teen Hatti, Goro Mandir, M.A Jinnah Road, Frere
+Street, Preedt Street, Frere Road, Buns Road, Tower
+Route #: 5-D
+Stops:
+Fedral B. Area, Liaquatabad No. 10, Teen Hatti, Goro Mandir, Old Exhibition, Empress Market,
+Frere Road, Buns Road, Bandar Road, Tower, Dockyard
+Route #: 5-E
+Stops:
+Surjani Town, Kala School, U.P Mour, Nagan Chowrangi, Power House, Sohrab Goth,
+Karimabad, Liaquatabad No. 10, Liaquatabad Post Office, Teen Hatti, P.I.B Colony
+Route #: 5-F
+Stops:
+Al-Noor Society, Water Pump, Aisha Manzil, North Nazimabad, Al-Hyderi, Altaf Nagar,Bara
+
+Maidan, Goro Mandir, Old Exhibition, Empress Market, Frere Road, Buns Road, Bandar Road,
+Tower, Keamari
+Route #: 5-G
+Stops:
+New KarachiSector II-E Area, Power House, Al-Noor Society, Gulberg, Water Pump,
+Liaquatabad, Teen Hatti, Lawrence Road, Haji Camp Road, Lee Market, Shershah, Delhi Colony
+Route #: 5-K
+Stops:
+Surjani Town, Two Minutes Chowrangi, Power House, Nagan Chowrangi, Buffer Zone, Sohrab
+Goth, Saghir Centre, Fazal Mills, Rashid Minhas Road, Drigh Road, Station, Shahra-e-Faisal,
+Star Gate, Malir Halt, Malir No. 15, Quaidabad, Dawood Chowrangi, Landhi 89, Bilal Chowrangi
+hospital, Labour Square
+Route #: 50
+Stops:
+Memon goth, Malir city, National highway, Dalmia cement factory, Jail Road, Lawrence Road,
+Haji camp Road, Moch Goth
+Route #: 50-A
+Stops:
+Hashim Goth, Memon goth, Malir city, National highway, Dalmia cement factory, Jail Road,
+Lawrence Road, Haji camp Road, Lee Market
+Route #: 50-B
+Stops:
+Moach goth, Haji camp Road, Lawrance Road, Garden, Lasbela, Teen hatti, Jail Road, Dalimia
+cement factory Road, National highway, Kala Board, Saudabad, Mian dad goth
+Route #: 50-C
+Stops:
+Ittefaq Colony Malir, Gharibabad, Khokhrapar No 1, Khokhrapar No 2, Khokhrapar No 3,
+Khokhrapar No 4, Saudabad, Jinnah square, Malir malt, Cheta gate, Drigh Road, statin, Rashid
+minhas Road, National cement Ffactory, Naval Colony, National Stadium, Agha Khan Hospital,
+New Town Police Station, Guru Mandir, Numaish, Bander Road, Tower
+Route #: 51
+Stops:
+Pir Sahib Goth, Saleh Mohammad Goth, Landhi, Malir City, National Highway, Dalimia Cement
+Factory, Jail Road, Martin Road, Teen Hatti, Lasbela, Lawrence Road, Haji Camp Road, Moach
+Goth
+Route #: 51-A
+Stops:
+Shidi Village, Peer sarhandi Village, Lashari Village, Meesa Goth, Model Village, Chaukandi,
+National Highway, Qauidabad, Malir City, National Stadium Road, Garden, Lea Market
+Route #: 52-A
+Stops:
+Labour Square, Gul Mohammad Chowrangi, Metropolitan Steel Corporation, Qazafi Town,
+Quaidabad, Landhi, Malir City, Drigh Road, Jail Road, Nishter Road, Lee Market, Agha Khan
+Jamat Khana, G.Allana Road, Kheja Jamat Khana, Dockyard, Fisheries
+
+Route #: 53
+Stops:
+Kenker, Bukhari Bijari Bhatti, Haji Jikhria, Malir Cantt, University Road, Jail Road, Teen Hatti,
+Lawrence Road, Haji Camp Road, Lee Market
+Route #: 53-A
+Stops:
+Lee Market, Manghopir Road, Banaras Colony, New Karahci Saindad Goth, Razi B.B Member
+Goth, Angara Goth, Geram-ka-Goth, New Kenker, Gadap Goth
+Route #: 53-B
+Stops:
+Washail Bagh, Gadap, Muderwah, Kenker, Bakhari Bijara Bhatti, Haji Jikhria, Malir Cantt,
+University, Jail Road, Teen Hatti, Lawrence Road, Haji Camp Road, Lee Market
+Route #: 54
+Stops:
+Kathere, National Highway, Dalimia Cement Factory Road, Jail Road, Martin Road, Lawrence
+Road, Haji Camp Road, Moach Goth
+Route #: 54-A
+Stops:
+Moria Faqir Goth, Mohammad Murad Gokhia Goth, Kathere, National Highway, Dalimia Cement
+Factory Road, jail Road, Martin Road, Lawrence Road, Haji camp Road, Lee Market
+Route #: 55
+Stops:
+Malir City, National Highway, Dalimia Cement Factory Road, Jial Road, Martin Road, Lawrence
+Road, Haji camp Road, Lee Market
+Route #: 55-A
+Stops:
+Darsana Chana, Malir City, National Highway, Dalimia Cement Factory Road, Jial Road, Martin
+Road, Lawrence Road, Napier Road, Marriet Road, South Napier Road
+Route #: 55-B
+Stops:
+Darsana Chana, Malir City, National Highway, Dalimia Cement Factory Road, Jial Road, Martin
+Road, Lawrence Road, Haji Camp Road, Lee Market
+Route #: 56
+Stops:
+Hub River Road, Baldia Colony, Shershah, Chakiwara
+Route #: 57
+Stops:
+Naval Colony, Mauripur Village, Dhobi Ghat, Pir Bokhari, Shershah, Chakiwara, Lee Market
+Route #: 57-A
+Stops:
+Naval Colony, Mauripur, Gulbai, Agra Taj Colony, Wazir Mansion, Kharadar, M.W Tower, Ghas
+Bunder, Post Office, Kearmari
+Route #: 57-B
+Stops:
+Naval Colony( Hub River Road), Mohajir Camp, Shershah, Miran Naka, Chakiwara, Lee Market,
+
+Mohabbat khanji Road, Khoja Jamat Khana, Custom House, Tower
+Route #: 58
+Stops:
+Bund Murad Khan, Manghopir, Banaras Colony, Valika Mills, Bara Board, Rexer Lines, Dhobi
+Ghat, Lee Market
+Route #: 58-A
+Stops:
+Lee Market, Dhobi Ghat, S.I.T.E, Manghopir, Bund Murad Khan, Long Lehar, Hub Dam Colony
+Route #: 59
+Stops:
+Gadap, Manghopir, Banaras Colony, Valika Mills, Bara Board, Rexer Lines, Lea Market
+Route #: 6
+Stops:
+Dastagir Colony, Azizabad, Liaquatabad, Teen Hatti, Goro Mandir, M.A Jinnah Road, Frere
+Street, Preedy Street, Frere Road, Buns Road, Tower
+Route #: 6-B
+Stops:
+Yasinabad Alliaabad, Hussainabad, Karimabad, Liaquatabad No. 10, Petrol Pump, Nazimabad
+Chowrangi, Golimar, Lasbela, Goro Mandir, M.A Jinnah Road, Saddar, Buns Road, Light House,
+Tower
+Route #: 60
+Stops:
+Sindhi Hotel New Karachi, Manhgopir Road, Banaras Colony, Valika Mills, Bara Board, Rexer
+Lines, Dhobi Ghat, Faqir Mohammad Durra Khan Road, Herchandrai Road, Lee Market
+Route #: 7
+Stops:
+Gulshan-e-Iqbal 13-D-2, Samdani Hospital, Gulshan-e-Iqbal Block 5 Chowrangi, Rashid Minhas
+Road, N.I.P.A, University Road, Hassan Square, Liaquatabad No. 10, Liaquatabad Post Office,
+Teen Hatti, Goro Mandir, M.A Jinnah Road, Frere Street, Preedy Street, Ferer Road, Burns
+Road, Bundar Road, Tower
+Route #: 7 Star Flying Coach
+Stops:
+Orangi No. 11 1/2, Orangi No. 5, Metro Cinema, Banaras Chowk, Habib Bank, Nazimabad Petrol
+Pump, Liaquatabad No. 10, Hasan Square, National Stadium, Karsaz, Shahrah-e-Faisal, P.A.F,
+Star Gate, Malir Halt, Kala Board, Lal Masjid, Saudabad, Khokhrapar
+Route #: 7-A
+Stops:
+Liaquatabad Post Office, Liaquatabad No. 10, Nazimabad, Petrol Pump Chowrangi, Lasbela,
+Lawrence Road, Garden Road, Bandar Road, Tower
+Route #: 7-B
+Stops:
+Liaquatabad Post Office, Liaquatabad No. 10, Nazimabad, Petrol Pump Chowrangi, Lasbela,
+Lawrence Road, Britte Road, Soldier Bazar, Garden Road, Napier Road, Bandar Road, Tower,
+Keamari
+
+Route #: 7-C
+Stops:
+Dockyard, M.W Tower, Lee Market, Chakiwra, Miran Naka, Shershah, Taj Silk Mill, Habib Bank,
+Bara Board, Muslim League Quarters, Nazimabad Chowrangi, Liaquatabad Post Office,
+Liaquatabad No. 10, Karimabad, Imam Bara, Hussaini Sajjadia, Saifee Technology College,
+Bufferzone
+Route #: 7-D
+Stops:
+Mohajir Camp, Labour Square, Ghani Chowrangi, Mills Area, Habbib Bank, Garden, Garden
+Road, Bandar Road, Preedy Street, Regal, Frere Road, Court Road, Shaheed Complex, P.I.D.C
+House, M.T Khan Road, Sultanabad
+Route #: 7-F
+Stops:
+Gulshan-e-Iqbal, Anglo Orient School, Hassan Square, Gharibabad, Liaquatabad No. 10,
+Liaquatabad Post Office, Bara Board, Old Golimar, Garden, Ranchore Lane, Jubilee Cinema,
+West Wharf
+Route #: 7-G
+Stops:
+Liaquatabad No. 10, Petrol Pump, Nazimabad, Valika Mills, Bara Board, Bismillah Hotel,
+Bakrapidi, Chakiwara, Lee Market, Moosa Lane, Baghdadi, Kharadar, Tower
+Route #: 7-H
+Stops:
+Keamari, Tower, Bolton Market, Eidgah, Ranchore Lane, Garden, Lasbella, Postoffice, Sindhi
+Hotel, New Town, Civic Centre, N.I.P.A, University Road, Safora Goth, Tokyo Terrace Plaza
+Route #: 8
+Stops:
+P.I.B Colony, Hyderabad Colony, Goro Mandir, M.A Jinnah Road, Bandar Road, Tower
+Route #: 8-A
+Stops:
+P.I.B Colony, Hyderabad Colony, Goro Mandir, M.A Jinnah Road, Frere Street, Preedy Street,
+Frere Road, Ingle Road, Mcleod Road, Napier Road, Keamari
+Route #: 8-B
+Stops:
+P.I.B Colony, Hyderabad Colony, Goro Mandir, Soldier Bazar, Lilly Road, Garden Road,
+Lawrence Road, Napier Road, Bandar Road, Tower, Dockyard
+Route #: 8-C
+Stops:
+P.I.B Colony, Hyderabad Colony, Goro Mandir, Soldier Bazar, Lilly Road, Garden Road,
+Lawrence Road, Napier Road, Bandar Road, Tower, Keamari
+Route #: 8-D
+Stops:
+Pir Illahi Bux Colony, Martin Road, Teen Hatti, Liaquatabad, Nazimabad Post Office, Shershah,
+Gulbai, Mauripur Road, Mirza Adam Khan Road, Bihar Colony, Baghdadi, Khadda Memon
+Society, Tower
+
+Route #: A-18
+Stops:
+Surjani Town, Nai Abadi, Bara Dari, Disco Mour, U.P Mour, Nagan Chowrangi, Power House,
+Sohrab Goth, Moti Mahal, N.I.P.A, University Road, Safari Park, Karachi University, Safora Goth,
+Haroon Banglow
+Route #: A-25
+Stops:
+Abdullah Gabol Goth, Gulshan-e-Maymar, Al-Asif Square, Sohrab Goth, Water Pump, Aisha
+Manzil, Karimabad, Liaquatabad No. 10, Nazimabad, Petrol Pump, Habib Bank, Valika Mills, Site
+Police Station, Rasheedabad, Mohajir Camp No. 7, Mohajir Camp No. 19-D, Rubby Cinema,
+Baloch Goth
+Route #: A-3
+Stops:
+New Sabzi Mandi, Maskan, Gulshan Thana, Gulshan Chowrangi, N.I.P.A, University Road,
+Hassan Square, Gharibabad, Liaquatabad No. 10, Nazimabad No. 3, Nazimabad No. 4, Petrol
+Pump, Nazimabad No. 1, Nazimabad No. 2, Habib Bank, Maripur, Scout Colony, Gulshan-eMaymar, Sohrab Goth, Asif square, New Sabzi Mandi
+Route #: A-4
+Stops:
+Fedrel B. Area, Madrassa-e-Anwarul Uloom, Aziz Bhatti Shaheed Road, Hyderi, Board Office,
+First Chowrangi, Nazimabad Board, Bismillah Hotel, Old Goli Maar, Pak Quarters, Garden, Plaza
+Cinema, M.A Jinnah Road, Tower,
+Route #: Abaseen Coach
+Stops:
+Ittehad Town, Orangi No. 11 1/2, Chisti Nagar, Islam Chowk, Orangi No. 10, Orangi No. 4,
+Metroville, SITE, Valika Mill, Habib Bank, Old Golimar, Garden, Plaza, Jama Cloth, Tower,
+Keamari, Maison Road, Shirin Jinnah Colony, Clifton
+Route #: Adam Coach
+Stops:
+Ittehad Town, Muhammadi Chowk, Orangi No. 10, Orangi No. 5, Banaras Chowk, Habib Bank
+Chowrangi, Nazimabad, Liaquatabad No. 10, Hassan Square, Karsaz, Shahra-e-Faisal, Malir
+Halt, Mair 15, Quaidabad, Razakabad, Gulshan-e-Hadeed
+Route #: Agroor Coach
+Stops:
+New Sabzi Mandi, Maymar Town, Sohrab Goth, Rashid Minhas Road, N.I.P.A, University Road,
+Civic Centre, Sabzi Mandi, Jail Road, Teen Hatti, Lasbella, Nishter Road, Garden, Ramswami,
+K.M.C Workshop, Haji Camp, Lee Market, Kharadar, Jamat Khana, Mauripur, Gulba
+Route #: Ailia Coach
+Stops:
+Surjani Sector 5-D, U.P Mour, Disco Mour, Qabrustan, Qalandari Chowk, Shipowner College,
+Paposh Nagar, Bara Maidan, Nazimabad, Petrol Pump, Liaquatabad, Sabzi Mandi,
+Bahadurabad, Tariq Road, Sindhi Muslim Society, Gora Qabrustan, Kala Pul, Defence, Super
+Market, Punjab Colony, Boat Basin, Clifton, Abdullah Shah Ghazi Mazar, MuBarak Masjid, Kinara
+Hotel
+Route #: Al-Hadeed Coach
+Stops:
+Bhense Colony, Labour Square, Hospital Chowrangi, Gul Ahmed Mills, Dawood Chowrangi,
+Quaidabad, Malir, Drigh Road, Karsaz, Agha Khan Hospital, New Town, Jail Road, Teen Hatti,
+
+Garden, Nishter Road, Spencer Hospital, Lee Market, Lyari Hospital, Behar Colon
+Route #: Al-Hamd Coach
+Stops:
+Surjani Town, Surjani Sector 4, Surjani Sector 7, K.D.A Site Office, Surjani Roundabout, North
+Karachi Sector 5-A, Bara Dari, Disco Mour, U.P Mour, Nagan Chowrangi, Sohrab Goth, Rashid
+Minhas, N.I.P.A, Civic Centre, Sabzi Mandi, Shaheed-e-Millat Road, Tariq
+Route #: Al-Missri Coach
+Stops:
+Muzaffarabad Colony, Hospital Chowrangi, Gul Ahmed Mills, Malir No. 15, Shahra-e-Faisal,
+Karsaz, Stadium, Hassan Square, Liaquatabad No. 10, Nazimabad, Habib Bank, Ghani
+Chowrangi, Shershah, Mohajir Camp, Mouch Goth, Naval Colony
+Route #: Al-Qadri Coach
+Stops:
+Khokhrapar, Drigh Road, National Cement, National Stadium, Liaquat Medical Hospital, Jail
+Road, Teen Hati, Lasbella, Lawrance Road, Ranchore Lane, Lee Market, Kharadar, Jamat
+Khana, Gulbai, Mauripur, Naval Colony, Hawksbay
+Route #: Al-Rehman Coach
+Stops:
+Baldia Town, Shershah, Panka Hotel, Miran Naka, Chakiwara, Eye Hospital, Napier Police
+Station, Ghas Mandi, Ranchore Lane, Garden, Lasbella, Jail Road, Agha Khan Hospital, Shahrae-Faisal, Airport, Malir City No. 15, Quaidabad, Dawood Chowrangi, Mansehra
+Route #: Arain Coach
+Stops:
+Safari Park, Shorab Goth, Water Pump, Gulberg Chowrangi, Sakhi Hassan, Hyderi, Nazimabad ,
+Petrol Pump, Habib Bank, Shershah, Gulbai, Grace Colony, Kannup Colony
+Route #: Askari Coach
+Stops:
+Haji Zakria Goth, Asif Market, Malir Cantt, Cantt Bazar, Malir Chowk, Model Colony, Jinnah
+Avenue, Malir Halt, Shahra-e-Faisal, Drigh Road, Station, Nursery, Gora Qabrustan, Holiday Inn
+Hotel, Jinnah Hospital, Askari Appartment, Cantt Railway Station
+Route #: Awan Luxury Coach
+Stops:
+Ittehad Town, Raees Amrohi Colony, Chisti Nagar, Orangi No. 5, Banaras Chowk, Habib Bank,
+Bara Board, Garden, Jama Cloth, Mazar Abdullah Shah Ghazi, Clifton
+Route #: Ayaz Coach
+Stops:
+Surjani Town Sector 7, U.P Mour, Sohrab Goth, N.I.P.A, Natha Khan Goth, Malir Halt, Malir City
+No. 15, Quaidabad, Dawood Chowrangi, Landhi No. 1, Landhi No. 2, Landhi No. 3, Landhi No. 4,
+Landhi No. 5, Landhi No. 6, Korangi No. 6, Korangi No. 5, Korangi No.
+Route #: Azmat Coach
+Stops:
+Ittehad Towwn, Orangi No. 11 1/2, Islam Chowk, Orangi No. 5, Banaras Chowk, Abbasi Hospital,
+Nazimabad Petrol Pump, Liaquatabad No. 10, Hasan Square, Karsaz, Drigh Road, Malir City,
+Quaidabad, Town Chowrangi, Hospital Chowrangi, Labour Square, Bhense Colo
+
+Route #: B
+Stops:
+Sakhi Hassan, Hyderi, North Nazimabad, Lasbella, Bridge, Nazrul Islam Road, M.W Tower, West
+Wharf, Custom House
+Route #: B-1
+Stops:
+Sakhi Hassan, Hyderi, KDA Pump, Hussain D'Silva Town, Paposh Nagar, Nazimabad, Goli Maar,
+Nishter Road, Garden, M.A Jinnah Road, Custom House
+Route #: B-2
+Stops:
+Sir Syed Town, U.P Mour, Nagan Chowrangi, Sakhi Hassan, Hyderi, Board Office, Nazimabad,
+Petrol Pump, Goli Maar Chowrangi, Lasbella, Goro Mandir, M.A Jinnah Road, Tower, North
+Karachi Sector 4, North Karachi Sector 5, Peela School, Dockyard
+Route #: B-3
+Stops:
+New Sultanabad, Javedan Cement Factory, Mianwali Colony, Nusrat Bhutto Colony, Paposh
+Nagar, Bara Maidan, Nazimabad No. 2, Petrol Pump, Goro Mandir, Old Exhibition, M.A Jinnah
+Road, Empress Market, Fleet Club, Jinnah Hospital, Cantt. Station, Khaliq-uz-Zaman Road, Gizri,
+Saudi Embassy, Khayaban-e-Shamsheer, Khayaban-e-Mafia, Street 26, Khayaban-e-Bahria,
+Fleet Club, Akhter Colony, Qayyum Abad, Dowwd Pota Road, Empress Market, Seven Day
+Hospital, M.A.Jinnah Road
+Route #: B-5
+Stops:
+Gulberg Chowrangi, Sakhi Hassan Road, Allama Turabi Road, Poeples Colony, Zafar House,
+Allama Rashid Turabi Chowk 2, Shahra-e-Jehangir, Water Pump, Hyderi, KDA Office, Bank
+Quarters, Board Office, Nazimabad No. 7, Nazimabad No. 6, Petrol Pump Golimar, Lasbella,
+Patel Para, Guru Mandir, Old Numaish, M.A.Jinnah Road, Saddar, Empress Market, Frere Road,
+Buns Road, Jama Colth, Tower, Custom House, Dock Yard
+Route #: Baraq Coach
+Stops:
+Allied Bank New Karachi Branch No. 5, New Karachi Sector 11-J, Nala, Godhra Camp, Power
+House, Sohrab Goth, N.I.P.A, Drigh Road, Station, Shahra-e-Faisal, Malir, Quaidabad, Dawood
+Chowrangi, Landhi No. 6, Landhi No. 5, Landhi No. 4, Landhi No. 3, Landhi No. 1, Korangi no. 6,
+Korangi no. 1, Nasir Colony, Chamra Chowrangi, Korangi Industrial Area
+Route #: Batool Coach
+Stops:
+New Karachi, Saba Cinema, Gabol Town, Godhra Camp, Sohrab Goth, Karimabad, Liaquatabad
+No. 10, Petrol Pump, Nazimabad, Habib Bank, Shershah, Gulbai, Mauripur, Wazir Mansion, ICI
+Factory, Fisheries
+Route #: Be-Misal Coach
+Stops:
+North Karachi Sector 2, North Karachi Sector 3, North Karachi Sector 5-A, North Karachi Sector
+5-B, Bara Dari, Disco Mour, Nusrat Bhutto Colony, Abdullah College, Paposh Nagar, Abbasi
+Sheed Hospital, Nazimabad No. 7, Petrol Pump, Lasbella, Numaish, M.A Jinnah Road, Custom
+Road, West Wharf
+Route #: Bilal Coach
+Stops:
+Ittehad Town, Fareed Colony, Mominabad, Badar Hotel, Orangi No. 5, Metro, Banaras Chowk,
+
+Habib Bank, Nazimabad, Petrol Pump, Liaquatabad No. 10, Hassan Square, New Town, Jail
+Road, Shaheed-e-Millat Road, Baloch Colony, Jam Sadiq Ali Bridge, Korangi Industrial Area,
+Chamra Chowrangi, Singer Chowrangi, Sharafi Goth, Dawood Chowrangi, Gulberg Textile Mill,
+Sessi hospital, Labour Sqaure, PMTF Colony
+Route #: Bismillah Coach
+Stops:
+Surjani Town Sector 9, Two Minutes Chowrangi, Nagan Chowrangi, Power House, Sohrab Goth,
+Aisha Manzil, Liaquatabad, Goro Mandir, Numaish, Tower, Mauripur, Gulbai, Shershah, Ghani
+Chowrangi, College Chowrangi, S.I.T.E Police Station, Metroville, Frontier More, Mominabad,
+Saeedabad, Nai Abadi
+Route #: Burki Coach
+Stops:
+Maymar Complex, Al-Asif Square, Sohrab Goth, Water Pump, Karimabad, Liaquatabad No. 10,
+Teen Hatti, Goro Mandir, Numaish, M.A Jinnah Road, Jama Cloth, Tower, Keamari
+Route #: C
+Stops:
+Saddar, Lucky Star, Jinnah Hospital, Kala Pul, Korangi Road, Korangi No. 5 1/2, Market No. 6,
+Dhobi Ghat
+Route #: C-1
+Stops:
+Shirin Jinnah Colony, Kharkar Chowrangi, Bath Island, United Printing, Sultanabad, Haji Camp,
+PIDC, Station, Doctor Dawood Pota Road, Lucky Star, Jinnah Hospital, Kala Pul, Korangi Road,
+Akhter Colony, Singer Chowrangi, Qayyumabad, Korangi Industrial Area, Darul-uloom, Bilal
+Colony, Singer Chowrangi, K Area, Landhi no. 3, Landhi No.4, Dowood Chowrangi, Manserah
+Colony, Nabbu Goth
+Route #: C-19
+Stops:
+Mansoor Nagar, Orangi Town, Dabba Mour, Islam Chowk, Disco Mour, Orangi No. 14, Orangi
+No. 13, Orangi No. 12, Orangi No. 5, Orangi No. 4, Metroville, Zia Colony, Site Thana,
+Politechnical, Philips Company, Rashidabad, Mohajir Camp No. 7, Nai Abadi
+Route #: C-25
+Stops:
+Abidabad Orangi, Zia-ul-Haq Colony, Metroville, Orangi No. 4,Orangi No. 5, Metro Cinema,
+Banaras Chowk, Abdullah College, Aziz Medical Centre, Shahra-e-Soori, Shahra-e-Humayun,
+A.P.W.A College, Shahra-e-Pakistan, Star Centre, Shahdibagh, Samdani Hospital, Gulshan
+Chowrangi, Disco Bakery, Leemu Goth, Quaid-e-Azam Colony, Sahafi Colony, Metroville 3
+Route #: C-5
+Stops:
+Gulzar Colony Sector 8-F, Sharafa Goth, Mansehra Colony, Dawood Chowrangi, Quaidabad,
+Malir City, Malir Halt, Drigh Road, Karsaz, Stadium, Hassan Square, Liaquatabad No.10, Petrol
+Pump, Nazimabad, Habib Bank, Banaras Chowk, Qasba Mour, Orangi No. 13, Orangi No. 6,
+Orangi No.8, Orangi No.13, Orangi No.14, GUkshan-e- Behar
+Route #: City Coach
+Stops:
+Khuwaja Ajmer Nagri, U.P Mour, Nagan Chowrangi, Erum Shopping Centre, Buffer Zone Sector
+16-A, Peoples Chowrangi, Rasheed Turabi Road, Ziauddin Hospital, Karimabad, Liaquatabad,
+Teen Hatti, Jail Road, Shaheed-e-Millat Road, Khalid Bin Waleed Road, Nursery, Shahrah-eFaisal, Kalapul, Sunset Blvd, Gizri, Khayaban-e-Shamsheer, Abdullah Shah Ghazi Mazar,
+
+Shahrah-e-Galib
+Route #: D-1
+Stops:
+Gulshan-e-Hadid, Quaidabad, Malir, Star Gate, Karsaz, Stadium, HassanSquare, Liaquatabad
+No. 10, Nazimabad No. 2, Habib Bank, Manghopir Road,Valika Mills, Metroville, Frontier Mour,
+Mominabad, Faqir Colony, Abidabad
+Route #: D-11
+Stops:
+Bilal Colony, Mills Area, Sharafi Goth, Mansehra Colony, Dawood Chowrangi, Quaidabad, Malir
+City, Drigh Road, Karsaz, Studium, HassanSquare, Gharibabad, Liaquatabad, Petrol Pump,
+Nazimabad, Habib Bank,Valika Mills, Habib Chowrangi, College Chowrangi, Labour Square,
+Rasheedabad, Zam Zam Chowk, Saeed Abad, Mohammad Khan Colony
+Route #: D-12
+Stops:
+Rahri Goth, Qazzafi Town, Quaidabad, Malir Halt, Star Gate, Drigh Road, Station, Labour
+Campus, Rashid Minhas Road, N.I.P.A, Gulshan-e-Iqbal,Water Pump, Sakhi Hassan, Qalandaria
+Chowk, Gulshan-e-Farooq 7-D Qabrustan
+Route #: D-13
+Stops:
+Surjani Town, U.P Mour, Nagin Chowrangi, Power House, Sohrab Goth,Shafiq Mills, N.I.P.A,
+Rashid Minhas Road, Drigh Road, Quaidabad, Dawood Chowrangi, Chawal Godown, Sherpao
+Colony
+Route #: D-14
+Stops:
+Surjani Town, New Karachi, U.P Mour, Nagan Chowrangi, Hyderi,Nazimabad Chowrangi No. 1,
+Patel Para, Goru Mandir, Jamshed Road, Shaheed-e-Millat Road, Shahra-e-Faisal, Malir Halt,
+Quaidabad, Mahtab Cinema, Sherpao Colony, Hospital Chorangi, Metroville 2
+Route #: D-17
+Stops:
+Surjani Town, Karim Chowrangi, D.K Mour, Kala School, KDA, W.F Mour, Nagan Chowrangi,
+Power House, Sohrab Goth, N.I.P.A, Rashid Minhas Road,Shara-e-Faisal, Star Gate, Kala
+Board, Quaidabad, Dawood Chowrangi, Mansehra Colony, Sharafi Goth, Bilal Colony, Camra
+Chowrangi, Biscuit Factory, Qayyumabad
+Route #: D-18
+Stops:
+Bhense Colony, Quaidabad, Malir, Drigh Road, Rashid Minhas Road, N.I.P.A, Sohrab Goth, Shafi
+Mour, Nagan Chowrangi, Maria Hill Luxury Appartments, Shadman Town, Qalandari Chowk,
+Nusrat Buttho Colony, Kawari Colony, Landhi, New Sultanabad
+Route #: D-19
+Stops:
+Saddi Garden Scheme No. 33, Filter Plant, Saddi Town, Safora Goth, Mosamiat, University
+Road, Safari Park, N.I.P.A, Urdu College, Hassan Square,Sabzi Mandi, New Town Chowrangi,
+Kashmir Chowrangi, Islamia College,Goru Mandir, Numaish, Tibet Centre, Saeed Manzil, Jama
+Cloth, Light House, Denso Hall, Kemari
+Route #: D-2
+Stops:
+Sharafi Goth, Farooq Mills, Mansehra Colony, Future Colony, Dawood Chowrangi, Quaidabad,
+
+Malir Road, Drigh Road, Station, Drive-In, Rashid Minhas Road, N.I.P.A, Sohrab Goth, Al-Noor
+Stop, 2-D Bus Stop, Gulberg Chowrangi,Sakhi Hassan, KDA Flats Sector 14-A, KDA Flats Sector
+14-B, B-3 Mini Bus Stop
+Route #: D-22
+Stops:
+Dockyard, Fisheries, Sherpao Colony, Fish Harbour, Ibrahim, Hyderi, PAF, Korangi,
+Qayyumabad, Punjab Colony, Schon Chowrangi, Boat Basin Chowragni, Mai Kalachi Road,
+Fisheries, Rehri Road
+Route #: D-25
+Stops:
+Bhense Colony, Hospital Chowrangi, Qazafi Town, Quaidabad, Malir,Drigh Road, Shahra-eFaisal, Jinnah Hospital, Cannt. Station, P.I.D.C House, Sultanabad, Tower, Purana Truck Stand,
+Gulbai, Shershah, Hub River Road,Police Training School, Rubi Cinema, Saeedabad
+Route #: D-29
+Stops:
+Chamra Chowrangi, Zia Colony, Nasir Colony, Korangi No. 1, Korangi No. 2-1/2, Coast Gard,
+Hyderi, Chaghi, Bangali Para, Tanver Mahal Cinema, Korangi No. 5-1/2, Korangi No. 6, Landhi
+No. 6, Landhi No. 5,Landhi No. 4, Landhi No. 3, Landhi No. 2, Landhi No.1, Dawood Chowrangi,
+Quaidabad, Gaddafi Town
+Route #: D-3
+Stops:
+Airport, Star Gate, Terminal Building, National Highway, Gora Qabrustan,Jet Line, Iqbal Shaheed
+Road, Fleet Club, Mansfield Street, Shahra-e-Iraq, Talpur Road, Wellington Street, Dawood Pota
+Road, Station, PIDC House, Sultanabad Chowrang, NSC Building, Tower, Mari Pur, Gulbai, Sher
+Shah Chowrangi, Ghani Chowrangi, Labour Square, Power House, Metroville, Zia Colony
+Route #: D-6
+Stops:
+Khokhrapar, Malir No. 15, Nihal Hospital, Allama Iqbal College, NathaKhan Goth, Drigh Road,
+Karsaz, Baloch Colony, Nursery, Gora Qabrustan, JetLine, Iqbal Shaheed Road, Fleet Club,
+Mansfield Street, Shahra-e-Iraq, Talpur Road, Rafique Shaheed Road, Jinnah Hospital, Kala Pul,
+Masjid-e-Quba
+Route #: D-7
+Stops:
+Sector No. 2 Majeed Colony, Muzaffarabad Colony, Social Security Hospital, Gul Ahmed Textile
+Mills, Dawood Chowrangi, Quaidabad, Malir 15, Malir Halt, Natha Khan Goth, Drigh Road, Station, Dalmia
+Chowrangi, Gulshan Complex, N.I.P.A, Gulshan Chowrangi, Sohrab Goth, Al-Asif Square, New
+Sabzi Mandi
+Route #: D-8
+Stops:
+Bhense Colony, Dawood Chowrangi, Quaidabad, Malir City, Drigh Road,Karsaz, Stadium,
+Hassan Square, Liaquatabad No. 10, Nazimabad, Habib Bank,Shershah Chowrangi, Gulbai,
+Masroor Colony
+Route #: D-9
+Stops:
+Bhense Colony, Landhi Children Jail, National Highway, Quaidabad, MalirCity, Drigh Road,
+Karsaz, Hassan Square, Liaquatabad No. 10, Petrol Pump, Nazimabad No. 2, Habib Bank,
+Sharshah, Frontier Colony, Orangi No. 4, FaqirColony, Ittehad Colony, Khyber
+
+Route #: Data Coach
+Stops:
+Surjani Town Sector 10-V, K.D.A Site office, Surjani Roundabout, Disco Mour, Sindhi Hotel,
+Power House, Sohrab Goth, N.I.P.A, Sabzi Mandi, Bahadurabad, Tariq Road, Society Qabrustan,
+Shahra-e-Quaideen, Nursery, F.T.C, Jinnah Hospital, Askari Appartment, Cantt, Khaliquzaman
+Road, Abdullah Shah Ghazi Mazar, Halipad
+Route #: Dawn Coach
+Stops:
+Gulshan-e-Hadeed, Machine Tool Factory, Bhense Colony, Baocha Jail, Shafi Goth, Manzil
+Pump, Qazzafi Town, Quaidabad, Myrghi Khana, Malook Hotel, Malir, Kala Board, Malir Halt,
+Chota Gate, Drigh Road, Karsaz, Nursery, Shahrah-e-Quaideen, Khudadad Colony,
+Route #: Dost Flying Coach
+Stops:
+Ittehad Town, Nai Abadi, Mohajir Camp No. 7, Mohajir Camp No. 8, Shershah, Siemens
+Chowrangi, Bara Board, Bismillah Hotel, Garden, Numaish, Shahra-e-Quiadeen, Khalid Bin Walid
+Road, Drigh Road, Station, Star Gate, Malir Halt, Jinnah Avenue, Model Colony,
+Route #: F-10
+Stops:
+Rehri, Geedar Colony, Hospital Chowrangi, Gul Ahmed Mills, Dawood Chorangi, Landhi No. 1,
+Landhi No. 2, Landhi No. 3, Landhi No. 4, Landhi No. 5, Landhi No. 6, Korangi No. 6, Korangi No.
+5, Korangi No. 4, Korangi No. 3, Korangi No. 2, Korangi No. 1, Qayyumabad, Akhter Colony,
+Kalapul, Jinnah Hospital, Cantt. Station, Dr. Zia-uddin Road, P.I.D.C, Molvi Tameez-uddin Road,
+Sultanabad, Masan Road, Shireen Jinnah Colony
+Route #: F-11
+Stops:
+Cattle Colony, Gul Ahmed Mills, Dawood Chowrangi, Landhi No. 1, Korangi No. 6, Korangi No. 1,
+Defence Society, Gora Qabristan, Shahrah-e-Quaideen, Khalid Bin Waleed Road, Shaheed-eMillat Road, Jail Chowrangi, Sabzi Mandi, University Road, Hasan Square, N.I.P.A, Gulshan-eIqbal, Water Pump, Gulberg, Sakhi Hassan, Qalandaria Chowk, Mustafabad Colony, Mian Wali
+Colony
+Route #: F-12
+Stops:
+Sharafi Goth, Singer Chowrangi, Bilal Chowrangi, Hazrat Bilal Colony, Bilal Pulia, Chamra
+Chowrangi, Biscuit Factory, Qayyumabad, Akhter Colony, Defence Society, Kala Pul, Gora
+Qabristan, Sindhi Muslim Society, Shahrah-e-Quaideen, Khudadad Colony, Old Numaish,
+M.A.Jinnah Road, Jama Cloth Market, Tower, West Warf, Dock Yard
+Route #: F-13
+Stops:
+Dhani Bux Goth, Pahlwan Goth, Al-Shifa, Terminal No. 4, Malir Halt, Quaidabad, Dawood
+Chowrangi, Landhi No. 4, 36-B Area, Mills Area, Bilal Colony, Kala Pul, Jinnah Hospital, Cantt
+Station, Gizri
+Route #: F-14
+Stops:
+Hyderi, Bhittai Colony, Qayyumabad, Tooba Masjid, Kala Pul, Jinnah Hospital, Cantt Station, Dr.
+Ziauddin Ahmed Road, P.I.D.C, Pakistan Chowk, Civil Hospital, K.M.C Work Shop, Spensor Eye
+Hospital, Bhitai Road, Baghdadi, Agha Khan Road, Jamat Khana, I.C.I, Fisheries
+
+Route #: F-15
+Stops:
+Badhni Goth, Naval Colony, Grace Mauripur, Gulbai, Mauripur Truck Adda, G. Allana Road,
+Tower, City Station, Khairabad, P.I.D.C, Taj Hotel, Punjab Colony, Sunset Bulevard, Akhter
+Colony, Qayyumabad, Korangi Crossing, Allahwala Town, Gulzar Colony
+Route #: F-16
+Stops:
+Qasba Colony, Manghopir Road, Nusrat Bhutto Colony, Sakhi Hasan, Hyderi, Dr. Ziauddin
+Hospital, Karimabad, Liaquatabad, Teen Hati, Guru Mandir, Numaish, Khudadad Colony,
+Nursery, Gora Qabristan, Defence, Akhter Colony, Korangi No. 1, Korangi No. 3, Korangi No. 5
+1/2, Korangi No. 5, Dhobi Ghat, Degree College, Korangi Market, Korangi No. 6, Landhi No. 6,
+Landhi No.1, Dawood Chowrangi, Gul Ahmed, Hospital Chowrangi, labour Square, Machine Tool
+Factory
+Route #: F-17
+Stops:
+Ziaul Haq Colony, Mominabad, Orangi No. 4, Orangi No. 5, Metro Cinema, Banaras Chowk,
+Abdullah College, Paposh Nagar, Nazimabad Petrol Pump, Liaquatabad No. 10, Teen Hati, Guru
+Mandir, Numaish, Shahrah-e-Quaideen, Nusery, Gora Qabristan, Kala Pul, Defence, Akhtar
+Colony, Qayyumabad, Chamra Chowrangi, Industrial Area, Bilal Colony, Bismillah Stop, Dhobi
+Ghat
+Route #: F-2
+Stops:
+Rafi Bunglows, Azeem Pure, Millat Town, Reta Plot, Shah Faisal Colony, Sangan Cinema,
+Colony Gate, Shahrah-e-Failsal, Shaheed-e-Millat, Tariq Road, Shahrah-e-Quaideen, Kashmir
+Road, Dada Bhai Nooroji Road, Directorate Of School Road, Guru Mandir, Soldier Bazar, Juna
+Market, Kharadar, Bughdadi Agra Taj, GUlbai, PAF Masroor, Mari Pur
+Route #: F-22
+Stops:
+Mianwali Colony, Qasba Mour, Banaras Chowk, Abdullah College, Paposh Nagar, Abbasi
+Shaheed Hospital, Nazimabad Petrol Pump, Gulbehar Chowrangi, Bara Board, Garden, Dhobi
+Ghat, Bakrapiri, Miran Naka, Agra Taj, Behar Colony, Mauripur Road, I.C.I Bridge, Fisheries
+Route #: F-25
+Stops:
+Sabzi Mandi, Maymar Plaza, Sohrab Goth, Nagan Chowrangi, Maria Hill View, Luxury
+Appartments Habibia Chowk, Shadman Town Qalandria Chowk, Shipowner College, Pahar Gang
+Abdullah College, Banaras, Orangi No. 4, Orangi No. 5, Frontier Mor, Mominabad, Faqir Colony,
+Route #: F-3
+Stops:
+P.I.B Colony, Jamshed Road, Jinnah Mazar, Plaza, Regal, Frere Road, Masjid-e-Khizran,
+Shahrah-e-Iraq, Lucky Star, Kala Pul, Defence Society, Korangi Road, Akhter Colony, Police
+Chowki, Korangi No. 1, Korangi No. 3, Korangi No. 6, Landhi Petrol Pump, Dawood Mills, Geedar
+Colony
+Route #: F-4
+Stops:
+Korangi No. 4, Landhi No. 6, Quaidabad, Malir City, Star Gate, Nata Khan, Drigh Road, Karsaz,
+Nursery, Gora Qabristan, Jutland Lines, St. Patrick High School, Shahrah-e-Iraq, Mir Karam Ali
+Talpur Road, Raja Ghazanfar Ali Road
+
+Route #: F-5
+Stops:
+Korangi No.1, Quaidabad, Drigh Road, Gora Qabristan, Jet lines, Iqbal Sheed Road, Fleet CLub,
+Sarwar Shaheed Road, Dawood Pota Road, Preedy Street, Regal, Shahrah-e-Liaquat, Burns
+Road, Pakistan Chowk
+Route #: F-6
+Stops:
+89 Bus Stop, Landhi No. 5, Korangi No. 5, Korangi No. 1, Akhter Colony, Kala Pul, Cantt. Public
+School, Cantt. Station, P.I.D.C, Tower, Custom House, West Wharf, Fisheries
+Route #: F-7
+Stops:
+Nasir Colony, Korangi No. 1, Korangi No. 5, Landhi No. 1, Quaidabad, Malir Halt, Colony Gate,
+Shabnam Cinema, Drigh Colony No. 5
+Route #: F-8
+Stops:
+Korangi Market, Korangi No. 5 1/2, Landhi No. 6, Babar Market, Dawood Chowrangi, Quaidabad,
+Malir, National Highway, Drigh Road, Karsaz, Nursery, Shahrah-e-Quaideen, Society Office, Old
+Numaish, M.A Jinnah Road, Tower, West Wharf
+Route #: F-9
+Stops:
+New Muzaffarabad Colony, Gul Ahmed Mills, Dawood Chowrangi, 89 Bus Stop, Babar Market,
+Chiragh Hotel, Landhi No. 6, Auliya Masjid, Burmi Colony, Landhi K-Area, Korangi I-Area,
+Korangi No. 5, Korangi No. 1, Bhittai Colony, Korangi Crossing, Qayyumabad, Akhter Colony,
+Defence, Gora Qabristan, Shahrah-e-Quaideen, Khudadad Colony, M.A.Jinnah Road, Guru
+Mandir, Jahangeer Road, Tin Hatti, Liaquatabad No.10, Liaquatabad No. 4, Nazimabad, Habib
+Bank, Site, Pathan Colony, Abdul Hameed Badayuni College
+Route #: Filly Coach
+Stops:
+Labour Square, Muzaffarabad Colony, Gul Ahmed Mills, Bilal Chowrangi, Dawood Chowrangi,
+Landhi No. 1, Landhi No. 4, Landhi No. 6, Korangi No. 6, Korangi No. 4, Korangi No. 1,
+Qayyumabad, Akhter Colony, Defence Society, Dehli Colony, Cantt Station, Metropo
+Route #: G
+Stops:
+Court Road,Cross Frere Road, Mohan Road, M.A Jinnah Road, Garden Road, National Super
+Highway, Liaquatabad, Al-Azam Square
+Route #: G-1
+Stops:
+Dockyard, Tower, Frere Road, Empress Market, M.A Jinnah Road, Guru Mandir, Liaquatabad,
+Karimabad, Water Pump, Gulshan-e-Iqbal
+Route #: G-10
+Stops:
+Orangi Town, Zia Chowk, Iqbal Market 11 1/2 Orangi, Islam Chowk, Orangi No. 5, Banaras
+Chowk, Habib Bank, Petrol Pump, Nazimabad, Liaquatabad No. 10, Karimabad, Water Pump,
+Sohrab Goth, N.I.P.A Chowrangi, Gulshan-e-Iqbal, Safari Park, Rabi City, Pahlwan Goth
+Route #: G-11
+Stops:
+Yosuf Goth, Ittehad Town, New Saeedabad Police Training School, Hub River Road, Traffic
+
+Police Kiask, Philips Company, Polytechnic, S.I.T.E Police Station, Bhawani Challi, Frontier Mor,
+Badar Chowk, Orangi No. 4, Orangi No. 5, Metro Cinema, Banaras Chowk, Abdullah College,
+Board Office, Bank Qtrs, Ziauddin Hospital, Moosa Colony, APWA Girls College, Karimabad,
+Naseerabad, Telephone Exchange, Water Pump, City Garden, Moti Mehal, N.I.P.A, Safari Park,
+GUlistan-e-Jouhar, Abdullah Appartments, Jouhar Square, Golden City, Pahlwan Goth Old Area,
+Safoora Goth, Trauma Centre, Kiran Hospital
+Route #: G-12
+Stops:
+Yaqoobabad, Orangi Town, Mansoor Nagar, Rahmat Chowk, Iqbal Market,Islam Chowk, Nishane-Hyder Road No. 5, Bacha Khan Chowk, Paposh Nagar,Nazimabad No. 1, Nazimabad No. 2,
+Petrol Pump, Liaquatabad No. 10, HassanSquare, Urdu Science Collage, N.I.P.A, Sa
+Route #: G-13
+Stops:
+Fareed Colony, 19-D Nai Abadi, Rasheedabad, Polictechnic College,Rasheed Textile Mills,
+Banaras Chowk, Abdullah College, Board Office, Hyderi,Ziauddin Hospital, Liaquatabad No. 10,
+Goharabad, Hassan Square, University Road
+Route #: G-14
+Stops:
+Ittehad Town, Naiabadi, Fareed Colony, Faqir Colony, Mominabad, Frontier mor, Habib
+Chowrangi, Valika mills, habib bank, Petrol Pump, Nazimabad, Liaquatabad No 10, Teen hatti,
+P.I.B Colony, Jail Road, Shaheed millat Road, Baloch Colony, Qayumabad, Biscuit Factory,
+Chamra Chowrangi, Sinfer Chowrangi, Shareefa Goth, Mansehra Colony, Dawood Chowrangi,
+Sherpao Colony, Sessi Hospital, Cattel Colony
+Route #: G-15
+Stops:
+Ittehad Town, naiabadi, Gulshan Ghazi, Fareed Colony, Urdu Chowk, Orangi No 5, Banaras
+Chowk, Valika mills, Habib bank, Nazimabad, Liaquatabad No 10, Gharibabad, Ishaqabad bridgh,
+Hassan square, University Road, Metrologecal Department, Gulistan-e-johar
+Route #: G-17
+Stops:
+Gul City, Moach Goth, Ruby Turn, Saeedabad, Pareshan Chowk, Faqir Colony, Badar Chowk No
+4, Badar Chowk No 5, Bacha khan Chowk, Abdullah college, Board office, Khayaban-e-shershah
+soori Road, Hyderi, Sakhi Hasan, Nagan Chowrangi, Sohrab Goth, Shahrah Pakistan, Scout
+Colony, Abul Hassan Isphahani Road, Safari Park, University, Safoora Goth, Gul City
+Route #: G-19
+Stops:
+Al ahmed Town, Hub dam Road harri masjid, Manghopir, Kawari Colony, Baloch Colony, Qasba
+mor, Bacha khan Chowk, Valika hospital, Habib bank, Bara Board, Jehangirabad, Golimar
+Chowrangi, Liaquatabad No 10, Gharibabad, Hassan Square, University Road, N.I.P.A, Rashid
+Minhas Road, Jalendhri Road, Pahlwan Goth, Gul City
+Route #: G-21
+Stops:
+Pahalwan Goth, Safari Park, University Road, N.I.P.A, Hassan Square,Jail Road, Shaheed-eMillat Road, New Bridge Baloch Colony, New BundChowrangi, Bilal Chowrangi, Landhi, Babar
+Market, Hospital Chowrangi, BhenseColony
+Route #: G-25
+Stops:
+Gulistan-e-johar No. 10, Jauhar square, Drive-in-cinema, N.I.P.A, Samdani hospital, Yasinabad,
+
+Aisha Manzil, Landhi kotal, Five star, North Nazimabad, Hyderi, Board office, Abdullah college,
+Banaras Colony, Orangi No 4, Badar Hotel, Mominabad, Rasheedabad
+Route #: G-4
+Stops:
+Karachi University, University Road, Hyderabad Colony, Sabilwala Mosque, Old Exhibition, M.A
+Jinnah Road, Mir Karam Ali Talpur Road,
+Route #: G-5
+Stops:
+Fisheries, Khadda Market, Memon Society, Mosa Lane, Lee Market, Old Haji Camp, Nishter
+Road, Garden, Lasbella Chowk, Teen Hatti, Jail Road, Sabzi Mandi, Country club Road,
+Gulshan-e-Iqbal, Rashd Minhas Road, Muscut Industries
+Route #: G-6
+Stops:
+Karachi University, Sui Gas Terminus, Scout Colony, Rashid Minhas Road, Water Pump, Fedral
+B. Area, Dastagir No. 16, Ayub Manzil, Hussainabad, Aliabad, Karimabad, Liaquatabad, Teen
+Hatti, Goro Mandir, Purani Numaish, Tibet Centre, Jama Cloth Market, City Court, Tower, Punjabi
+Club, Khoja Jamat Khana, Gulbai
+Route #: G-7
+Stops:
+Mohajir Camp, Gulshan-e-Ghazi, Nai Abadi, Mohajir Camp No. 7, Mohajir Camp No. 8,
+Shershah, Gulbai, Agra Taj, Tower, Bolton Market, Jama Cloth Market, M.A Jinnah, Numaish,
+Khudadad Colony,Society Graveyard, Tariq Road, Bahadurabad, New Town, Sabzi Mandi,
+Gulshan-e-Iqbal, University, Safoora Goth
+Route #: G-8
+Stops:
+Metrological Office, Dhabi Bux Goth, Rustam Goth, Royal Stop, Juhar Square, Safari Park,
+N.I.P.A Chowrangi, Aziz Bhatti Park, K.D.A Civic Centre, Sabzi Mandi, Jamshed Road, Goro
+Mandir,7th Day Hospital, M.A Jinnah Road, City Court, Juna Market, Lee Market, Kharadar,
+Jamat Khana, Kemari, Dak Khana, Masan Road, Sheeri jinnah College
+Route #: G-9
+Stops:
+Ittehad Town, Nai Abadi, 19-D Qabrustan, Mohajir Camp No.7, Mohajir Camp No.4, Shershah,
+Mira Naka, Chakiwara, Lee Market, Siddiq Wahab Road, Old Haji Camp, Lawrence Road,
+Garden, Lasbela, Teen Hatti, Jail Road, Sabzi Mandi, Hassan Square, N.I.P.A, Safari Park,
+Gulistan-e-Jouhar, Pahlwan Goth
+Route #: Ghazi Coach
+Stops:
+Surjani Town Sector 7, Surjani Town Sector 8, Two Minutes Chowrangi, Kala School, Disco
+Mour, Sindhi Hotel, Godhra, Power House, Sohrab Goth, Water Pump, Karimabad, Liaquatabad
+No. 10, Hassan Square, New Town, Bahadurabad, Tariq Road, Society Qabristan, Shahrah-eQuaidin, Nursary, FTC, Jinnah Hospital, Cantt Station, Khaliquzaman Road, Saudi Embassy,
+Clifton,
+Route #: Ghulam Coach
+Stops:
+Bhense Colony, Labour Square, SASSI Hospital, Gulberg Textile Chowrangi, Dawood
+Chowrangi, Quaidabad, Malir, Shahra-e-Faisal, Karsaz, H.I Rehmatullah Road, Stadium, Civic
+Centre, Liaquatabad No. 10, Nazimabad, Petrol Pump, Habib Bank, Shershah, Gulbai, Ma
+
+Route #: Gul Coach
+Stops:
+New Sabzi Mandi, Sohrab Goth, Abul Hassan Isphahani Road, Disco Bakery, Gulshan
+Chowrangi, N.I.P.A, Civic Centre, Sabzi Mandi, Islamia College, Numaish, Saeed Manzil, Jama
+Cloth, Tower, Gulbai, Shershah, Baldia Town, Saeedabad, Moach Goth, Naval Colony
+Route #: Gulistan Coach
+Stops:
+Gulistan-e-Jauhar, Pehalwan Goth, Jauhar Square, Gulistan-e-Jauhar Block 17, Gulistan-eJauhar Block 18, Rashid Minhas Road, N.I.P.A, Hassan Square, Sabzi Mandi, New Town,
+Shaheed-e-Millat Chowrangi, Kashmir Road, Khudadad Colony, Mazar-e-Quaid, Numaish, M.A Jinnah Road
+Route #: H
+Stops:
+Lee Market, Harichandrai Road, Haji Camp, Lawrence Road, M.A Jinnah Road,Frere Road,
+Court Road, Stretchen Road, Fatimah Jinnah Road, Invararity Road,Lucky Star Hotel, Jinnah
+Hospital, Kala Pul, Korangi Road, Ibrahim Hyder
+Route #: H-1
+Stops:
+Fleet Club, Iqbal Shaheed Road, Rafique Shaheed Road, Jinnah Hospital,Kala Pul, Korangi
+Road
+Route #: H-2
+Stops:
+Abro Salt Works, Ibrahim Hyder, Korangi Road, Defence Society, JinnahHospiutal, Fleet Club,
+Mansfield, Shahra-e-Iraq, Dawood Pota Road, M.AJinnah Road, City Court, Juna Maket, Lee
+Market, Kakri Ground, Agha KhanRoad, Khoja Jamat Khana, West Wharf, F
+Route #: Hazara Coach
+Stops:
+Ruby Cinema, Ittehad Town, Islam Chowk, Frontier Colony, Metro, Habib Chowrangi, Habib
+Bank, Petrol Pump, Liaquatabad No. 10, Teen Hatti, Goro Mandir, Numaish, Nursery, Gora
+Qabrustan, Akther Colony, Korangi No. 1, Korangi No. 2, Korangi No. 3, Korangi No. 5, Dawood
+Chowrangi, Muzafarabad
+Route #: Illyas Coach
+Stops:
+Ittehad Town, Saeedabad Sector 4, Dabba Mour, Hub River Road, Shershah, Gulbai, Khoja
+Jamat Khana, Qamar House, Shaheen Complex, PIDC House, Cantt, Post Office, Khaliq-usZaman Road, Punjab Colony, Sunset Boulevard, Akhter Colony, Qayyumabad, Korangi Crossing,
+Bhitai Colony, Korangi No.1, Korangi No.6, Landhi No.6 to No.1
+Route #: Imran Coach
+Stops:
+Model Colony, Malir Halt, Shahra-e-Faisal, Shahra-e-Quaideen, Mazar-e-Quaid, M.A Jinnah
+Road, Tower, Crown Cinema, Gulbai, Naval Colony, Madni Goth, Mauripur
+Route #: International Friends Coach
+Stops:
+New Abadi, Rasheedabad, Labour Square, Site Police Station, Valika Mills, Habib Bank,
+Nazimabad, Petrol Pump, Liaquatabad No. 10, Gharibabad, Hassan Square, Stadium, Karsaz,
+P.A.F Airport, Quaidabad, Bhense Colony, Raziqabad, Pipri, Gulshan-e-Hadeed Phase 1 and
+Phase 2
+
+Route #: Ittehad Coach
+Stops:
+Surjani Town, KDA Office, Salim Centre, Nagan Chowrangi, Hyderi, Lasbella, M.A Jinnah Road,
+Tower, Dockyard
+Route #: Jawaid Coach
+Stops:
+Surjani Town Sector 11, Surjani Town Sector 5-A/2, Surjani Town Sector 5-A/3, Surjani Town
+Sector 5-A/4, Bara Dari, Disco Mour, Nagan Chowrangi, Board Office, Petrol Pump, Liaquatabad
+No. 10, Post Office, Liaquatabad, Teen Hatti, Goro Mandir, M.A Jinnah Road, Tower, PNSC
+Building, Mai Kolachi Road, Boat Basin, Super Market, Abdullah Shah Ghazi Mazar, Saudi
+Embassy, Gizri, Punjab Colony, Defence More, Qayyumabad, Korangi No. 1 and No. 5, Landhi
+Chiragh Hotel, Baber Market, Quaidabad, Qazafi Town
+Route #: Junaid Coach
+Stops:
+Landhi, Korangi Area, Dar-ul-Ulum, Nasir Colony, Qayyumabad, Shahra-e-Jam Sadiq Ali, Baloch
+Colony, Shaheed-e-Millat Road, Jail Road, Teen Hatti, Post Office, Liaquatabad No. 10, Petrol
+Pump, Board Office, Abdullah College, Banaras Road, Orangi No. 1, Qattar Hospital
+Route #: K
+Stops:
+Station, I.I Chundrigar Road, M.R Kiyani Road, Mansfield, M.A JinnahRoad, Clayton Road, PIB
+Colony, Frere Road, Preedy Station
+Route #: K-1
+Stops:
+PIB Colony, Dangerai Road, New M.A Jinnah Road, Mazar-e-Quaid, OldExhibition, M.A Jinnah
+Road, Tower, Dockyard
+Route #: L
+Stops:
+New Town Mosque, Clifton Road, M.A Jinnah Road, Keamari
+Route #: M-1
+Stops:
+Dockyard, Tower, M.A Jinnah Road, Mazar-e-Quaid, Shahra-e-Quaiden, Tariq Road,
+Bahadurabad, Dhoraji Colony, Sailani Colony, Muhammad Ali Chowk, Shahra-e-Faisal, Baloch
+Colony,Shaheed-e-Millat Road, Quyumabad
+Route #: M-2
+Stops:
+Adamjee Road, Society, Jail Road, New M.A Jinnah Road, Mazar-e-Quaid, Old Exhibition, M.A
+Jinnah Road, N.S.C Building
+Route #: M-3
+Stops:
+Agra Taj Colony, Daryabad, Baghdadi P.S Noorabad, Shah Waliullah Road, Cafe Nawabad,
+Enrollment Road, Jamat Khana, Tower, Mcleod Road, City Court, Juna Market, Lawrence Road,
+K.M.C Workshop, Garden, Soldier Bazar, Goro Mandir, Shahra-e-Quaiden, Tariq Road, Cafe
+Liberty, Bahadurabad, Kachi Memon Society, Dhoraji, Ghazi Salahuddin Road
+Route #: M-4
+Stops:
+Masjid Adamjee Nagar, Dhoraji Colony, Bahadurabad, Soceity, Tariq Road, Society Office Goro
+Mandir, Bandar Road, Tibet Building, Regal Chowk, Frere Road, Jama Cloth Market, Tower,
+
+Keamari K.P.T Ground
+Route #: Karachi Coach
+Stops:
+Gulshan-e-Hadeed Phase I, Gulshan-e-Hadeed Phase II, Gulshan-e-Hadeed Phase III, Steel
+Town, Quaidabad, Malir, Nata Khan, Nursey, FLeet Club, Lucky Star, Fuwara Chowk, Pakistan
+Chowk, Light House, Blouton Market, Tower, Dockyard
+Route #: Kashif Coach
+Stops:
+Murad Memon Goth, Jam Goth, Malir 15, Airport, Karsaz, Stadium, Jail Road, Teen Hatti,
+Garden, Ranchore Lane, Lee Market, Kharadar, Moosa Lane, Baghdadi, Haneef Manzil, Agra Taj
+Colony
+Route #: Khan Coach
+Stops:
+Maymarabad, P.S Khuwaja Ajmer Nagri, Disco Mour, U.P Mour, Nagan Chowrangi, Sakhi Hasan,
+Water Pump, Hyderi, Board Office, Nizamabad PetrolPump, Liaquatabad No. 10, Hasan Square,
+Sabzi Mandi, Jail Road, Jamshed Road, MAzar-e-Quaid, M.A Jinnah Road, Tower
+Route #: Khush hal Coach
+Stops:
+Gulshan-e-Behar, Orangi No. 14, Orangi No. 5, Metro Cinema, Banaras, Valika Mills, Habib Bank
+Chowrangi, Bara Board, Old Goli Maar, Garden , Plaza Cinema, Jama Cloth, Bolton Market,
+Tower, P.N.S.C Building
+Route #: Khyber Coach
+Stops:
+Fisheries, Lalabad, Dawood Chowrangi, Quaidabad, Malir, Drigh Road, Karsaz, Baloch Colony,
+Gora Qabrtustan, Kala Pul, Defence, Abdoz Chowrangi, Gizri, Clifton, Shirin Jinnah Colony
+Route #: M-5
+Stops:
+P.A.F Masroor, Agra Taj, Tower, Aram Bagh, Frere Road, Saddar, Empress Market, Jutland
+Lines, Nursery, Tariq Road, Bahadurabad, Dhoraji Colony
+Route #: Madina Coach
+Stops:
+Gulshan-e-Behar, Orangi Town No. 6, Orangi Town No.14, Orangi Town No. 13, Orangi Town
+No. 12, Orangi Town No. 5, Metro Cinema, Abdullah College, Paposh Nagar, Nazimabad Petrol
+Pump, Liaquatabad No. 10, Numaish, Nursery, F.T.C, Kala Pul, Defence, Akhtar Colony,
+Qayyumabad, Korangi No. 1, Korangi No. 6, Landhi No. 1, Landhi No. 6, Dawood Chowrangi,
+Muzafarabad Chowrangi
+Route #: Marwat Coach
+Stops:
+Bhense Colony, Labour Square, P.M.T.F Colony, SESSI Hospital, Landhi Industrial Area,
+Dawood Chowrangi, Quaidabad, Malir No. 15, Star Gate, Shahra-e-Faisal, Nursery, Shahra-eQuaideen, Mazar-e-Quaid, M.A Jinnah Road, Tower, Gulbai, Shershah, Moach Goth, Naval
+Colony
+Route #: Mashriq Coach
+Stops:
+Muzaffarbad Colony, Gul Ahmed Mills, Dawood Chowrangi, Mansehra Colony, Murtaza
+Chowrangi, Singer Chowrangi, Chamra Chowrangi, Qayyumabad, Akhter Colony, Kala Pul, Gora
+
+Qabristan, Nursery, Shahrah-e-Quaideen, Old Numaish, M.A Jinnah Road, 7th Day Hospital
+Route #: Mehfooz Coach
+Stops:
+Surjani Town No. 1, Surjani Town No. 2, Surjani Town No. 3, Surjani Town No. 4, Surjani Town
+No. 5, Surjani Town No. 6, Nai Abadi, 5-A, 5-E, Saleem Centre, Nagan Chowrangi, Sakhi Centre,
+Hyderi, Board Office, Nazimabad, Golimar, Lasbella, Garden, Ranchore
+Route #: Mehran Coach
+Stops:
+Gulashan-e-Hadeed, Quaidabad, Malir, Nursery, Shahrah-e-Quaideen, 7th Day Hospital, City
+Court, Tower, West Wharf
+Route #: Muslim Coach
+Stops:
+Gulshan-e-Hadeed, Pipri, Quaidabad, Malir Halt, Shahrah-e-Faisal, Karsaz, Nursery, Gora
+Qabristan, Jinnah Hospital, Askari Appartment, Cantt Station, Frere Hall, Fuwara Chowk, I.I
+Cundrigar Road, Tower, Keamari, Shirin Jinnah Colony, CLifton Casino
+Route #: N-1
+Stops:
+Scout Colony, Rashid Minhas Road, Gulshan, New Dhoraji Colony, Qyub Manzil, Imam Hospital,
+Dastagir No. 9, Aliabad, Azizabad, Hussainabad, Gharibabad, Liaquatabad, Post Office, Firdous
+Colony, Golimar Chowrangi, Jehangirabad, Bara Board, Pakistan Quarters, Garden, Nishter
+Road, Juuna Market, Lee Market, Khajoor Market, Kakri Road, Gymkhana Club, Kharadar,
+Tower, West Wharf Road
+Route #: N-3
+Stops:
+Asif Centre Super Highway, Water Pump, Sohrab Goth, Aisha Manzil, Karimabad, Liaquatabad,
+Teen Hatti, Lasbela House, Garden, Ram Swami, Civil Hospital, West Wharf, Dockyard
+Route #: N-4
+Stops:
+Islam Nagar, Faqir Colony, Mominabad, Metroville, Fronteir Colony, Bhawani Challi, S.I.T.E
+Police Station, Ghani Chowrangi, Shershah, Gulbai, Mauri Pur, Tower, Keamari, Masan Road,
+Shirin Jinnah Colony, Shahra-e-Ghalib Chowrangi, Shahra-e-Firdousi, Mazar Abdullah Ghazi,
+Khayaban-e-Shamsheer, Saudi Embassy, Khaliquzzaman Road, Punjab Colony, Sunset
+Bulivard, Corongi Road
+Route #: N-5
+Stops:
+Naval Colony, Fareed Colony, Urdu Chowk, Orangi No. 10, Orangi No. 5, Metro, Banaras, Habib
+Bank, Shershah, Gulbai, Mauri Pur, Tower, M.T Khan Road, P.I.D.C, Cantt Station, Jinnah
+Hospital, Kala Pul, Defence Society, Akhter Colony, Quyumabad Chowk, Buscuit Factory,
+Chamra Chowrangi
+Route #: Nasir Coach
+Stops:
+Surjani Town Sector 10, Kala School, U.P Society, Nagan Chowrangi, Sohrab Goth, Karimabad,
+Liaquatabad, Numaish, Shaharh-e-Quaideen, F.T.C, Gora Qabristan, Kala Pul, Jinnah Hospital,
+Askari Appartment, Cantt Station, Ch. Khaliquzzaman Road, Gizri
+Route #: National Pakhtoon Coach
+Stops:
+Gulshan-e-Behar, Orangi Town No. 14, Orangi Town No. 13, Orangi Town No. 8, Orangi Town
+
+No. 7, Orangi Town No. 1, Kasba Mour, Banaras Chowk, Paposh Nagar, Nazimabad No. 7,
+Petrol Pump, Liaquatabad No. 10, Hasan Square, University Road, N.I.P.A, Rashid Minhas,
+Dirigh Road, Shahrah-e-Faisal, Model Colony, Saudabad, Khokrapar No.1 and No. 4, Chaman
+Colony
+Route #: New Afridi Coach
+Stops:
+Bhense Colony, PMTF Quaidabad, Mansehra Colony, Murtaza Chowrangi, Godown Chowrangi,
+Qayyumabad, Defence Mour, Punjab Chowrangi, Saudi Embassy, Mazar Abdullah Shah Ghazi,
+Shirin Jinnah Colony, Mason Road, Keamari, Post Office, Tower, Agra Taj Colony, Gulbai,
+Shershah, Site Police Station, Habib Chowrangi, Metroville, Mominabad, Faqir Colony, Gulshane-Ghazi
+Route #: New Five Star Coach
+Stops:
+Muhajir Camp, Faquir Colony, Metroville, Habib Bank, Nazimabad, Liaquatabad No. 10, Hasan
+Square, Sabzi Mandi, Alamgir Road, Bahadurabad, Tariq Road, Gora Qabristan, Kala Pul,
+Qayyumabad, Akhtar Colony, Bhittai Colony, Ibrahim Haidery
+Route #: P-8
+Stops:
+Dehli Saudagar Colony, Malir Scheme No. 1, Azimpura, Shah Faisal Colony No. 3, Drigh Colony
+No. 2, Drigh Colony No. 1, Natha Khan Goth, Drigh Road, Station, Jail Road, Teen Hatti,
+Liaquatabad, Post Office, Nazimabad No. 1, Nazimabad No. 2, Habib Bank, Liaquatabad,
+No.10,Liaquatabad, No.4, Gujjar nala, Petrol Pump,Nazimabad No.1,Nazimabad No.2,Habib
+Bank, Valika Mills, Pathan Colony,Bhains Colony, Qasba Mour, Orangi No.1,Orangi No.7,Orangi
+No.13,Orangi No.14,Gulshan-e-Bihar
+Route #: P-9
+Stops:
+Memom Goth, Jama Goth, Mulla Issa, Old Thana, Asso Goth, Dond Goth, Shahra-e-Rasisal,
+Drigh Road, Station, Dalmia, Cement Factory, National Stadium, Jail Road, P.I.B Colony, Teen
+Hatti, Lasbela, Garden, Shoe Market, Ranchore Lane, Haji Camp, Lee Market,Chakiwara,
+Shershah,R.C.D Highway
+Route #: Prime Coach
+Stops:
+Gulshan-e-Hadeed Phase II, Gulshan-e-Hadeed Phase I, Steel Town, Pipri, Bhense Colony,
+Quaidabad, Malir Halt, Star Gate, Karsaz, Nursery, F.T.C, Fleet Club, Station, Main Clifton Road,
+Mazar Abdullah Shah Ghazi, Kinara Hotel
+Route #: Q
+Stops:
+Hussain D'Silva Town, Paposh Nagar, Bara Maidan, Chota Maidan, Chowrangi No. 2, Golimar,
+Nazrul Islam Road, M.A Jinnah Road, Keamari
+Route #: Qalandari Coach
+Stops:
+Surjani Town, Do Minute Chowrangi, Kala School, U.P Society. U.P Mour, Nagan Chowrangi,
+Hyderi, Board Office, Lasbella, Guru Nadir, M.A Jinnah Road, Tower, Fishries
+Route #: P-3
+Stops:
+Surjani Town Sector 7-D, Faizabad Sector 7-A, Faizabad Sector 7-B, Faizabad Sector 4-A,
+Muslimabad, U.P Soceity, Nagan Chowrangi, Power House, Al-Noor Society, Gulberg, Water
+Pump, Aisha Manzil, Karimabad, Liaquatabad No. 10, Teen Hatti, Lasbela, Garden,Ranchori line,
+
+Purran Hagi Camp, Lee Market,Kharadar, Tower,
+Route #: P-4
+Stops:
+Naval Colony, Moach Goth, Hub River Road, Shershah, Gulbai, Wazir Mansion, Jamat Khana,
+Tower, City Post Office, Jama Cloth Market, M.A Jinnah Road, Saeed Manzil, Numaish, Shahrae-Quaiden, Khaled Bin Walid Road, Shaheed-e-Millat Road, Baloch Colony, Mehmodabad No.6
+Route #: P-5
+Stops:
+Bhense Colony, Khokhrapar No. 1, Khokhrapar No. 4, Saudabad, Liaquat Market, Malir City,
+Faisal Road, Karsaz, Stadium, New Town, Jail Road, Teen Hatti, Liaquatabad No. 10, Petrol
+Pump, Nazimabad No. 2, Baramaidan, Paposh Nagar, Abdullah College, Banaras Colony, Qasba
+Mour ,Korangi No.7,Korangi No.8,Korangi No.13,Korangi No.14
+Route #: P-6
+Stops:
+Noorani Masjid Block 20 Fedral B. Area, Gulberg, Water Pump, Nasirabad, Aisha Manzil,
+Dastagir, Azizabad, Gharibabad, Liaquatabad No. 10, Teen Hatti, Jail Road, New Town, P.A.F
+Stop Gate, Nafees Cinema, Saudabad, Khokhrapar No. 6
+Route #: P-7
+Stops:
+Khokhrapar, Saudabad, Tanki, Kala Board, Malir Halt, Star Gate, Shahra-e-Faisal, Karsaz,
+Stadium, Sabzi Mandi, Hassan Square, Liaquatabad No. 10, Nazimabad, Habib Bank, Valika
+Mills, Manghopir Road, S.I.T.E, Metriville
+Route #: Rainbow Coach
+Stops:
+North Karachi Sector 2, Disco Mour, Qalandri Chowk, Pahar Ganj, Paposh Petrol Pump,
+Lasbella, Goro Mandir, Numaish, Plaza, M.A Jinnah Road, Qamar House, State Bank, Pakistan
+Chowk, Shaheen Complex, P.I.D.C, Super Market, Sunset Boulevard, Korangi No. 1
+Route #: Rainbow Flying Coach
+Stops:
+North Karachi Sector No. 2, Disko Mour, Qalandri Chowk, Pahar Gang, Paposh Nagar,
+Nazimabad Petrol Pump, Lesbella, Guru Mandir, Numaish, Plaza, M.A Jinnah Road, Qamar
+House, Statte Bank, Pakistan Chowk, Shaheen Complex, P.I.D.C, Super Market, Sunset Blvd,
+Korangi No. 1, Korangi No. 6, Landhi No. 6, Landhi No. 1, Quaidabad, Gulshan-e-Hadeed Phase
+3
+Route #: Razzak Coach
+Stops:
+Agra Taj Colony, Lee Market, Garden, Lasbela, Teen Hati, New Town, Dalmia, Drigh Road, Malir,
+Quaidabad, Rehri Goth
+Route #: Rehman Coach
+Stops:
+Orangi No. 14, Orangi No. 13, Orangi No. 8, Orangi No. 1, Qasba Mour, Bacha Khan Chowk,
+Habib Bank, Bara Board, Pakistan Quarters, Garden, Makki Masjid, M.A Jinnah Road, Jama
+Colth, Civil Hospital, Pakistan Chowk, Dr, Ziaudin Ahmed Road, Shaheen Complex, PIDC House,
+Cantt Post office, Dehli Colony, Gizri, Saudi Embassy, Khayaban-e-Shamsheer
+Route #: S-1
+Stops:
+Malir City Petrol Pump, Moosa Hotel, Asoo Goth, Nadi Kinara, Bhiroo Goth, Old Thana, Mullah
+
+Issa Goth, Jam Goth, Memon Mullah Issa Goth, Memon Goth, Khaskheli Goth, Hussain D'Silva,
+Extension Malir City Petrol Pump, Ibrahim Hyderi, Malir Mandir, Murghee Khana, Quaidabad,
+Dawood Chourangi, Landhi No.1, Landhi No.6,Korangi No.4, Korangi No.2 1/2, Coast Guards
+Route #: Qaumi Coach
+Stops:
+Bhense Colony, Labour Square, Hospital Chowrangi, Gul Ahmed Textile Mills, Dawood
+Chowrangi, Quaidabad, Malir 15, Star Gate, Natha Khan Goth, Shahra-e-Faisal, Nursery, Goro
+Qabrustan, Lucky Star, M.A Jinnah Road, Tower, Mauripur, Shershah, Metroville, Faqir Colony
+Route #: Qayyum Coach
+Stops:
+Sherpao Colony, Dawood Chowrangi, Mansehra Colony, Murtaza Chowrangi, Singer Area Road
+No. 13000, Korangi No. 5, Korangi No. 4, Korangi No. 4, Korangi No. 3, Korangi No. 2, Korangi
+No. 1, Qayyumabad, Shaheed-e-Millat Road, Baloch Colony, Nursery, Tariq Road, Sabzi Mandi,
+Hasan Square, Liaquatabad No. 10, Petrol Pump, Board Office, Hyderi, Sakhi Hassan, Up More,
+Saleem Centre, Two Minute Chowrangi, Surjani Town
+Route #: R
+Stops:
+Mansfield Street, Prince Street, Dawood Pota Road, M.A Jinnah Road, 7th Day Hospital, Old
+Exhibition, Jail Road, Stadium Road, Karsaz, National Highway, Kala Board, Saudabad,
+Khokhrapar
+Route #: R-1
+Stops:
+Safuran Goth, Quetta Lane, Asif Market, Tanki No. 4, C.M.H Picaddily Cinema Chowk, Cantt
+Bazar, Dairy Farm Model Colony, Security Printing Press, Malir Halt, Shahra-e-Faisal, P.A.F,
+Nursery, Taj Mahal Hotel, Jinnah Hospital, Cantt Station, Saudi Embassy,M.A Ghazi,Clifton,
+Asphalt, Oil Piri Road, Keemari, Ghas Mandir,Netti Jatti,Tower, Custom House, West Wharaf
+Road, Fisheries
+Route #: R-2
+Stops:
+Malir Halt, Mehran Depot, Model Colony, Moenabad, Saudabad, Liaquat Market, Jinnah Square,
+Jaffer Tayyar Society, Malir City, Quaidabad, Quaidabad Railway Station
+Route #: S-2
+Stops:
+Korangi, Quaters, Chungi Naka, Cost Guard, Korangi No. 2 1/2, Korangi No. 1, Korangi Crossing
+Quyumabad, Defence View, Baloch Colony, Tariq Road Chowrangi, Shaheed-e-Millat Road, Jail
+Road, Sabzi Mandi, Hassan Square, N.I.P.A Chowrangi, Rashid Minhas Road, Motti Mahal, City
+Garden, Sohrab Goth, Shahrah-e-Wali Ullah Road, Power House,Shafiq Mour, Godhra Chowk,
+Industrial Area, Ghodra No.7, Saba Cinema,Ayub Goth
+Route #: S-3
+Stops:
+M.E.S, Model Colony Malir Halt, Shah Faisal Railway Station, Karsaz, Stadium, Jail Road, Pir
+Colony, Lasbela Chowk
+Route #: S-6
+Stops:
+Chaman Colony, Market, Dak Khana, Sindh Goverment Hospital, Khokhrapar No. 1, Saudabad,
+Malir Tanki, Bala Board, Malir No. 15, Quaidabad, Dawood Chowrangi, Landi No. 1, Landi No. 2,
+Landi No. 3, Landi No. 4, Landi No. 5, Landi No. 6, Korangi No.6, Korangi No.2 1/2, Bengali
+
+Camp, Bilal Chowrangi,Biscuit Factory, Allah Wala Town
+Route #: Saddar Coach
+Stops:
+Cattle Colony, Tool Factory, Bachoha Jail, Quaidabad, Malir No.15, Kala Board, Malir Halt, Star
+Gate, Colony Gate, Nata Khan, Drigh Road, P.A.F, Karsaz, Baloch Colony, Nursery, Gora
+Qabristan, Regent Plaza, Fleet Club, Fuwara Chowk, R.T.A Office, Metropol
+Route #: Safari Coach
+Stops:
+Maroora Goth, Safoora Goth, Gulistan-e-Johar, University Road, N.I.P.A Chowrangi, Hassan
+Square, Sabzi Mandi, Shaheed-e-Millat Road, Tariq Road, Shahrah-e-Quaideen, Gora Qabristan,
+Korangi Road, Denfence Mour, Punjab Colony, Gizri, Saudi Embassy, Abdullah Shah Gazi
+Mazar, Clifton, Boat Basin, Bilawal House, Mai Kolachi Road, Tower, Gulbai, Shershah, Habib
+Bank Chowrangi, Banaras, Qasba Colony, Mianwali
+Route #: Shahbaz Coach
+Stops:
+Sachal Goth, Safoora Goth, University Road, N.I.P.A, Hasan Square, Sabzi MAndi, New Town
+Police Station, Shaheed-e-Millat Road, Shahrah-e-Quaideen, Nursery, F.T.C, Jinnah Hospital,
+Cantt Station, Arts Concil, I.I Chundrigar Road, Keamari
+Route #: Shaheen Coach
+Stops:
+New Sabzi Mandi, Gulshan-e-Rufi, Golden City, Maroora Goth, Safoora Goth, University, N.I.P.A
+, Hassan Square, Sabzi Mandi, Islamia College, Mazar-e-Quaid, Numaish, M.A Jinnah Raod,
+Jama Cloth, Tower, Kharadar, Agra Taj, Gulbai, Mauripur
+Route #: Shama Hasan Zai Coach
+Stops:
+Mangopir, Baradari, Nagan Chowrangi, D.C Office, Gareebabad, Hasan Square, Sabzi Mandi,
+Shaheed-e-Milat Road, Society Qabristan, Shahrah-e-Faisal, Gora Qabristan, Defence, Akhtar
+Colony, Qayyumabad, Korangi No. 1, Korangi No. 2, Korangi No. 3, Korangi No. 6, Quaidabad
+Route #: Shama Shehbaz Coach
+Stops:
+Gulshan-e-Zia Terminal No. 1, Orangi No. 14, Qasba Mour, Banaras, Habib Bank, Bismillah
+Hotel, Garden, Plaza, M.A Jinnah Road, Tower, Keamari Terminal No.2
+Route #: Sher Afzal Coach
+Stops:
+Awami Goth, Mianwali Colony, Qasba Colony, Habib Bank, Purana Golimar, Garden, 7th Day
+Hospital, Mir Kran Ali Talpur Road, Lucky Star, Cantt Station, Super Market, Two Talwar,
+Abdullah Shah Ghazi, Khayaban-e-Shamsher, Gizri, Sunset Bulevard, Akhter Colony, Bhitai
+Colony, Bilal Colony
+Route #: Star Line Coach
+Stops:
+Abul Hassan Isphahani Road, Dhoraji Colony, Disco Bakery, Gulshan Chowrangi, N.I.P.A, Civic
+Centre, National Stadium, Agha Khan Hospital, T.V Station, Bahadurabad, Shaheed-e-Millat
+Road, Shahrah-e-Faisal, Regent Plaza, Jinnah Hospital, Askari Appartment,
+Route #: Super Barki Coach
+Stops:
+Madni Goth, Grace Mauripur, Mauripur Road, Shaheen Complex, P.I.D.C, Civil Lines, Cantt
+Station, Mehran Hotel, Dawood Pota Road, Mir Karim Ali Talpur Road, Lucky Star, Iqbal S.J
+
+Shaheed Road, Gora Qabristan, Shahrah-e-Faisal, Nata Khan, Airport, Malir, Quaidabad,
+Dawood Chowrangi, Dawood Mills, Bilal Chowrangi, Social Security Hospital, New Muzafarabad,
+Majeed Colony Sec No. 2
+Route #: Super Hasan Zai Coach
+Stops:
+Sohrab Goth, Moti Mehal, N.I.P.A, Civic Centre, Sabzi Mandi, Jail Chowrangi, Khalid Bin Waleed
+Road, Shahrah-e-Quaideen, Nursery, Shahrah-e-Faisal, F.T.C, Regent Plaza, Jinnah Hospital,
+Cantt Station, Teen Talwar, Mid East Hospital, Kothri Parade, K.D.A
+Route #: T
+Stops:
+Karimabad, New Link Road, Rashid Minhas Road, University Road
+Route #: Tariq Afridi Coach
+Stops:
+Ittehad Town, Orangi No. 10, Orangi No. 5, Banaras Chowk, Abdullah Colege, Paposh Nagar,
+Nazimabad No. 7, Petrol Pump, Liaquatabad No.10, Jahangir Road, Old Nomaish, Shahrah-eQuaideen, Kala Pul, Akhter Colony, Qayyumabad, Korangi, Korangi No. 1, Korangi
+Route #: Sheraz Coach
+Stops:
+Picadilly, Cinema Chowk, Malir Cantt, Safura Goth, University Road, Safari Park, N.I.P.A, Urdu
+Science College, Hasan Square, Sabzi Mandi, Jail Road, Mazar-e-Quaid, Old Numaish, Bander
+Road, Plaza, Jama Cloth, Denso Hall, Boulton Market, Tower, Jamat Khana, G Alana Road,
+Gulbai, Hawksbay
+Route #: Silver Coach
+Stops:
+New Race Course, Univesity, Safari Park, Abul Hassan Isphahani Road, Bhayani Heights, Disco
+Bakery, Gulshan Chowrangi, Sumdani Hospital, 13-D Bridge, Gulshan-e-Shamim,Azizabad,
+Aliabad, Karimabad, Liqautabad, Teen Hati, P.I.B Colony, Shaheed-e-Millat Road, Society
+Qabristan, Kalapul, Sunset blvd, Gizri, Clifton
+Route #: SL
+Stops:
+Landhi No. 3, Landhi No. 6, Korangi Market No. 6, Korangi No. 5 1/2, Korangi Road, Defence
+Society, Jinnah Hospital, Mansfield Street, Hijaz Dairy Farm, Mir Karam Ali Talpur Road
+Route #: SL-1
+Stops:
+Khadda Quarters, Market 6, Tasweer Mahal, 100 Quarters, Dhobi Ghat, Korangi No. 5 1/2,
+Korangi no. 5, Qayumabad, Defence Society, Jinnah Hospital, Rafiq Shaheed Road, Fleet Club,
+Iqbal Shaheed Road
+Route #: SPL-1
+Stops:
+Old Haji Camp, Garden, Teen Hatti, Jail Road, Drigh Road, National Highway, Malir City, Memon
+Goth, Damloti No. 3, Damloti No. 6, Kathore, Kadiji
+Route #: U-11
+Stops:
+Al-Ahmed Town, North Karachi, Na Abadi, Achanak Hotal, Baradari, Disco Mor, Nagan
+Chowrangi, Sakhi Hassan, Hyderi, Boad Office, Petrol Pump Nazimabad No. 2, Habib Bank, Bara
+Board, Golimar, Garden, Jama Cloth Market, Pakistan Chowk, P.I.D.C, Cantt Station, Dehli
+Colony, Mazar Abdullah Shah Ghazi, Khayaban-e-Attar, Sea View, Khayaban-e-Sadi,Kharadar
+
+Chowrangi, Boad Basin , Khayaban-e-Roomi, Khayaban-e-Jami, Sunset Bulyard, Korangi Road,
+Kala Pull, Mehmodabad, Manzoor Colony
+Route #: U-2
+Stops:
+19-D Saeedabad, Habib Bank, Bara Board, Golimar, Garden, Dawood Pota Road, M.R Kiyan
+Road, Lucky Star, Jinnah Hospital, Kala Pul, Mehmoodabad, Baloch Colony
+Route #: U-3
+Stops:
+Agra Taj Colony, Ravechand Road, Marine Road, Jamat Khana, Thal Ram Khimchand Road,
+M.W Tower, I.I Chundrigar Road, Wood Street, Frere Road, Masjid-e-Khizra, Shahra-e-Iraq,
+Frere Street, Invarity Road, Hospital Road, Drigh Road, Gora Qabrustan, Korangi Road, Akthar
+Colony,Tower
+Route #: U-4
+Stops:
+Manzoor Colony, Mehmoodabad No. 6, Corporation Gate, Channasar Goth, Kala Pul, Jinnah
+Hospital, Fleet Club, Mansfelf Street, MuBarak Shaheed Road, Jet Lines, Gora Qabrustan,
+Shahra-e-Faisal, Nursery, Tariq Road, Shaheed-e-Millat Road, Bahadurabad, Alamgir
+Road,Sabzi mandi,Hassan Square,Bhatti Park,Mouchi Mour, Motti Mahal,Water Pump,Alnoor
+Society, Power House,Buffer Zone, Nagan Chowrangi,U.P Mour, Disco Mour, Khawaja Ajmair
+Nagri, 2Min Chowrangi, Surjani Town
+Route #: U-5
+Stops:
+Al-Asif Square, Super Highway, Gulshan-e-Iqbal Block No. 4, Gulshan-e-Iqbal Block No. 4-A,
+Gabol Goth, Police Station, Moti Mahal No. 1, Hassan Square, Sabzi Mandi, Alamgir Road, Tariq
+Road, Gora Qabrustan, Jet Lines, Iqbal Shaheed Road, Fleet Club, Mansfield Street, Shahrah-eIraq, Dawood Pota Road, Preedy Street, Shahrah-e-Liaquat, Bundar Road, Tower, Gulbai,
+Shershah, Hub River Road, Mohajir Camp
+Route #: Tariq Coach
+Stops:
+Surjani Town, Surjani K.D.A Office, Surjani Chowrangi, North Karachi Sector 5-A, Khawaja
+Ajmeer Nagar, Disco Mour, Qalandria Chowk, Sakhi Hasan, Hyderi, K.D.A, Ziauddin Hospital,
+Karimabad, Liaquatabad, Teen Hati, Guru Mandir, Old Exhibition, Shahrah-e-Qu
+Route #: Tezro Coach
+Stops:
+Surjani Town, Nagan Chowrangi, Sakhi Hasan, Hyderi, Nazimabad, Lasbella, M.A Jinnah Road,
+Saddar, Murshid Bazar, Lucky Star, Jinnah Hospital, Cantt, Main Clifton, Mai Colachi Road,
+Tower, Gulbai, Sher Shah, Habib Bank, S.I.T.E, Banaras, Orangi Town No. 5,
+Route #: U
+Stops:
+Nasir Colony, Korangi Industrial Area, Bridge, Qayumabad, Baloch Colony, Mahmoodabad No. 6,
+Kala Pul, Jinnah Hospital, Fleet Club, Mansfield Street, Jet Lines, Gora Qabrustan, Shahra-eFaisal, Nursery, Tariq Road, Bahadurabad, Sabzi Mandi, Gulshan-e-Iqbal, Water Pump, Sakhi
+hasan, Gulshan-e-Farooq,North Karachi
+Route #: U-1
+Stops:
+100 Feet Road, Azam Basti, Corporation Gate, Kala Pul, Jinnah Hospital, Luck Star Hotel,
+Mansfield Street, Empress Market, Preedy Street, Regal, Tibet Centre, M.A Jinnah Road, Jama
+
+Cloth Market, City Court, Juna Market, Lee Market, Kakri Ground, Masan Road, Agra Taj Colony
+Route #: U-10
+Stops:
+Manzoor Colony, Mehmoodabad No. 6. New Split Level Road, Baloch Colony, Hill Park,
+Shaheed-e-Millat Road, New Town, Police Station, Sabzi Mandi, Civic Centre, Liaquatabad No.
+10, Karimabad, Water Pump, Sohrab Goth, Scout Colony, Safari Park, Karachi University, Safora
+Goth, Mohammad Khan Goth
+Route #: U-6
+Stops:
+Manzoor Colony, Mehmoodabad, Kala Pul, Jinnah Hospital, Lucky Star, Invararity Road,
+Stretchen Road, Pakistan Chowk, Baba-e-Urdu Road, M.A Jinnah Road, Tower, Mauripur Road,
+Gulbai, Shershah, Baldia, Mohajir Camp No.4, Rasheedabad
+Route #: U-7
+Stops:
+Pahlwan Goth, Dalmia Cement Colony, N.I.P.A Chowrangi, Hassan Square, Sabzi Mandi, Jail
+Road, Goro Mandir, Soldier Bazar, Holy Family Hospital, Garden, Juna Market, Lea Market,
+Chakiwara, Shershah, Hub River Road, Dubba Colony, Swat Colony, Chandni
+Chowk,Saeedabad, Nai Abadi
+Route #: U-8
+Stops:
+Jonijo Town, Manzoor Colony, Eid Gah, Mehmoodabad No. 5, Mehmoodabad No. 6,
+Mehmoodabad Gate, Railway Phatak, Nursery, Society Qabrustan, Tariq Road, Bahadurabad,
+Sabzi Mandi, Hassan Square, Liaquatabad No. 10, Karimabad, Ziauddin Hospital, K.D.A
+Chowrangi, Imam Hospital, Shahrah-e-Humayu, Sakhi Hasan, Nagan Chowrangi, Sujani Town,
+Sultanabad, Hub Pumping Station,Hamdard university
+Route #: U-9
+Stops:
+Gulshan-e-Ghazi, Fareed Colony, Gosia Chowk, Orangi No. 10, Orangi No. 5, Banaras Chowk,
+Walika Hospital, Habib Bank, Nazimabad, Gujjar Nala, Liaquatabad No. 10, Gharibabad, Hassan
+Square, Sabzi Mandi, Jail Road, Shaheed-e-Millat Road, Tariq Road, Nursery, S.M.C.H.S,Gora
+Qabrustan, Kala Pull, Akhtar Colony, Qayyumabad,Shahrah-e-Jamm Sadiq Ali, Chamra
+Chourangi, Bilal Colony, Mills Area, Mansehra Colony
+Route #: Umer Coach
+Stops:
+Muhajir Camp No.7, Muhajir Camp No. 5, Muhajir Camp No. 4, Sher Shah, Gulbai, Tower, M.A
+Jinnah Road, Numaish, Islamia College, Sabzi Mandi, N.I.P.A, Fazal Mills, Power House, Nagan
+Chowrangi, Khuaja Ajmeer Nagar, Surjani Town
+Route #: V
+Stops:
+Gandhi Garden, Lasbela, Teen Hatti, Jail Road, Liaquat Hospital, Karsaz, National Highway,
+Dawood Chowrangi, Buffallow Colony Landhi
+Route #: V-1
+Stops:
+Khokhrapar, Saudabad, Kala Board, Malir Halt, Quaidabad, Match Factory, Industrial Area,
+Muzaffarabad Colony, Geedar Colony, Bhense Colony
+
+Route #: V-2
+Stops:
+Orangi No. 1, Korangi No. 5, Landhi, Quaidabad, Pipri, Pakistan Steel Mills
+Route #: V-3
+Stops:
+New Sabzi Mandi, Maror Goth, University Road, N.I.P.A Chowrangi, Rashid Minhas Road, Drigh
+Road, Station, Shahra-e-Faisal, Malir Halt, Malir City, Quaidabad, Dawood Chowrangi, Landi No.
+1, Landi No. 3, Landi No. 6, Korangi No. 6, Korangi No. 3, Korangi No.1, Nasir Colony, Bhattai
+Colony
+Route #: W
+Stops:
+Masjid-e-Khizra, Cowie Road, Preedy Street, M.A Jinnah Road, Jehangir Road, Teen Hatti,
+Lalukhet, Al-Azam Square, Azizabad Chowrangi, Gulberg Chowrangi, Power House Road, Aziz
+Mills, Godhra Camp, New Karachi 5-F Allahwala Masjid,New Karachi
+Route #: W-1
+Stops:
+New Abadi Sector 5-D, New Abadi Sector 5-F Area, Sindhi Hotel, U.P Society, Sakhi Hassan,
+Barbar, Hyderi, Nazimabad, Lasbela Chowk, Nishter Road, Baba-e-Urdu Road, Chandbibi Road,
+Tahir Saifuddin Road, Nigar Cinema, Nishtar Road, Chand Bibi Road
+Route #: W-10
+Stops:
+Saeedabad, 19-D Mohajir camp, Baldia Town, Graveyard No 7-1/2, Shershah, Habib bank, Bara
+boar, Jehangirabad, Nazimabad Chowrangi No 1, Liaquatabad No 10, Karimabad, Water Pump,
+Sohrab Goth, Power house, Sindhi hotel, New Karachi
+Route #: W-11
+Stops:
+New Karachi allahwala masjid, Sindhi hotel, Godhra camp, F.B Area, Karimabad, Liaquatabad,
+Direct Bunder Road, Light house, Taj hotel, Boulton Market, Tower, Nagina cinema, Kemari
+Route #: W-12
+Stops:
+North Karachi, Stop No 4 , Madina Colony, Sindhi hotel, D.turn Kala school No 2, Two Minites
+stop, Naibadi. Manghopir Road, Qasba Colony, Banaras Colony, Abdullah college, Paposh
+nagar, Abbasi hospital, Petrol Pump, Gujarnala, Liaquatabad No 10, Gharibabad, Hassan
+Square, Saba Akhtar Road, Swana City, Masjid Abrar, Zia Colony, Gulshan Chorangi, N.I.P.A,
+Safari Park, Faran Centre, Jouhar Chowrangi, Rabia City, Pirani Centre, Ajmer Palza, Pahlwan
+Goth, Safoora Goth
+Route #: W-13
+Stops:
+Sector 5-F Maidan New Karachi, Sindhi hotel, Kala school, Naiabadi, Manghopir police Station,
+Manghopir mazar, Qasba Colony, Banaras Chowk, Habib bank, Bara Board, Golimar Chowrangi
+Route #: W-15
+Stops:
+Yousuf goth, Khazana, D.turn sindhi hotel, Madina Colony No 5, Charai nala, Godhra camp,
+Power house, Sohrab goth, Water Pump, Karimabad, Liaquatabad No 10, Teen hatti, Jehangir
+Road, Guru Mandir, Numaish, 7th day hospital, Plaza, Tibbet Centre, M.A jinnah Road, Tower,
+Custom House
+
+Route #: W-16
+Stops:
+Sector No 4, Qureshi hotel, Kala school, Two minutes stop, Kala school, New Karachi No 3, New
+Karachi No 1, U.P society, Nagan Chowrangi, Power house, Sohrab goth, Ancholi, Water Pump,
+Nasirabad, Aisha manzil, Karimabad, Liaquatabad No 10, Nairang, Dak khana, Tinhatti, Jahangir
+Road, Guru Mandir, Numaish, 7 Day Hospital, Plaza, Jama Cloth Market, Bolton Market, Tower
+Route #: W-17
+Stops:
+New Karachi, Sector 5-C-3, Sector 5-C-2, Sector 5-C-1, Sector 5-B-1, Sector 5-E nala, Old
+golimar, Garden, nishter Road, Haji camp, Lee Market
+Route #: W-18
+Stops:
+Surjani Town, Sector 5-B, Sector 5-C, Sector 1, Sector 5-A, Sector 5-2, Sector 5-B, Sector 5-3,
+Sector 5-C, Sector 5-4, Sector 11-A, Sector 11-7, Sector 11-B, Sector 11-5, Sir syed Town,
+Nagan Chowrangi, Sohrab goth, Rashid minhas Road, Drive-in-cinema, Drigh Road, Malir No.
+15, Quaidabad, Sherpao Colony, Korangi, Fish Harbour
+Route #: W-2
+Stops:
+Nai Abadi 5-D-1, Nai Abadi 5-D-4, Sindhi Hotel, New Karachi No. 5, Godhra Camp, Sohrab Goth,
+Water Pump, Karimabad, Lalukhet, Teen Hatti, Goro Mandir, Old Numaish, Jama Cloth Market,
+Bolton Market, Tower, West Wharf, Dockyard
+Route #: W-20
+Stops:
+Yousuf goth, Sindhi hotel, Godhra camp, Power house, Sohrab goth, Water Pump, karimabad,
+Liaquatabad No 10, Jehangir Road, M.A jinnah Road, Tower, Qamar house, Agha khan Road,
+Pretam das Road, Mirza adam khan Road, G.Allana Road
+Route #: W-22
+Stops:
+Naiabadi, Siddiq Market, Asia mor, Disco Chowk, Baradari, Thana ajmer nagri, Rehmania Town,
+Sector 5-K, Carela mor, Al-majid school, Enquiry office, Nusrat bhutto Colony, Pahar ganj,
+Abdullah college, Board office Chowrangi, Nazimabad No 7, Nazimabad Petrol Pump, Liaquat
+Abad No. 10, Ghareebabad, Hassan Square, Sabzi mandi, Jail Road Chowrangi, Sheed-e-Millat
+Road, Khalid Bin Waleed Road, Shahrah-e-Quaideen, Sindhi Muslim Society, Nursery, Gora
+Kabristan, Kala Pull, Defence Society, Korangi Road, Akhtar Colony, Qayyumabad, Shah Bhittai
+Colony, Korangi No. 2 1/2
+Route #: W-24
+Stops:
+New sabzi mandi B-10, Mohammad khan goth, Scout Colony, Metroville-III, Al asif square sohrab
+goth, Water Pump, Gulberg, Peoples Chowrangi, Sakhi hasan, Shahrah-e-shershah soori Road,
+Board office, Abdullah college, Banaras Colony, Orangi Town No. 4, Orang Town No. 5,
+Metroville, Mills Area, Labour Square,ddabad
+Route #: W-25
+Stops:
+North Karachi, Saba cinema, Mill Area, Godhra camp, Bismillah hotel, U.P society, U.P mor,
+Nagan Chowrangi, Sakhi hasan, Hyderi, Board office, Abdullah college, Z.M.C stop, Orangi No
+13, Orangi No 14, Eidgah, Thorani goth, Islam Chowk, Dabba mor, Rais Amrohvi Colony, Khyber
+Chowk, Qabail Chowk
+
+Route #: W-28
+Stops:
+Mianwali, Qasba Colony, Banaras Colony, Habib bank, shershah, Mira naka, Agra taj Colony,
+Mira adam Khan Road, Mauripur Road, Fisheries
+Route #: W-5
+Stops:
+Custom House, Lee Market, Juna Market, Lawrence Road, Gandhi Garden, Purani Golimar,
+Pakistan Colony, Bara Board, Mills Area, Pathan Colony, Banaras Colony, Baloch Colony,
+Manghopir, New Karachi Nai Abadi
+Route #: W-6
+Stops:
+Railway Stadium, Aram Bagh, Jama Cloth Market, Bundar Road, Plaza Cinema, 7th Day
+Hospital, Exhibition, Goro Mandir, Liaquatabad, Karimabad, Water Pump, Sohrab Goth, Shafiq
+Mills, Godhra Camp, Nala, New Karachi, Sindhi Hotel, Lal Market New Karachi
+Route #: W-7
+Stops:
+Ziauddin Road, Shahra-e-Kamal Attaturk, Ingle Road, Court Road, Frere Road, Regal, Preedy
+Street, Dowood Pota Road, Empress Market, M.A Jinnah Road, Old Exhibition, Teen Hatti,
+Lalukhet, Dak Khana, Liaquatabad No. 10, Aisha Manzil, Water Pump, Sindhi Hotel, Kala School,
+Sector 5-B-4 New Karachi
+Route #: W-8
+Stops:
+5-B Area, Kala school, Sindh Hotal, Sakhi hassan, hyderi, Board office, Nazimabad, Golimar,
+Lasbela, Garden, Ranchore line, Jubilee cinema, Radio pakistan, Jama cloth Market, Civil
+hospital
+Route #: W-9
+Stops:
+Sector 5-C/3, Kala school, Khayam No 3, Khayam No 4, Khayam No 5, Nala No 1, U.P society,
+Nagan Chowrangi, Golimar No 2, Golimar No 1, Lasbela, Guru Mandir,Purani numaish, 7th day
+hospital, M.A jinnah Road, Jama cloth, Tower, Custom house, West wharf
+Route #: W-3
+Stops:
+New Karachi 5-D, Sindhi Hotel, Godhra Camp, Power House, Water Pump, Karimabad, Empress
+Market, Saddar, Cantt Station
+Route #: W-30
+Stops:
+Pushtoonabad, Manghopir Road, Qasba Colony, Banarar Colony, Abdullah college, Board office,
+K.D.A Chowrangi, Hyderi, Five star Chowrangi, Sakhi hasan, Nagan Chowrangi, Sohrab goth,
+Gulshan Chowrangi, Drive-in-cinema, Petrol Pump, C.O.D Road, P.A.F, Karsaz, Drigh Road,
+Baloch Colony, Mahmood Abad No. 6, Star Gate, PNS Shifa, Adam Road, Khaliq-e-Saddi, Board
+Basin, Kharkar Chowrangi, Bilawal House, Khayaban-e-Attar, Darakshan, Khayaban-eShamsheer, Sultan Masjid, Qayyumabad
+Route #: W-31
+Stops:
+Surjani, Sector 10, Sector 5-D, Sector 5-A, Sector 5-1, Sector 5-B, Sector 5-3, Sector 5-3, Sector
+5-2, Naiabadi, Two minites stop, Sector 5-D, Sector 5-F, Sindhi hotel, Sector 11-D, U.P society,
+Sakhi hassan, Hyderi, Board office, Nazimabad, Gulbahar, Lasbela, Nishtar Road, Lae Market,
+
+Kharadar, Tower, Fisheries
+Route #: W-35
+Stops:
+Orangi Town No 13, Mansoor nagar, Prehmat Chowk, Orangi No 8-1/2, Qater hospital, Orangi No
+1, Qasba mor, Banaras Colony, Habib bank, Bara Board, Purana golimar garden, Dhobi ghat,
+Mirza adam khan Road, Agra taj moosa lane, Kharadar, Khoja jamat khana, Chota Gate
+Route #: W-4
+Stops:
+North Karachi 5-E, Nai Abadi, Daily Jung Office, North Karachi Nai Abadi Kala School, Sindhi
+Hotel, U.P Society, Sakhi Hassan, Hyderi, North Nazimabad, Petrol Pump, Lasbela, Gandhi
+Garden, Garden Road, Regal, Daily Jung Ofice, T&T Department
+Route #: X-10
+Stops:
+Mohajir camp, shershah, Habib bank, Nazimabad No 2, Petrol Pump, Liaquatabad No 10, Teen
+hatti, Dehangir Road, Guru Mandir, Old exhibition, Mansfield street, Preedy street, Mir karam ali
+talpur Road, Wellington street, Dr. dawood pota Road, Cantt Station, Raca course, Dehli Colony,
+Gizri
+Route #: X-11
+Stops:
+Saeedabad, Chandni Chowk, Dabba Colony, Swat Colony, Baldia shershah, Gulbai, Agra taj
+Colony, Tower, I.I chundrigar Road, Shahrah-e-liaquat, Regal, Preedy street, Dr. dawood pota
+Road, Jutland line, Abbysinia, P.E.C.H.S society bus stop
+Route #: X-12
+Stops:
+Naiabadi, Mohajir camp, Shah faisal Colony, Zam zam Chowk No 4, Rashidabad No 2, shershah,
+Gulbai, Tower, Burns Road, M.A jinnah Road, Old exhibition, Mazar quaid-e-azam, Society office,
+Tariq Road, Bahadurabad, Jail Road, Hasan square, Gulshan-e-Iqbal, Water Pump, Sohrab
+Goth, Zero Mile
+Route #: X-13
+Stops:
+Mohajir camp, Habibabad, Bus stop No 5, Quaid-e-azam society, Shershah, Lea Market, Haji
+camp, Civil hospital, Aram bagh, Burns Road, Regal, Lucky star, Empress Market, Masjid-ekhizra, Shahrah-e-iraq
+Route #: X-15
+Stops:
+Mohajir camp, Saeedabad, Chandni Chowk, Dabba Colony, Shershah, Habib bank, Nazimabad,
+Al-Azam square, Teen hatti, Jail Road, Shaheed-e-millat Road, Tariq Road, Cafe liberty,
+Cheelawala kothi khalid bin walid Road, Shahrah-e-qaideen, Society office, Khudadad Colony,
+Old Exhibition, Tibet Market, Regal Cinema, Buns Road, Jama Cloth, M.A Jinnah Road, Tower,
+Dockyard
+Route #: W-A
+Stops:
+New Karachi Sector No. 5-C, New Karachi Sector No. 5-B, School No. 3, School No. 4, Nala, U.P
+Society, Sakhi Hassan Nazimabad No. 7, Petrol Pump, Lasbela, Garden, Nishter Road, K.M.C
+Workshop, Baba-e-Urdu Road, City Court, Tower, Sultanabad, P.I.D.C, Cantt Station, Kala Pull,
+Aza, Basti, Manzoor Colony
+
+Route #: Wali Afridi Coach
+Stops:
+Orangi No. 16, Orangi No. 14, Orangi No. 7, Orangi No.1, Qasba Mour, Banaras Chowk,
+Abdullah College, Board Office, Nazimabad Petrol Pump, Liaquatabad No. 10, Teen Hati, Guru
+Mandir, Mazar-e-Quaid, Society Office, Nursery, Gora Qabristan, Kala Pul, Cantt
+Route #: Waziristan Coach
+Stops:
+Bhittai Colony, Korangi No. 6, Korangi No. 3, Landhi no. 3, Landhi no. 6, Quaidabad, Malir, Drigh
+Road, Nursery, Gora Qabristan, Kala Pul, Jinnah Hospital, Cantt Station, P.I.D.C House,
+Sultanabad, P.N.S.C Building, Fishri, Mauripur Truck Adda, Gulbai
+Route #: X
+Stops:
+Lee Market, Chakiwara, Shershah, General motors, Hub river Road, Saeedabad
+Route #: X-1
+Stops:
+Noor masjid, Mohajir camp 7-1/2, shershah, Mauripur Road
+Route #: X-20
+Stops:
+Saadi Town, Gulshan umair, Race course, Safoora goth, University Road, N.I.P.A Chowrangi,
+Hassan square, Jail Road, Guru Mandir, Nomaish, Plaza, Ramswami, Shershah, Ghani
+Chowrangi, Rashidabad, Chandni Chowk, Mawach Colony, Qasim Ali Shah
+Route #: X-23
+Stops:
+Farid Colony, Orangi No 10, Orangi No 4, Frontier mor, Site, Habib bank, Nazimabad, Petrol
+Pump, Liaquatabad No 10, Civic Centre, Subzi mandi, New Town, Police Station, Alamgir Road,
+Bahadurabad, Tariq Road, Shaheed-e-millat Road, Dehli society, Baloch Colony, Mahmoodabad,
+Manzoor Colony, Qayyumabad, Chamra Colony, LPG Plant, HB Weather, Hazrat Bilal Colony,
+Shahrah-e-Daruuloom, Hashim Goth
+Route #: X-24
+Stops:
+Gulshan-e-zia, gulshan-e-bihar, shah faisal Chowk, Orangi Town No 14, Orangi Town No 13,
+Qater hospital, orangi No 1, Qasba mor, Banaras, Abdullah college, Paposh, Nazimabad No 2,
+Petrol Pump, Liaquatabad No 10, P.O sindhi hotel, Sabzi mandi, New Town, Stadium, Dalmia,
+Driven Cinema, Gulistan-e-Jouhar
+Route #: X-25
+Stops:
+Willayat Ali shah, Moach goth, Shershah, Pankha hotel, Mir naka, Mirza adam khan Road, Agra
+taj hanif manzil, Kharadar, Ismiala jamat khana tower, Keamari, Dak khana, Tarachand Road,
+K.P.T ground, Shireen jinnah Colony, Kharkar Chowrangi, Clifton 26 street
+
+Route #: X-4
+Stops:
+Noor masjid, Qabrustan, shershah, Lee Market, Garden, Coast guard, (HQ) Mansfield street, Mir
+karam ali talpur Road, Wellington street, Dr. dawood pota Road, Cantt Station
+http://adiekhan.blogspot.com/2009/01/karachi-bus-routes_24.html
+
+

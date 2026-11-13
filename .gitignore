@@ -1,43 +1,9 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# Project-specific ignores live in app/.gitignore and api/.gitignore
 
-# dependencies
 node_modules/
-
-# Expo
-.expo/
-dist/
-web-build/
-expo-env.d.ts
-
-# Native
-.kotlin/
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-
-# Metro
-.metro-health-check*
-
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-# macOS
-.DS_Store
-*.pem
-
-# local env files
+.env
 .env*.local
+.DS_Store
 
-# typescript
-*.tsbuildinfo
-
-example
-
-# generated native folders
-/ios
-/android
+# Karachi data: raw Overpass exports are large (build/osm-suggestions.json, derived from them, is committed)
+data/karachi/osm/*.json
