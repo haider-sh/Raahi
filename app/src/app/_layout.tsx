@@ -10,6 +10,7 @@ import { useColorScheme } from 'react-native';
 import { Colors } from '@/constants/theme';
 import { bootSession } from '@/features/account/session';
 import { hydrateSaved } from '@/features/saved/store';
+import { AnimatedSplash } from '@/features/splash/animated-splash';
 import { startSync } from '@/features/saved/sync';
 import { restoreLanguage } from '@/i18n';
 import { isApiError } from '@/services/api/errors';
@@ -45,10 +46,10 @@ export default function RootLayout() {
   }, []);
 
   const ready = booted && (fontsLoaded || !!fontError);
-  useEffect(() => {
-    if (ready) SplashScreen.hideAsync();
-  }, [ready]);
+  // The animated splash plays over the (already rendered) app, then unmounts (D36).
+  const [splashDone, setSplashDone] = useState(false);
 
+  // The native splash stays up until the animated one has its logo on screen.
   if (!ready) return null;
 
   const base = scheme === 'dark' ? DarkTheme : DefaultTheme;
@@ -71,6 +72,7 @@ export default function RootLayout() {
           <Stack.Screen name="sign-in" options={{ presentation: 'modal', title: '' }} />
           <Stack.Screen name="about" options={{ title: t('about.title') }} />
         </Stack>
+        {!splashDone && <AnimatedSplash onReady={() => SplashScreen.hide()} onDone={() => setSplashDone(true)} />}
       </ThemeProvider>
     </QueryClientProvider>
   );

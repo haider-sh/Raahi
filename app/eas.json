@@ -19,7 +19,8 @@
     },
     "production": {
       "environment": "production",
-      "autoIncrement": true
+      "autoIncrement": true,
+      "env": { "EXPO_PUBLIC_USE_MOCK_API": "true" }
     }
   },
   "submit": {

@@ -36,7 +36,7 @@ export function runNetwork({ places, routes, osm }) {
   const why = new Map(); // place id -> reason it has no location
   for (const pl of places) {
     if (pl.unused) continue;
-    if (pl.location) { cands.set(pl.id, [{ ...pl.location, manual: true }]); continue; }
+    if (pl.location) { cands.set(pl.id, [{ ...manualLocation(pl), manual: true }]); continue; }
     const s = sug.get(pl.id);
     if (!s) { why.set(pl.id, 'no OSM match'); continue; }
     if (pl.generic) { why.set(pl.id, 'generic name'); continue; }
@@ -195,6 +195,28 @@ function outliers(ids) {
     out.push(cur[worst]);
     cur = cur.filter((_, i) => i !== worst);
   }
+}
+
+// Rough box around Karachi; anything outside is a typo or swapped lat/lng.
+const KARACHI = { minLat: 24.6, maxLat: 25.4, minLng: 66.6, maxLng: 67.7 };
+
+/**
+ * A hand-entered gazetteer location as numbers. Quoted numbers ("24.87") are accepted, because
+ * they're an easy slip when editing JSON by hand; MapLibre crashes on strings, so they must never
+ * reach network.json. Anything unreadable or outside Karachi stops the build with a clear message.
+ */
+function manualLocation(pl) {
+  const lat = typeof pl.location.lat === 'string' ? Number(pl.location.lat.trim()) : pl.location.lat;
+  const lng = typeof pl.location.lng === 'string' ? Number(pl.location.lng.trim()) : pl.location.lng;
+  const where = `gazetteer.json, "${pl.id}" (${pl.name.en}): location ${JSON.stringify(pl.location)}`;
+  if (typeof lat !== 'number' || typeof lng !== 'number' || !Number.isFinite(lat) || !Number.isFinite(lng)) {
+    throw new Error(`${where} must be numbers, e.g. { "lat": 24.8789, "lng": 67.1883 }`);
+  }
+  if (lat < KARACHI.minLat || lat > KARACHI.maxLat || lng < KARACHI.minLng || lng > KARACHI.maxLng) {
+    const swapped = lng >= KARACHI.minLat && lng <= KARACHI.maxLat && lat >= KARACHI.minLng && lat <= KARACHI.maxLng;
+    throw new Error(`${where} is outside Karachi${swapped ? ' (lat and lng look swapped)' : ''}`);
+  }
+  return { lat, lng };
 }
 
 function pick(c) {

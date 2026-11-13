@@ -2971,6 +2971,28 @@
       ]
     },
     {
+      "id": "s_malir_15",
+      "en": "Malir No. 15",
+      "routeCount": 10,
+      "hasLocation": true,
+      "spreadKm": 0,
+      "ambiguous": false,
+      "candidates": [
+        {
+          "osm": "node/4299693694",
+          "kind": "amenity=bus_station",
+          "lat": 24.879024,
+          "lng": 67.188264,
+          "ur": null,
+          "names": [
+            "Malir 15"
+          ],
+          "match": "exact",
+          "score": 1
+        }
+      ]
+    },
+    {
       "id": "s_mansehra_colony",
       "en": "Mansehra Colony",
       "routeCount": 10,
@@ -3235,28 +3257,6 @@
           "ur": null,
           "names": [
             "Jamat Khana"
-          ],
-          "match": "exact",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "s_malir_15",
-      "en": "Malir No. 15",
-      "routeCount": 9,
-      "hasLocation": false,
-      "spreadKm": 0,
-      "ambiguous": false,
-      "candidates": [
-        {
-          "osm": "node/4299693694",
-          "kind": "amenity=bus_station",
-          "lat": 24.879024,
-          "lng": 67.188264,
-          "ur": null,
-          "names": [
-            "Malir 15"
           ],
           "match": "exact",
           "score": 1

@@ -5354,6 +5354,36 @@
       ]
     },
     {
+      "id": "s_malir_15",
+      "key": "malir 15",
+      "name": {
+        "en": "Malir No. 15",
+        "ur": null
+      },
+      "location": {
+        "lat": 24.878987,
+        "lng": 67.188268
+      },
+      "locationSource": "manual",
+      "aliases": [
+        "Mair 15",
+        "Malir 15"
+      ],
+      "routeCount": 10,
+      "routes": [
+        "5-K",
+        "Adam Coach",
+        "Al-Missri Coach",
+        "D-6",
+        "D-7",
+        "Kashif Coach",
+        "Marwat Coach",
+        "Qaumi Coach",
+        "S-6",
+        "W-18"
+      ]
+    },
+    {
       "id": "s_mansehra_colony",
       "key": "mansehra colony",
       "name": {
@@ -5770,32 +5800,6 @@
         "SL",
         "V-3",
         "Waziristan Coach"
-      ]
-    },
-    {
-      "id": "s_malir_15",
-      "key": "malir 15",
-      "name": {
-        "en": "Malir No. 15",
-        "ur": null
-      },
-      "location": null,
-      "locationSource": null,
-      "aliases": [
-        "Mair 15",
-        "Malir 15"
-      ],
-      "routeCount": 9,
-      "routes": [
-        "5-K",
-        "Adam Coach",
-        "Al-Missri Coach",
-        "D-6",
-        "Kashif Coach",
-        "Marwat Coach",
-        "Qaumi Coach",
-        "S-6",
-        "W-18"
       ]
     },
     {

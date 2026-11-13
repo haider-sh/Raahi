@@ -1,3 +1,4 @@
+import { reloadAppAsync } from 'expo';
 import Constants, { ExecutionEnvironment } from 'expo-constants';
 import { getLocales } from 'expo-localization';
 import * as Updates from 'expo-updates';
@@ -34,12 +35,30 @@ export const isExpoGo = Constants.executionEnvironment === ExecutionEnvironment.
 
 export const currentLanguage = (): Lang => (i18n.language === 'ur' ? 'ur' : 'en');
 
-async function reload() {
+async function stopMapLocation() {
   try {
-    await Updates.reloadAsync();
+    const { LocationManager } = await import('@maplibre/maplibre-react-native');
+    LocationManager.removeAllListeners();
+    // The native stop() runs on the module thread; let it land before the runtime goes away.
+    await new Promise((resolve) => setTimeout(resolve, 150));
   } catch {
-    // expo-updates can't reload in some debug setups; the dev menu reload always works there.
-    if (__DEV__) DevSettings.reload();
+    // No map module (web, tests): nothing to stop.
+  }
+}
+
+async function reload() {
+  await stopMapLocation();
+  try {
+    // Works in release builds without EAS Update. Updates.reloadAsync() rejects there because
+    // no `updates.url` is configured (D36).
+    await reloadAppAsync('Language direction changed');
+  } catch {
+    try {
+      await Updates.reloadAsync();
+    } catch {
+      // Some debug setups can't reload either way; the dev menu reload always works there.
+      if (__DEV__) DevSettings.reload();
+    }
   }
 }
 

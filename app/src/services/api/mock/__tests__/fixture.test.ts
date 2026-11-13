@@ -18,6 +18,18 @@ describe.each([
     }
   });
 
+  // A string here ("24.87") crashes MapLibre's Marker on Android (ClassCastException in setLngLat).
+  it('has numeric coordinates inside Karachi for every stop and landmark', () => {
+    for (const x of [...net.stops, ...net.landmarks]) {
+      const { lat, lng } = x.location;
+      expect([x.id, typeof lat, typeof lng]).toEqual([x.id, 'number', 'number']);
+      expect(lat).toBeGreaterThan(24.6);
+      expect(lat).toBeLessThan(25.4);
+      expect(lng).toBeGreaterThan(66.6);
+      expect(lng).toBeLessThan(67.7);
+    }
+  });
+
   it('has an en and ur name for every stop, landmark and route', () => {
     for (const x of [...net.stops, ...net.landmarks, ...net.routes]) {
       expect(x.name.en.trim()).not.toBe('');

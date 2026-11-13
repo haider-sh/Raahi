@@ -772,7 +772,7 @@ Masjid-e-Quba
 Route #: D-7
 Stops:
 Sector No. 2 Majeed Colony, Muzaffarabad Colony, Social Security Hospital, Gul Ahmed Textile
-Mills, Dawood Chowrangi, Quaidabad, Malir Halt,Natha Khan Goth, Drigh Road, Station, Dalmia
+Mills, Dawood Chowrangi, Quaidabad, Malir 15, Malir Halt, Natha Khan Goth, Drigh Road, Station, Dalmia
 Chowrangi, Gulshan Complex, N.I.P.A, Gulshan Chowrangi, Sohrab Goth, Al-Asif Square, New
 Sabzi Mandi
 Route #: D-8

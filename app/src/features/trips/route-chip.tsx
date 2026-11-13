@@ -35,10 +35,11 @@ const styles = StyleSheet.create({
     paddingHorizontal: Spacing.sm + 2,
     paddingVertical: 2,
     borderRadius: Radius.sm,
-    alignSelf: 'flex-start',
     minWidth: 44,
     alignItems: 'center',
+    justifyContent: 'center',
   },
   lg: { paddingHorizontal: Spacing.md, paddingVertical: Spacing.xs },
-  code: { color: '#FFFFFF' },
+  // Android's extra font padding pushes the code off-centre inside the chip.
+  code: { color: '#FFFFFF', includeFontPadding: false, textAlignVertical: 'center' },
 });

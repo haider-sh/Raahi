@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-12-unverified",
+  "version": "2026-11-13-unverified",
   "city": "karachi",
   "stops": [
     {
@@ -2020,8 +2020,8 @@
         "ur": "Malir No. 15"
       },
       "location": {
-        "lat": 24.879024,
-        "lng": 67.188264
+        "lat": 24.878987,
+        "lng": 67.188268
       },
       "aliases": [
         "mair 15",
@@ -9398,7 +9398,7 @@
         "s_dawood_chowrangi",
         "s_landhi_89"
       ],
-      "shape": "swvwCurixK|}Cf@|uAyCfbCuG~[ad@ngBegAneJodGiC{wDbOktBx`@utAxcCw`Ddm@lj@pU~F"
+      "shape": "swvwCurixK|}Cf@|uAyCfbCuG~[ad@ngBegAneJodGiC{wDbOktB~`@wtArcCu`Ddm@lj@pU~F"
     },
     {
       "id": "r_5_k_b",
@@ -9422,7 +9422,7 @@
         "s_two_minutes_chowrangi",
         "s_surjani_town"
       ],
-      "shape": "i{svC}ceyKqU_Gem@mj@ycCv`Dy`@ttAcOjtBhCzwDoeJndGogBdgA_\\`d@gbCtG}uAxC}}Cg@"
+      "shape": "i{svC}ceyKqU_Gem@mj@scCt`D_a@vtAcOjtBhCzwDoeJndGogBdgA_\\`d@gbCtG}uAxC}}Cg@"
     },
     {
       "id": "r_50_a_a",
@@ -10596,7 +10596,7 @@
         "s_malir_15",
         "s_quaidabad"
       ],
-      "shape": "e~ewCijuwK`j@{qIhcCbFba@}eBnZ{lGxrCu{Cih@kwMx`@utAxcCw`D"
+      "shape": "e~ewCijuwK`j@{qIhcCbFba@}eBnZ{lGxrCu{Cih@kwM~`@wtArcCu`D"
     },
     {
       "id": "r_adam_coach_b",
@@ -10616,7 +10616,7 @@
         "s_banaras_chowk",
         "s_ittehad_town"
       ],
-      "shape": "a`vvCkwfyKycCv`Dy`@ttAhh@jwMyrCt{CoZzlGca@|eBicCcFaj@zqI"
+      "shape": "a`vvCkwfyKscCt`D_a@vtAhh@jwMyrCt{CoZzlGca@|eBicCcFaj@zqI"
     },
     {
       "id": "r_agroor_coach_a",
@@ -10802,7 +10802,7 @@
         "s_shershah",
         "s_mohajir_camp"
       ],
-      "shape": "mmpvCqyiyKmvH|bGnF`mPyrCt{CoZzlGca@|eB|iBbyCt|@dRwoCllC"
+      "shape": "mmpvCqyiyKgvHzbGhFbmPyrCt{CoZzlGca@|eB|iBbyCt|@dRwoCllC"
     },
     {
       "id": "r_al_missri_coach_b",
@@ -10822,7 +10822,7 @@
         "s_malir_15",
         "s_muzaffarabad_colony"
       ],
-      "shape": "}v_wCi{uwKvoCmlCu|@eR}iBcyCba@}eBnZ{lGxrCu{CoFamPlvH}bG"
+      "shape": "}v_wCi{uwKvoCmlCu|@eR}iBcyCba@}eBnZ{lGxrCu{CiFcmPfvH{bG"
     },
     {
       "id": "r_al_qadri_coach_a",
@@ -12314,7 +12314,7 @@
         "s_jinnah_hospital",
         "s_kala_pul"
       ],
-      "shape": "sa_wCqifyKv{C|rCyT`e@kMt~GmHd}@bt@biDv`AhdBf`Br}EnGqg@"
+      "shape": "sa_wCqifyK|{CzrC_Ube@kMt~GmHd}@bt@biDv`AhdBf`Br}EnGqg@"
     },
     {
       "id": "r_d_6_b",
@@ -12334,7 +12334,7 @@
         "s_malir_15",
         "s_khokhrapar"
       ],
-      "shape": "{qtvCelgxKoGpg@g`Bs}Ew`AidBct@ciDlHe}@jMu~GxTae@w{C}rC"
+      "shape": "{qtvCelgxKoGpg@g`Bs}Ew`AidBct@ciDlHe}@jMu~G~Tce@}{C{rC"
     },
     {
       "id": "r_d_7_a",
@@ -12347,6 +12347,7 @@
         "s_muzaffarabad_colony",
         "s_dawood_chowrangi",
         "s_quaidabad",
+        "s_malir_15",
         "s_malir_halt",
         "s_natha_khan_goth",
         "s_drigh_road",
@@ -12354,7 +12355,7 @@
         "s_gulshan_chowrangi",
         "s_sohrab_goth"
       ],
-      "shape": "mmpvCqyiyKmcCrlCem@mj@seDlvFkA`oFmHd}@{cEptDah@za@qwB`l@"
+      "shape": "mmpvCqyiyKmcCrlCem@mj@scCt`D_a@vtAkA`oFmHd}@{cEptDah@za@qwB`l@"
     },
     {
       "id": "r_d_7_b",
@@ -12370,11 +12371,12 @@
         "s_drigh_road",
         "s_natha_khan_goth",
         "s_malir_halt",
+        "s_malir_15",
         "s_quaidabad",
         "s_dawood_chowrangi",
         "s_muzaffarabad_colony"
       ],
-      "shape": "_yfwCelmxKpwBal@`h@{a@zcEqtDlHe}@jAaoFreDmvFdm@lj@lcCslC"
+      "shape": "_yfwCelmxKpwBal@`h@{a@zcEqtDlHe}@jAaoF~`@wtArcCu`Ddm@lj@lcCslC"
     },
     {
       "id": "r_d_8_a",
@@ -14653,7 +14655,7 @@
         "s_baghdadi",
         "s_agra_taj_colony"
       ],
-      "shape": "{dzvCsuayKkk@`sGzr@~xGeyAvyIrwDjwDdKfoA|aAli@mt@gWeHvSwdBri@"
+      "shape": "udzvCuuayKqk@bsGzr@~xGeyAvyIrwDjwDdKfoA|aAli@mt@gWeHvSwdBri@"
     },
     {
       "id": "r_kashif_coach_b",
@@ -14674,7 +14676,7 @@
         "s_airport",
         "s_malir_15"
       ],
-      "shape": "etyvCsrzwKvdBsi@dHwSlt@fW}aAmi@eKgoAswDkwDdyAwyI{r@_yGjk@asG"
+      "shape": "etyvCsrzwKvdBsi@dHwSlt@fW}aAmi@eKgoAswDkwDdyAwyI{r@_yGpk@csG"
     },
     {
       "id": "r_khan_coach_a",
@@ -14880,7 +14882,7 @@
         "s_gulbai",
         "s_shershah"
       ],
-      "shape": "{qtvC}keyKem@mj@ycCv`D}p@`jEjpDnyQkvAjjB`tCn{G}lDzfDoo@mgB"
+      "shape": "{qtvC}keyKem@mj@scCt`Dcq@bjEjpDnyQkvAjjB`tCn{G}lDzfDoo@mgB"
     },
     {
       "id": "r_marwat_coach_b",
@@ -14900,7 +14902,7 @@
         "s_quaidabad",
         "s_dawood_chowrangi"
       ],
-      "shape": "ef{vCwhzwKno@lgB|lD{fDatCo{GjvAkjBkpDoyQ|p@ajExcCw`Ddm@lj@"
+      "shape": "ef{vCwhzwKno@lgB|lD{fDatCo{GjvAkjBkpDoyQbq@cjErcCu`Ddm@lj@"
     },
     {
       "id": "r_mashriq_coach_a",
@@ -15971,7 +15973,7 @@
         "s_tower",
         "s_shershah"
       ],
-      "shape": "{qtvC}keyKem@mj@ycCv`D}p@`jEvLtyBplDjbSvr@hcFm}El~@"
+      "shape": "{qtvC}keyKem@mj@scCt`Dcq@bjEvLtyBplDjbSvr@hcFm}El~@"
     },
     {
       "id": "r_qaumi_coach_b",
@@ -15990,7 +15992,7 @@
         "s_quaidabad",
         "s_dawood_chowrangi"
       ],
-      "shape": "ef{vCwhzwKl}Em~@wr@icFqlDkbSwLuyB|p@ajExcCw`Ddm@lj@"
+      "shape": "ef{vCwhzwKl}Em~@wr@icFqlDkbSwLuyBbq@cjErcCu`Ddm@lj@"
     },
     {
       "id": "r_qayyum_coach_a",
@@ -16223,7 +16225,7 @@
         "s_korangi_2_half",
         "s_allah_wala_town"
       ],
-      "shape": "md|vCuvbyKp~@``@xcCw`Ddm@lj@`vDxkKmk@heE"
+      "shape": "md|vCuvbyKv~@~_@rcCu`Ddm@lj@`vDxkKmk@heE"
     },
     {
       "id": "r_s_6_b",
@@ -16240,7 +16242,7 @@
         "s_malir_15",
         "s_saudabad"
       ],
-      "shape": "ggpvCyxrxKlk@ieEavDykKem@mj@ycCv`Dq~@a`@"
+      "shape": "ggpvCyxrxKlk@ieEavDykKem@mj@scCt`Dw~@_`@"
     },
     {
       "id": "r_saddar_coach_a",
@@ -17894,7 +17896,7 @@
         "s_quaidabad",
         "s_sherpao_colony"
       ],
-      "shape": "swvwCurixKt}HzXhYdOb_@iu@ndCglBneJodGrl@}bKxcCw`DdiCl\\"
+      "shape": "swvwCurixKt}HzXhYdOb_@iu@ndCglBneJodGxl@_cKrcCu`DdiCl\\"
     },
     {
       "id": "r_w_18_b",
@@ -17914,7 +17916,7 @@
         "s_sector_11_a",
         "s_surjani_town"
       ],
-      "shape": "{uqvC}yeyKeiCm\\ycCv`Dsl@|bKoeJndGodCflBc_@hu@iYeOu}H{X"
+      "shape": "{uqvC}yeyKeiCm\\scCt`Dyl@~bKoeJndGodCflBc_@hu@iYeOu}H{X"
     },
     {
       "id": "r_w_2_a",
@@ -23685,7 +23687,7 @@
     {
       "entity": "stop",
       "id": "s_malir_15",
-      "source": "osm",
+      "source": "manual",
       "verifiedAt": null
     },
     {

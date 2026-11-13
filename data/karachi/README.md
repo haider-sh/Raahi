@@ -33,7 +33,7 @@ It's safe to re-run at any time. It never overwrites the hand-edited fields in `
 
 Everything improves the network on the next run:
 
-1. Read `build/review.md`. **Network coverage** lists the busiest places that have no location yet. Setting `location` (and `name.ur`) for those in `gazetteer.json` adds the most stops. A hand-set location always beats OSM.
+1. Read `build/review.md`. **Network coverage** lists the busiest places that have no location yet. Setting `location` (and `name.ur`) for those in `gazetteer.json` adds the most stops. A hand-set location always beats OSM. Write it as plain numbers: `"location": { "lat": 24.8790, "lng": 67.1883 }`. The pipeline converts quoted numbers, and stops with an error if a location is unreadable or outside Karachi.
 2. If an **auto-merged** place is wrong, add the pair to `doNotMerge` in `aliases.json`.
 3. Go through the remaining **Possible duplicate places** (mostly "contains" pairs). Add real duplicates to `merges`.
 4. Go through **Generic names**. Where one route's "Petrol Pump" is a different place, add a `routeOverrides` entry.
